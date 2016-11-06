@@ -1,0 +1,20 @@
+ISim log file
+Running: C:\Users\tuf22191\Projects\Github_Repos\Building_Microprocessor_Verilog\MicroP_for_legv8\One_Bit_Full_Adder_Test_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb C:/Users/tuf22191/Projects/Github_Repos/Building_Microprocessor_Verilog/MicroP_for_legv8/One_Bit_Full_Adder_Test_isim_beh.wdb 
+ISim P.49d (signature 0x7708f090)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+Time resolution is 1 ps
+# onerror resume
+# wave add /
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+0 = clock , 0 = c_in , 0 = a, 0 = b, 0 = sum, 0 = c_out 
+150 = clock , 1 = c_in , 0 = a, 0 = b, 1 = sum, 0 = c_out 
+200 = clock , 0 = c_in , 1 = a, 0 = b, 1 = sum, 0 = c_out 
+250 = clock , 0 = c_in , 0 = a, 1 = b, 1 = sum, 0 = c_out 
+300 = clock , 1 = c_in , 1 = a, 0 = b, 0 = sum, 1 = c_out 
+350 = clock , 1 = c_in , 0 = a, 1 = b, 0 = sum, 1 = c_out 
+400 = clock , 1 = c_in , 1 = a, 1 = b, 1 = sum, 1 = c_out 
