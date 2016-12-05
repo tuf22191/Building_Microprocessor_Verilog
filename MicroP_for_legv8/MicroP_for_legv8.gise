@@ -22,45 +22,86 @@
   <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="MicroP_for_legv8.xise"/>
 
   <files xmlns="http://www.xilinx.com/XMLSchema">
-    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="One_Bit_Full_Adder_Test_beh.prj"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="One_Bit_Full_Adder_Test_isim_beh.exe"/>
-    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="One_Bit_Full_Adder_Test_isim_beh.wdb"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="TB_16BitAdder_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="TB_16BitAdder_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="TB_16BitAdder_isim_beh.wdb"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="TB_16BitAdder_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="_ngo"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/map.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/par.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/trce.xmsgs"/>
     <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/xst.xmsgs"/>
     <file xil_pn:fileType="FILE_LOG" xil_pn:name="fuse.log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGDBUILD_LOG" xil_pn:name="half_adder.bld"/>
     <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="half_adder.cmd_log"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="half_adder.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="half_adder.ncd" xil_pn:subbranch="Par"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="half_adder.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGD" xil_pn:name="half_adder.ngd"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="half_adder.ngr"/>
+    <file xil_pn:fileType="FILE_PAD_MISC" xil_pn:name="half_adder.pad"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAR_REPORT" xil_pn:name="half_adder.par" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PCF" xil_pn:name="half_adder.pcf" xil_pn:subbranch="Map"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="half_adder.prj"/>
+    <file xil_pn:fileType="FILE_TRCE_MISC" xil_pn:name="half_adder.ptwx"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="half_adder.stx"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="half_adder.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_TXT_REPORT" xil_pn:name="half_adder.twr" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_XML_REPORT" xil_pn:name="half_adder.twx" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_UNROUTES" xil_pn:name="half_adder.unroutes" xil_pn:subbranch="Par"/>
+    <file xil_pn:fileType="FILE_XPI" xil_pn:name="half_adder.xpi"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="half_adder.xst"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="half_adder_envsettings.html"/>
+    <file xil_pn:fileType="FILE_NCD" xil_pn:name="half_adder_guide.ncd" xil_pn:origination="imported"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="half_adder_map.map" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="half_adder_map.mrp" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="half_adder_map.ncd" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGM" xil_pn:name="half_adder_map.ngm" xil_pn:subbranch="Map"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="half_adder_map.xrpt"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="half_adder_ngdbuild.xrpt"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_EXCEL_REPORT" xil_pn:name="half_adder_pad.csv" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_TXT_REPORT" xil_pn:name="half_adder_pad.txt" xil_pn:subbranch="Par"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="half_adder_par.xrpt"/>
     <file xil_pn:fileType="FILE_HTML" xil_pn:name="half_adder_summary.html"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="half_adder_summary.xml"/>
+    <file xil_pn:fileType="FILE_WEBTALK" xil_pn:name="half_adder_usage.xml"/>
     <file xil_pn:fileType="FILE_XRPT" xil_pn:name="half_adder_xst.xrpt"/>
     <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="isim"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_CMD" xil_pn:name="isim.cmd"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_LOG" xil_pn:name="isim.log"/>
     <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="webtalk_pn.xml"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_INI" xil_pn:name="xilinxsim.ini"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xlnx_auto_0_xdb"/>
     <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xst"/>
   </files>
 
   <transforms xmlns="http://www.xilinx.com/XMLSchema">
+    <transform xil_pn:end_ts="1480920870" xil_pn:name="TRANEXT_compLibraries_FPGA" xil_pn:prop_ck="6722788503651541368" xil_pn:start_ts="1480920870">
+      <status xil_pn:value="FailedRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
     <transform xil_pn:end_ts="1478454872" xil_pn:name="TRAN_copyInitialToAbstractSimulation" xil_pn:start_ts="1478454872">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1478454872" xil_pn:in_ck="-2450818774535508025" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1478454872">
+    <transform xil_pn:end_ts="1480921699" xil_pn:in_ck="2912094703728940065" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1480921699">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="Four_Bit_Adder.v"/>
       <outfile xil_pn:name="One_Bit_Full_Adder_Test.v"/>
+      <outfile xil_pn:name="Sixteen_Bit_Adder.v"/>
+      <outfile xil_pn:name="Sixty_Four_Bit_Adder.v"/>
+      <outfile xil_pn:name="TB_16BitAdder.v"/>
       <outfile xil_pn:name="half_adder.v"/>
       <outfile xil_pn:name="one_bit_full_adder.v"/>
     </transform>
-    <transform xil_pn:end_ts="1478454872" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="-4190736582483025945" xil_pn:start_ts="1478454872">
+    <transform xil_pn:end_ts="1480920888" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="-7643980270724741454" xil_pn:start_ts="1480920888">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1478454872" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="8910908346308971497" xil_pn:start_ts="1478454872">
+    <transform xil_pn:end_ts="1480920888" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="1721952169297053556" xil_pn:start_ts="1480920888">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
@@ -68,29 +109,33 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1478454872" xil_pn:in_ck="-2450818774535508025" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1478454872">
+    <transform xil_pn:end_ts="1480921699" xil_pn:in_ck="2912094703728940065" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1480921699">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="Four_Bit_Adder.v"/>
       <outfile xil_pn:name="One_Bit_Full_Adder_Test.v"/>
+      <outfile xil_pn:name="Sixteen_Bit_Adder.v"/>
+      <outfile xil_pn:name="Sixty_Four_Bit_Adder.v"/>
+      <outfile xil_pn:name="TB_16BitAdder.v"/>
       <outfile xil_pn:name="half_adder.v"/>
       <outfile xil_pn:name="one_bit_full_adder.v"/>
     </transform>
-    <transform xil_pn:end_ts="1478454875" xil_pn:in_ck="-2450818774535508025" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="8311206275521397999" xil_pn:start_ts="1478454872">
+    <transform xil_pn:end_ts="1480921702" xil_pn:in_ck="2912094703728940065" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="-4416831378574882395" xil_pn:start_ts="1480921699">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <outfile xil_pn:name="One_Bit_Full_Adder_Test_beh.prj"/>
-      <outfile xil_pn:name="One_Bit_Full_Adder_Test_isim_beh.exe"/>
+      <outfile xil_pn:name="TB_16BitAdder_beh.prj"/>
+      <outfile xil_pn:name="TB_16BitAdder_isim_beh.exe"/>
       <outfile xil_pn:name="fuse.log"/>
       <outfile xil_pn:name="isim"/>
+      <outfile xil_pn:name="isim.log"/>
       <outfile xil_pn:name="xilinxsim.ini"/>
     </transform>
-    <transform xil_pn:end_ts="1478454875" xil_pn:in_ck="-6393841694188358433" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="-8040598456308585198" xil_pn:start_ts="1478454875">
+    <transform xil_pn:end_ts="1480921702" xil_pn:in_ck="-1380596280553136343" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="2320974067580082664" xil_pn:start_ts="1480921702">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForOutputs"/>
-      <status xil_pn:value="OutputChanged"/>
-      <outfile xil_pn:name="One_Bit_Full_Adder_Test_isim_beh.wdb"/>
+      <outfile xil_pn:name="TB_16BitAdder_isim_beh.wdb"/>
       <outfile xil_pn:name="isim.cmd"/>
+      <outfile xil_pn:name="isim.log"/>
     </transform>
     <transform xil_pn:end_ts="1478453701" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1478453701">
       <status xil_pn:value="SuccessfullyRun"/>
@@ -120,9 +165,11 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1478453709" xil_pn:in_ck="-8946395286411994477" xil_pn:name="TRANEXT_xstsynthesize_spartan3e" xil_pn:prop_ck="4808416175035648571" xil_pn:start_ts="1478453701">
+    <transform xil_pn:end_ts="1480921540" xil_pn:in_ck="6383499641479644910" xil_pn:name="TRANEXT_xstsynthesize_spartan3e" xil_pn:prop_ck="4808416175035648571" xil_pn:start_ts="1480921532">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="_xmsgs/xst.xmsgs"/>
       <outfile xil_pn:name="half_adder.lso"/>
       <outfile xil_pn:name="half_adder.ngc"/>
@@ -134,6 +181,53 @@
       <outfile xil_pn:name="half_adder_xst.xrpt"/>
       <outfile xil_pn:name="webtalk_pn.xml"/>
       <outfile xil_pn:name="xst"/>
+    </transform>
+    <transform xil_pn:end_ts="1480921540" xil_pn:name="TRAN_compileBCD2" xil_pn:prop_ck="8767413467133179388" xil_pn:start_ts="1480921540">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1480921545" xil_pn:in_ck="7090057223451327488" xil_pn:name="TRANEXT_ngdbuild_FPGA" xil_pn:prop_ck="-2582745059042342709" xil_pn:start_ts="1480921540">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="_ngo"/>
+      <outfile xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+      <outfile xil_pn:name="half_adder.bld"/>
+      <outfile xil_pn:name="half_adder.ngd"/>
+      <outfile xil_pn:name="half_adder_ngdbuild.xrpt"/>
+    </transform>
+    <transform xil_pn:end_ts="1480921549" xil_pn:in_ck="7090057223451327489" xil_pn:name="TRANEXT_map_spartan3" xil_pn:prop_ck="7728334167582700538" xil_pn:start_ts="1480921545">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="_xmsgs/map.xmsgs"/>
+      <outfile xil_pn:name="half_adder.pcf"/>
+      <outfile xil_pn:name="half_adder_map.map"/>
+      <outfile xil_pn:name="half_adder_map.mrp"/>
+      <outfile xil_pn:name="half_adder_map.ncd"/>
+      <outfile xil_pn:name="half_adder_map.ngm"/>
+      <outfile xil_pn:name="half_adder_map.xrpt"/>
+      <outfile xil_pn:name="half_adder_summary.xml"/>
+      <outfile xil_pn:name="half_adder_usage.xml"/>
+    </transform>
+    <transform xil_pn:end_ts="1480921564" xil_pn:in_ck="442769010399323034" xil_pn:name="TRANEXT_par_spartan3" xil_pn:prop_ck="6268780068511726196" xil_pn:start_ts="1480921549">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="_xmsgs/par.xmsgs"/>
+      <outfile xil_pn:name="half_adder.ncd"/>
+      <outfile xil_pn:name="half_adder.pad"/>
+      <outfile xil_pn:name="half_adder.par"/>
+      <outfile xil_pn:name="half_adder.ptwx"/>
+      <outfile xil_pn:name="half_adder.unroutes"/>
+      <outfile xil_pn:name="half_adder.xpi"/>
+      <outfile xil_pn:name="half_adder_pad.csv"/>
+      <outfile xil_pn:name="half_adder_pad.txt"/>
+      <outfile xil_pn:name="half_adder_par.xrpt"/>
+    </transform>
+    <transform xil_pn:end_ts="1480921564" xil_pn:in_ck="7090057223451327357" xil_pn:name="TRAN_postRouteTrce" xil_pn:prop_ck="445577401284416187" xil_pn:start_ts="1480921561">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="_xmsgs/trce.xmsgs"/>
+      <outfile xil_pn:name="half_adder.twr"/>
+      <outfile xil_pn:name="half_adder.twx"/>
     </transform>
   </transforms>
 
