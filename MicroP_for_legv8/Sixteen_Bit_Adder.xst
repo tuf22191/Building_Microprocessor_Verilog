@@ -1,0 +1,5 @@
+set -tmpdir "C:/Users/tuf22191/Projects/Github_Repos/Building_Microprocessor_Verilog/MicroP_for_legv8/xst/projnav.tmp"
+set -xsthdpdir "C:/Users/tuf22191/Projects/Github_Repos/Building_Microprocessor_Verilog/MicroP_for_legv8/xst"
+elaborate
+-ifn Sixteen_Bit_Adder.prj
+-ifmt mixed

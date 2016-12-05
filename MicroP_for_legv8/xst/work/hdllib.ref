@@ -1,1 +1,4 @@
-MO half_adder NULL half_adder.v vlg5A/half__adder.bin 1480921534
+MO half_adder NULL half_adder.v vlg5A/half__adder.bin 1480945890
+MO Four_Bit_Adder NULL Four_Bit_Adder.v vlg25/_four___bit___adder.bin 1480945890
+MO one_bit_full_adder NULL one_bit_full_adder.v vlg19/one__bit__full__adder.bin 1480945890
+MO Sixteen_Bit_Adder NULL Sixteen_Bit_Adder.v vlg2D/_sixteen___bit___adder.bin 1480945890
