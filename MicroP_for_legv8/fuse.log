@@ -1,25 +1,19 @@
-Running: C:\Xilinx\14.4\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -o C:/Users/tuf22191/Projects/Github_Repos/Building_Microprocessor_Verilog/MicroP_for_legv8/TB_16BitAdder_isim_beh.exe -prj C:/Users/tuf22191/Projects/Github_Repos/Building_Microprocessor_Verilog/MicroP_for_legv8/TB_16BitAdder_beh.prj work.TB_16BitAdder work.glbl 
+Running: C:\Xilinx\14.4\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -o C:/Users/tuf22191/Projects/Github_Repos/Building_Microprocessor_Verilog/MicroP_for_legv8/TB_Data_Memory_isim_beh.exe -prj C:/Users/tuf22191/Projects/Github_Repos/Building_Microprocessor_Verilog/MicroP_for_legv8/TB_Data_Memory_beh.prj work.TB_Data_Memory work.glbl 
 ISim P.49d (signature 0x7708f090)
 Number of CPUs detected in this system: 4
 Turning on mult-threading, number of parallel sub-compilation jobs: 8 
 Determining compilation order of HDL files
-Analyzing Verilog file "C:/Users/tuf22191/Projects/Github_Repos/Building_Microprocessor_Verilog/MicroP_for_legv8/half_adder.v" into library work
-Analyzing Verilog file "C:/Users/tuf22191/Projects/Github_Repos/Building_Microprocessor_Verilog/MicroP_for_legv8/one_bit_full_adder.v" into library work
-Analyzing Verilog file "C:/Users/tuf22191/Projects/Github_Repos/Building_Microprocessor_Verilog/MicroP_for_legv8/Four_Bit_Adder.v" into library work
-Analyzing Verilog file "C:/Users/tuf22191/Projects/Github_Repos/Building_Microprocessor_Verilog/MicroP_for_legv8/Sixteen_Bit_Adder.v" into library work
-Analyzing Verilog file "C:/Users/tuf22191/Projects/Github_Repos/Building_Microprocessor_Verilog/MicroP_for_legv8/TB_16BitAdder.v" into library work
+Analyzing Verilog file "C:/Users/tuf22191/Projects/Github_Repos/Building_Microprocessor_Verilog/MicroP_for_legv8/Data_Memory.v" into library work
+Analyzing Verilog file "C:/Users/tuf22191/Projects/Github_Repos/Building_Microprocessor_Verilog/MicroP_for_legv8/TB_Data_Memory.v" into library work
 Analyzing Verilog file "C:/Xilinx/14.4/ISE_DS/ISE//verilog/src/glbl.v" into library work
 Starting static elaboration
 Completed static elaboration
-Compiling module half_adder
-Compiling module one_bit_full_adder
-Compiling module Four_Bit_Adder
-Compiling module Sixteen_Bit_Adder
-Compiling module TB_16BitAdder
+Compiling module Data_Memory
+Compiling module TB_Data_Memory
 Compiling module glbl
 Time Resolution for simulation is 1ps.
 Waiting for 1 sub-compilation(s) to finish...
-Compiled 6 Verilog Units
-Built simulation executable C:/Users/tuf22191/Projects/Github_Repos/Building_Microprocessor_Verilog/MicroP_for_legv8/TB_16BitAdder_isim_beh.exe
-Fuse Memory Usage: 28012 KB
-Fuse CPU Usage: 421 ms
+Compiled 3 Verilog Units
+Built simulation executable C:/Users/tuf22191/Projects/Github_Repos/Building_Microprocessor_Verilog/MicroP_for_legv8/TB_Data_Memory_isim_beh.exe
+Fuse Memory Usage: 28056 KB
+Fuse CPU Usage: 436 ms
