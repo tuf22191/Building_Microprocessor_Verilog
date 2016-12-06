@@ -41,7 +41,8 @@ module One_Bit_Full_Adder_Test;
 		.sum(sum), 
 		.c_out(c_out)
 	);
-
+  
+  integer i;
 	initial begin
 	   $monitor( "%g = clock , %d = c_in , %d = a, %d = b, %d = sum, %d = c_out ",$time,c_in,a,b,sum,c_out);
 		// Initialize Inputs
@@ -77,7 +78,10 @@ module One_Bit_Full_Adder_Test;
 			a = 1;
 			b =1;
 		// Add stimulus here
-
+		i =1;
+		$display("%d", i);
+		$display("%d", i<<1);
+		$display("%d", i<<7);
 	end
       
 endmodule

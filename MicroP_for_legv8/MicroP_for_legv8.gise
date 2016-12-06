@@ -29,9 +29,14 @@
     <file xil_pn:fileType="FILE_XST" xil_pn:name="Sixteen_Bit_Adder.xst"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="TB_16BitAdder_isim_beh.exe"/>
     <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="TB_16BitAdder_stx_beh.prj"/>
-    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="TB_64Bi_Subtractor_beh.prj"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="TB_32Bit_Divider_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="TB_32Bit_Divider_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="TB_32Bit_Divider_isim_beh.wdb"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="TB_32bit_Multiplier_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="TB_32bit_Multiplier_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="TB_32bit_Multiplier_isim_beh.wdb"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="TB_32bit_Multiplier_stx_beh.prj"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="TB_64Bi_Subtractor_isim_beh.exe"/>
-    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="TB_64Bi_Subtractor_isim_beh.wdb"/>
     <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="TB_64Bi_Subtractor_stx_beh.prj"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="TB_Data_Memory_isim_beh.exe"/>
     <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="TB_Data_Memory_stx_beh.prj"/>
@@ -94,7 +99,7 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1480956131" xil_pn:in_ck="-168414330690036706" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1480956131">
+    <transform xil_pn:end_ts="1481002914" xil_pn:in_ck="-7426384612622014546" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1481002914">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <outfile xil_pn:name="Data_Memory.v"/>
@@ -104,16 +109,20 @@
       <outfile xil_pn:name="Sixty_Four_Bit_Adder.v"/>
       <outfile xil_pn:name="Sixty_Four_Bit_Subtractor.v"/>
       <outfile xil_pn:name="TB_16BitAdder.v"/>
+      <outfile xil_pn:name="TB_32Bit_Divider.v"/>
+      <outfile xil_pn:name="TB_32bit_Multiplier.v"/>
       <outfile xil_pn:name="TB_64Bi_Subtractor.v"/>
       <outfile xil_pn:name="TB_Data_Memory.v"/>
+      <outfile xil_pn:name="Thirty_Two_Bit_Divider.v"/>
+      <outfile xil_pn:name="Thirty_Two_Bit_Multiplier.v"/>
       <outfile xil_pn:name="half_adder.v"/>
       <outfile xil_pn:name="one_bit_full_adder.v"/>
     </transform>
-    <transform xil_pn:end_ts="1480955413" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="-377708713875272183" xil_pn:start_ts="1480955413">
+    <transform xil_pn:end_ts="1481002325" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="-5297003208775860618" xil_pn:start_ts="1481002325">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1480955413" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="6510487607726050955" xil_pn:start_ts="1480955413">
+    <transform xil_pn:end_ts="1481002325" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="7240408993183303736" xil_pn:start_ts="1481002325">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
@@ -121,7 +130,7 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1480956132" xil_pn:in_ck="-168414330690036706" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1480956131">
+    <transform xil_pn:end_ts="1481002914" xil_pn:in_ck="-7426384612622014546" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1481002914">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <outfile xil_pn:name="Data_Memory.v"/>
@@ -131,25 +140,33 @@
       <outfile xil_pn:name="Sixty_Four_Bit_Adder.v"/>
       <outfile xil_pn:name="Sixty_Four_Bit_Subtractor.v"/>
       <outfile xil_pn:name="TB_16BitAdder.v"/>
+      <outfile xil_pn:name="TB_32Bit_Divider.v"/>
+      <outfile xil_pn:name="TB_32bit_Multiplier.v"/>
       <outfile xil_pn:name="TB_64Bi_Subtractor.v"/>
       <outfile xil_pn:name="TB_Data_Memory.v"/>
+      <outfile xil_pn:name="Thirty_Two_Bit_Divider.v"/>
+      <outfile xil_pn:name="Thirty_Two_Bit_Multiplier.v"/>
       <outfile xil_pn:name="half_adder.v"/>
       <outfile xil_pn:name="one_bit_full_adder.v"/>
     </transform>
-    <transform xil_pn:end_ts="1480956134" xil_pn:in_ck="-168414330690036706" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="-972691218011579149" xil_pn:start_ts="1480956132">
+    <transform xil_pn:end_ts="1481002917" xil_pn:in_ck="-7426384612622014546" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="-8591972412573786867" xil_pn:start_ts="1481002914">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <outfile xil_pn:name="TB_64Bi_Subtractor_beh.prj"/>
-      <outfile xil_pn:name="TB_64Bi_Subtractor_isim_beh.exe"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="TB_32Bit_Divider_beh.prj"/>
+      <outfile xil_pn:name="TB_32Bit_Divider_isim_beh.exe"/>
       <outfile xil_pn:name="fuse.log"/>
       <outfile xil_pn:name="isim"/>
       <outfile xil_pn:name="isim.log"/>
       <outfile xil_pn:name="xilinxsim.ini"/>
     </transform>
-    <transform xil_pn:end_ts="1480956135" xil_pn:in_ck="-3549239476328069408" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="5465091915725369590" xil_pn:start_ts="1480956134">
+    <transform xil_pn:end_ts="1481002917" xil_pn:in_ck="-435916716308950514" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="-5754032239156120208" xil_pn:start_ts="1481002917">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <outfile xil_pn:name="TB_64Bi_Subtractor_isim_beh.wdb"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="TB_32Bit_Divider_isim_beh.wdb"/>
       <outfile xil_pn:name="isim.cmd"/>
       <outfile xil_pn:name="isim.log"/>
     </transform>
@@ -188,18 +205,9 @@
       <status xil_pn:value="OutOfDateForOutputs"/>
       <status xil_pn:value="InputAdded"/>
       <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="InputRemoved"/>
       <status xil_pn:value="OutputChanged"/>
-      <outfile xil_pn:name="_xmsgs/xst.xmsgs"/>
-      <outfile xil_pn:name="half_adder.lso"/>
-      <outfile xil_pn:name="half_adder.ngc"/>
-      <outfile xil_pn:name="half_adder.ngr"/>
-      <outfile xil_pn:name="half_adder.prj"/>
-      <outfile xil_pn:name="half_adder.stx"/>
-      <outfile xil_pn:name="half_adder.syr"/>
-      <outfile xil_pn:name="half_adder.xst"/>
-      <outfile xil_pn:name="half_adder_xst.xrpt"/>
-      <outfile xil_pn:name="webtalk_pn.xml"/>
-      <outfile xil_pn:name="xst"/>
+      <status xil_pn:value="OutputRemoved"/>
     </transform>
     <transform xil_pn:end_ts="1480921540" xil_pn:name="TRAN_compileBCD2" xil_pn:prop_ck="8767413467133179388" xil_pn:start_ts="1480921540">
       <status xil_pn:value="SuccessfullyRun"/>
@@ -207,50 +215,39 @@
     </transform>
     <transform xil_pn:end_ts="1480921545" xil_pn:in_ck="7090057223451327488" xil_pn:name="TRANEXT_ngdbuild_FPGA" xil_pn:prop_ck="-2582745059042342709" xil_pn:start_ts="1480921540">
       <status xil_pn:value="SuccessfullyRun"/>
-      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="NotReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
       <status xil_pn:value="OutOfDateForPredecessor"/>
-      <outfile xil_pn:name="_ngo"/>
-      <outfile xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
-      <outfile xil_pn:name="half_adder.bld"/>
-      <outfile xil_pn:name="half_adder.ngd"/>
-      <outfile xil_pn:name="half_adder_ngdbuild.xrpt"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputRemoved"/>
+      <status xil_pn:value="OutputRemoved"/>
     </transform>
     <transform xil_pn:end_ts="1480921549" xil_pn:in_ck="7090057223451327489" xil_pn:name="TRANEXT_map_spartan3" xil_pn:prop_ck="7728334167582700538" xil_pn:start_ts="1480921545">
       <status xil_pn:value="SuccessfullyRun"/>
-      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="NotReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
       <status xil_pn:value="OutOfDateForPredecessor"/>
-      <outfile xil_pn:name="_xmsgs/map.xmsgs"/>
-      <outfile xil_pn:name="half_adder.pcf"/>
-      <outfile xil_pn:name="half_adder_map.map"/>
-      <outfile xil_pn:name="half_adder_map.mrp"/>
-      <outfile xil_pn:name="half_adder_map.ncd"/>
-      <outfile xil_pn:name="half_adder_map.ngm"/>
-      <outfile xil_pn:name="half_adder_map.xrpt"/>
-      <outfile xil_pn:name="half_adder_summary.xml"/>
-      <outfile xil_pn:name="half_adder_usage.xml"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputRemoved"/>
+      <status xil_pn:value="OutputRemoved"/>
     </transform>
     <transform xil_pn:end_ts="1480921564" xil_pn:in_ck="442769010399323034" xil_pn:name="TRANEXT_par_spartan3" xil_pn:prop_ck="6268780068511726196" xil_pn:start_ts="1480921549">
       <status xil_pn:value="SuccessfullyRun"/>
-      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="NotReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
       <status xil_pn:value="OutOfDateForPredecessor"/>
-      <outfile xil_pn:name="_xmsgs/par.xmsgs"/>
-      <outfile xil_pn:name="half_adder.ncd"/>
-      <outfile xil_pn:name="half_adder.pad"/>
-      <outfile xil_pn:name="half_adder.par"/>
-      <outfile xil_pn:name="half_adder.ptwx"/>
-      <outfile xil_pn:name="half_adder.unroutes"/>
-      <outfile xil_pn:name="half_adder.xpi"/>
-      <outfile xil_pn:name="half_adder_pad.csv"/>
-      <outfile xil_pn:name="half_adder_pad.txt"/>
-      <outfile xil_pn:name="half_adder_par.xrpt"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputRemoved"/>
+      <status xil_pn:value="OutputRemoved"/>
     </transform>
     <transform xil_pn:end_ts="1480921564" xil_pn:in_ck="7090057223451327357" xil_pn:name="TRAN_postRouteTrce" xil_pn:prop_ck="445577401284416187" xil_pn:start_ts="1480921561">
       <status xil_pn:value="SuccessfullyRun"/>
-      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="NotReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
       <status xil_pn:value="OutOfDateForPredecessor"/>
-      <outfile xil_pn:name="_xmsgs/trce.xmsgs"/>
-      <outfile xil_pn:name="half_adder.twr"/>
-      <outfile xil_pn:name="half_adder.twx"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputRemoved"/>
+      <status xil_pn:value="OutputRemoved"/>
     </transform>
   </transforms>
 
