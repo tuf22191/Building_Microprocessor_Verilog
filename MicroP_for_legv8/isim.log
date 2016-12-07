@@ -1,5 +1,5 @@
 ISim log file
-Running: C:\Users\tuf22191\Projects\Github_Repos\Building_Microprocessor_Verilog\MicroP_for_legv8\TB_Adder1_32bits_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb C:/Users/tuf22191/Projects/Github_Repos/Building_Microprocessor_Verilog/MicroP_for_legv8/TB_Adder1_32bits_isim_beh.wdb 
+Running: C:\Users\tuf22191\Projects\Github_Repos\Building_Microprocessor_Verilog\MicroP_for_legv8\TB_Data_Memory_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb C:/Users/tuf22191/Projects/Github_Repos/Building_Microprocessor_Verilog/MicroP_for_legv8/TB_Data_Memory_isim_beh.wdb 
 ISim P.49d (signature 0x7708f090)
 WARNING: A WEBPACK license was found.
 WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
@@ -11,3 +11,520 @@ Time resolution is 1 ps
 # run 1000 ns
 Simulator is doing circuit initialization process.
 Finished circuit initialization process.
+data read out is 0 for read flag 0
+i is           0 and data_read_out is          0
+i is           1 and data_read_out is          1
+i is           2 and data_read_out is          2
+i is           3 and data_read_out is          3
+i is           4 and data_read_out is          4
+i is           5 and data_read_out is          5
+i is           6 and data_read_out is          6
+i is           7 and data_read_out is          7
+i is           8 and data_read_out is          8
+i is           9 and data_read_out is          9
+i is          10 and data_read_out is         10
+i is          11 and data_read_out is         11
+i is          12 and data_read_out is         12
+i is          13 and data_read_out is         13
+i is          14 and data_read_out is         14
+i is          15 and data_read_out is         15
+i is          16 and data_read_out is         16
+i is          17 and data_read_out is         17
+i is          18 and data_read_out is         18
+i is          19 and data_read_out is         19
+i is          20 and data_read_out is         20
+i is          21 and data_read_out is         21
+i is          22 and data_read_out is         22
+i is          23 and data_read_out is         23
+i is          24 and data_read_out is         24
+i is          25 and data_read_out is         25
+i is          26 and data_read_out is         26
+i is          27 and data_read_out is         27
+i is          28 and data_read_out is         28
+i is          29 and data_read_out is         29
+i is          30 and data_read_out is         30
+i is          31 and data_read_out is         31
+i is          32 and data_read_out is         32
+i is          33 and data_read_out is         33
+i is          34 and data_read_out is         34
+i is          35 and data_read_out is         35
+i is          36 and data_read_out is         36
+i is          37 and data_read_out is         37
+i is          38 and data_read_out is         38
+i is          39 and data_read_out is         39
+i is          40 and data_read_out is         40
+i is          41 and data_read_out is         41
+i is          42 and data_read_out is         42
+i is          43 and data_read_out is         43
+i is          44 and data_read_out is         44
+# run all
+i is          45 and data_read_out is         45
+i is          46 and data_read_out is         46
+i is          47 and data_read_out is         47
+i is          48 and data_read_out is         48
+i is          49 and data_read_out is         49
+i is          50 and data_read_out is         50
+i is          51 and data_read_out is         51
+i is          52 and data_read_out is         52
+i is          53 and data_read_out is         53
+i is          54 and data_read_out is         54
+i is          55 and data_read_out is         55
+i is          56 and data_read_out is         56
+i is          57 and data_read_out is         57
+i is          58 and data_read_out is         58
+i is          59 and data_read_out is         59
+i is          60 and data_read_out is         60
+i is          61 and data_read_out is         61
+i is          62 and data_read_out is         62
+i is          63 and data_read_out is         63
+i is          64 and data_read_out is         64
+i is          65 and data_read_out is         65
+i is          66 and data_read_out is         66
+i is          67 and data_read_out is         67
+i is          68 and data_read_out is         68
+i is          69 and data_read_out is         69
+i is          70 and data_read_out is         70
+i is          71 and data_read_out is         71
+i is          72 and data_read_out is         72
+i is          73 and data_read_out is         73
+i is          74 and data_read_out is         74
+i is          75 and data_read_out is         75
+i is          76 and data_read_out is         76
+i is          77 and data_read_out is         77
+i is          78 and data_read_out is         78
+i is          79 and data_read_out is         79
+i is          80 and data_read_out is         80
+i is          81 and data_read_out is         81
+i is          82 and data_read_out is         82
+i is          83 and data_read_out is         83
+i is          84 and data_read_out is         84
+i is          85 and data_read_out is         85
+i is          86 and data_read_out is         86
+i is          87 and data_read_out is         87
+i is          88 and data_read_out is         88
+i is          89 and data_read_out is         89
+i is          90 and data_read_out is         90
+i is          91 and data_read_out is         91
+i is          92 and data_read_out is         92
+i is          93 and data_read_out is         93
+i is          94 and data_read_out is         94
+i is          95 and data_read_out is         95
+i is          96 and data_read_out is         96
+i is          97 and data_read_out is         97
+i is          98 and data_read_out is         98
+i is          99 and data_read_out is         99
+i is         100 and data_read_out is        100
+i is         101 and data_read_out is        101
+i is         102 and data_read_out is        102
+i is         103 and data_read_out is        103
+i is         104 and data_read_out is        104
+i is         105 and data_read_out is        105
+i is         106 and data_read_out is        106
+i is         107 and data_read_out is        107
+i is         108 and data_read_out is        108
+i is         109 and data_read_out is        109
+i is         110 and data_read_out is        110
+i is         111 and data_read_out is        111
+i is         112 and data_read_out is        112
+i is         113 and data_read_out is        113
+i is         114 and data_read_out is        114
+i is         115 and data_read_out is        115
+i is         116 and data_read_out is        116
+i is         117 and data_read_out is        117
+i is         118 and data_read_out is        118
+i is         119 and data_read_out is        119
+i is         120 and data_read_out is        120
+i is         121 and data_read_out is        121
+i is         122 and data_read_out is        122
+i is         123 and data_read_out is        123
+i is         124 and data_read_out is        124
+i is         125 and data_read_out is        125
+i is         126 and data_read_out is        126
+i is         127 and data_read_out is        127
+i is         128 and data_read_out is        128
+i is         129 and data_read_out is        129
+i is         130 and data_read_out is        130
+i is         131 and data_read_out is        131
+i is         132 and data_read_out is        132
+i is         133 and data_read_out is        133
+i is         134 and data_read_out is        134
+i is         135 and data_read_out is        135
+i is         136 and data_read_out is        136
+i is         137 and data_read_out is        137
+i is         138 and data_read_out is        138
+i is         139 and data_read_out is        139
+i is         140 and data_read_out is        140
+i is         141 and data_read_out is        141
+i is         142 and data_read_out is        142
+i is         143 and data_read_out is        143
+i is         144 and data_read_out is        144
+i is         145 and data_read_out is        145
+i is         146 and data_read_out is        146
+i is         147 and data_read_out is        147
+i is         148 and data_read_out is        148
+i is         149 and data_read_out is        149
+i is         150 and data_read_out is        150
+i is         151 and data_read_out is        151
+i is         152 and data_read_out is        152
+i is         153 and data_read_out is        153
+i is         154 and data_read_out is        154
+i is         155 and data_read_out is        155
+i is         156 and data_read_out is        156
+i is         157 and data_read_out is        157
+i is         158 and data_read_out is        158
+i is         159 and data_read_out is        159
+i is         160 and data_read_out is        160
+i is         161 and data_read_out is        161
+i is         162 and data_read_out is        162
+i is         163 and data_read_out is        163
+i is         164 and data_read_out is        164
+i is         165 and data_read_out is        165
+i is         166 and data_read_out is        166
+i is         167 and data_read_out is        167
+i is         168 and data_read_out is        168
+i is         169 and data_read_out is        169
+i is         170 and data_read_out is        170
+i is         171 and data_read_out is        171
+i is         172 and data_read_out is        172
+i is         173 and data_read_out is        173
+i is         174 and data_read_out is        174
+i is         175 and data_read_out is        175
+i is         176 and data_read_out is        176
+i is         177 and data_read_out is        177
+i is         178 and data_read_out is        178
+i is         179 and data_read_out is        179
+i is         180 and data_read_out is        180
+i is         181 and data_read_out is        181
+i is         182 and data_read_out is        182
+i is         183 and data_read_out is        183
+i is         184 and data_read_out is        184
+i is         185 and data_read_out is        185
+i is         186 and data_read_out is        186
+i is         187 and data_read_out is        187
+i is         188 and data_read_out is        188
+i is         189 and data_read_out is        189
+i is         190 and data_read_out is        190
+i is         191 and data_read_out is        191
+i is         192 and data_read_out is        192
+i is         193 and data_read_out is        193
+i is         194 and data_read_out is        194
+i is         195 and data_read_out is        195
+i is         196 and data_read_out is        196
+i is         197 and data_read_out is        197
+i is         198 and data_read_out is        198
+i is         199 and data_read_out is        199
+i is         200 and data_read_out is        200
+i is         201 and data_read_out is        201
+i is         202 and data_read_out is        202
+i is         203 and data_read_out is        203
+i is         204 and data_read_out is        204
+i is         205 and data_read_out is        205
+i is         206 and data_read_out is        206
+i is         207 and data_read_out is        207
+i is         208 and data_read_out is        208
+i is         209 and data_read_out is        209
+i is         210 and data_read_out is        210
+i is         211 and data_read_out is        211
+i is         212 and data_read_out is        212
+i is         213 and data_read_out is        213
+i is         214 and data_read_out is        214
+i is         215 and data_read_out is        215
+i is         216 and data_read_out is        216
+i is         217 and data_read_out is        217
+i is         218 and data_read_out is        218
+i is         219 and data_read_out is        219
+i is         220 and data_read_out is        220
+i is         221 and data_read_out is        221
+i is         222 and data_read_out is        222
+i is         223 and data_read_out is        223
+i is         224 and data_read_out is        224
+i is         225 and data_read_out is        225
+i is         226 and data_read_out is        226
+i is         227 and data_read_out is        227
+i is         228 and data_read_out is        228
+i is         229 and data_read_out is        229
+i is         230 and data_read_out is        230
+i is         231 and data_read_out is        231
+i is         232 and data_read_out is        232
+i is         233 and data_read_out is        233
+i is         234 and data_read_out is        234
+i is         235 and data_read_out is        235
+i is         236 and data_read_out is        236
+i is         237 and data_read_out is        237
+i is         238 and data_read_out is        238
+i is         239 and data_read_out is        239
+i is         240 and data_read_out is        240
+i is         241 and data_read_out is        241
+i is         242 and data_read_out is        242
+i is         243 and data_read_out is        243
+i is         244 and data_read_out is        244
+i is         245 and data_read_out is        245
+i is         246 and data_read_out is        246
+i is         247 and data_read_out is        247
+i is         248 and data_read_out is        248
+i is         249 and data_read_out is        249
+i is         250 and data_read_out is        250
+i is         251 and data_read_out is        251
+i is         252 and data_read_out is        252
+i is         253 and data_read_out is        253
+i is         254 and data_read_out is        254
+i is         255 and data_read_out is        255
+passed second stage
+i is           0 and data_read_out is          5 and address is   0
+i is           1 and data_read_out is          5 and address is   1
+i is           2 and data_read_out is          5 and address is   2
+i is           3 and data_read_out is          5 and address is   3
+i is           4 and data_read_out is          5 and address is   4
+i is           5 and data_read_out is          5 and address is   5
+i is           6 and data_read_out is          5 and address is   6
+i is           7 and data_read_out is          5 and address is   7
+i is           8 and data_read_out is          5 and address is   8
+i is           9 and data_read_out is          5 and address is   9
+i is          10 and data_read_out is          5 and address is  10
+i is          11 and data_read_out is          5 and address is  11
+i is          12 and data_read_out is          5 and address is  12
+i is          13 and data_read_out is          5 and address is  13
+i is          14 and data_read_out is          5 and address is  14
+i is          15 and data_read_out is          5 and address is  15
+i is          16 and data_read_out is          5 and address is  16
+i is          17 and data_read_out is          5 and address is  17
+i is          18 and data_read_out is          5 and address is  18
+i is          19 and data_read_out is          5 and address is  19
+i is          20 and data_read_out is          5 and address is  20
+i is          21 and data_read_out is          5 and address is  21
+i is          22 and data_read_out is          5 and address is  22
+i is          23 and data_read_out is          5 and address is  23
+i is          24 and data_read_out is          5 and address is  24
+i is          25 and data_read_out is          5 and address is  25
+i is          26 and data_read_out is          5 and address is  26
+i is          27 and data_read_out is          5 and address is  27
+i is          28 and data_read_out is          5 and address is  28
+i is          29 and data_read_out is          5 and address is  29
+i is          30 and data_read_out is          5 and address is  30
+i is          31 and data_read_out is          5 and address is  31
+i is          32 and data_read_out is          5 and address is  32
+i is          33 and data_read_out is          5 and address is  33
+i is          34 and data_read_out is          5 and address is  34
+i is          35 and data_read_out is          5 and address is  35
+i is          36 and data_read_out is          5 and address is  36
+i is          37 and data_read_out is          5 and address is  37
+i is          38 and data_read_out is          5 and address is  38
+i is          39 and data_read_out is          5 and address is  39
+i is          40 and data_read_out is          5 and address is  40
+i is          41 and data_read_out is          5 and address is  41
+i is          42 and data_read_out is          5 and address is  42
+i is          43 and data_read_out is          5 and address is  43
+i is          44 and data_read_out is          5 and address is  44
+i is          45 and data_read_out is          5 and address is  45
+i is          46 and data_read_out is          5 and address is  46
+i is          47 and data_read_out is          5 and address is  47
+i is          48 and data_read_out is          5 and address is  48
+i is          49 and data_read_out is          5 and address is  49
+i is          50 and data_read_out is          5 and address is  50
+i is          51 and data_read_out is          5 and address is  51
+i is          52 and data_read_out is          5 and address is  52
+i is          53 and data_read_out is          5 and address is  53
+i is          54 and data_read_out is          5 and address is  54
+i is          55 and data_read_out is          5 and address is  55
+i is          56 and data_read_out is          5 and address is  56
+i is          57 and data_read_out is          5 and address is  57
+i is          58 and data_read_out is          5 and address is  58
+i is          59 and data_read_out is          5 and address is  59
+i is          60 and data_read_out is          5 and address is  60
+i is          61 and data_read_out is          5 and address is  61
+i is          62 and data_read_out is          5 and address is  62
+i is          63 and data_read_out is          5 and address is  63
+i is          64 and data_read_out is          5 and address is  64
+i is          65 and data_read_out is          5 and address is  65
+i is          66 and data_read_out is          5 and address is  66
+i is          67 and data_read_out is          5 and address is  67
+i is          68 and data_read_out is          5 and address is  68
+i is          69 and data_read_out is          5 and address is  69
+i is          70 and data_read_out is          5 and address is  70
+i is          71 and data_read_out is          5 and address is  71
+i is          72 and data_read_out is          5 and address is  72
+i is          73 and data_read_out is          5 and address is  73
+i is          74 and data_read_out is          5 and address is  74
+i is          75 and data_read_out is          5 and address is  75
+i is          76 and data_read_out is          5 and address is  76
+i is          77 and data_read_out is          5 and address is  77
+i is          78 and data_read_out is          5 and address is  78
+i is          79 and data_read_out is          5 and address is  79
+i is          80 and data_read_out is          5 and address is  80
+i is          81 and data_read_out is          5 and address is  81
+i is          82 and data_read_out is          5 and address is  82
+i is          83 and data_read_out is          5 and address is  83
+i is          84 and data_read_out is          5 and address is  84
+i is          85 and data_read_out is          5 and address is  85
+i is          86 and data_read_out is          5 and address is  86
+i is          87 and data_read_out is          5 and address is  87
+i is          88 and data_read_out is          5 and address is  88
+i is          89 and data_read_out is          5 and address is  89
+i is          90 and data_read_out is          5 and address is  90
+i is          91 and data_read_out is          5 and address is  91
+i is          92 and data_read_out is          5 and address is  92
+i is          93 and data_read_out is          5 and address is  93
+i is          94 and data_read_out is          5 and address is  94
+i is          95 and data_read_out is          5 and address is  95
+i is          96 and data_read_out is          5 and address is  96
+i is          97 and data_read_out is          5 and address is  97
+i is          98 and data_read_out is          5 and address is  98
+i is          99 and data_read_out is          5 and address is  99
+i is         100 and data_read_out is          5 and address is 100
+i is         101 and data_read_out is          5 and address is 101
+i is         102 and data_read_out is          5 and address is 102
+i is         103 and data_read_out is          5 and address is 103
+i is         104 and data_read_out is          5 and address is 104
+i is         105 and data_read_out is          5 and address is 105
+i is         106 and data_read_out is          5 and address is 106
+i is         107 and data_read_out is          5 and address is 107
+i is         108 and data_read_out is          5 and address is 108
+i is         109 and data_read_out is          5 and address is 109
+i is         110 and data_read_out is          5 and address is 110
+i is         111 and data_read_out is          5 and address is 111
+i is         112 and data_read_out is          5 and address is 112
+i is         113 and data_read_out is          5 and address is 113
+i is         114 and data_read_out is          5 and address is 114
+i is         115 and data_read_out is          5 and address is 115
+i is         116 and data_read_out is          5 and address is 116
+i is         117 and data_read_out is          5 and address is 117
+i is         118 and data_read_out is          5 and address is 118
+i is         119 and data_read_out is          5 and address is 119
+i is         120 and data_read_out is          5 and address is 120
+i is         121 and data_read_out is          5 and address is 121
+i is         122 and data_read_out is          5 and address is 122
+i is         123 and data_read_out is          5 and address is 123
+i is         124 and data_read_out is          5 and address is 124
+i is         125 and data_read_out is          5 and address is 125
+i is         126 and data_read_out is          5 and address is 126
+i is         127 and data_read_out is          5 and address is 127
+i is         128 and data_read_out is          5 and address is 128
+i is         129 and data_read_out is          5 and address is 129
+i is         130 and data_read_out is          5 and address is 130
+i is         131 and data_read_out is          5 and address is 131
+i is         132 and data_read_out is          5 and address is 132
+i is         133 and data_read_out is          5 and address is 133
+i is         134 and data_read_out is          5 and address is 134
+i is         135 and data_read_out is          5 and address is 135
+i is         136 and data_read_out is          5 and address is 136
+i is         137 and data_read_out is          5 and address is 137
+i is         138 and data_read_out is          5 and address is 138
+i is         139 and data_read_out is          5 and address is 139
+i is         140 and data_read_out is          5 and address is 140
+i is         141 and data_read_out is          5 and address is 141
+i is         142 and data_read_out is          5 and address is 142
+i is         143 and data_read_out is          5 and address is 143
+i is         144 and data_read_out is          5 and address is 144
+i is         145 and data_read_out is          5 and address is 145
+i is         146 and data_read_out is          5 and address is 146
+i is         147 and data_read_out is          5 and address is 147
+i is         148 and data_read_out is          5 and address is 148
+i is         149 and data_read_out is          5 and address is 149
+i is         150 and data_read_out is          5 and address is 150
+i is         151 and data_read_out is          5 and address is 151
+i is         152 and data_read_out is          5 and address is 152
+i is         153 and data_read_out is          5 and address is 153
+i is         154 and data_read_out is          5 and address is 154
+i is         155 and data_read_out is          5 and address is 155
+i is         156 and data_read_out is          5 and address is 156
+i is         157 and data_read_out is          5 and address is 157
+i is         158 and data_read_out is          5 and address is 158
+i is         159 and data_read_out is          5 and address is 159
+i is         160 and data_read_out is          5 and address is 160
+i is         161 and data_read_out is          5 and address is 161
+i is         162 and data_read_out is          5 and address is 162
+i is         163 and data_read_out is          5 and address is 163
+i is         164 and data_read_out is          5 and address is 164
+i is         165 and data_read_out is          5 and address is 165
+i is         166 and data_read_out is          5 and address is 166
+i is         167 and data_read_out is          5 and address is 167
+i is         168 and data_read_out is          5 and address is 168
+i is         169 and data_read_out is          5 and address is 169
+i is         170 and data_read_out is          5 and address is 170
+i is         171 and data_read_out is          5 and address is 171
+i is         172 and data_read_out is          5 and address is 172
+i is         173 and data_read_out is          5 and address is 173
+i is         174 and data_read_out is          5 and address is 174
+i is         175 and data_read_out is          5 and address is 175
+i is         176 and data_read_out is          5 and address is 176
+i is         177 and data_read_out is          5 and address is 177
+i is         178 and data_read_out is          5 and address is 178
+i is         179 and data_read_out is          5 and address is 179
+i is         180 and data_read_out is          5 and address is 180
+i is         181 and data_read_out is          5 and address is 181
+i is         182 and data_read_out is          5 and address is 182
+i is         183 and data_read_out is          5 and address is 183
+i is         184 and data_read_out is          5 and address is 184
+i is         185 and data_read_out is          5 and address is 185
+i is         186 and data_read_out is          5 and address is 186
+i is         187 and data_read_out is          5 and address is 187
+i is         188 and data_read_out is          5 and address is 188
+i is         189 and data_read_out is          5 and address is 189
+i is         190 and data_read_out is          5 and address is 190
+i is         191 and data_read_out is          5 and address is 191
+i is         192 and data_read_out is          5 and address is 192
+i is         193 and data_read_out is          5 and address is 193
+i is         194 and data_read_out is          5 and address is 194
+i is         195 and data_read_out is          5 and address is 195
+i is         196 and data_read_out is          5 and address is 196
+i is         197 and data_read_out is          5 and address is 197
+i is         198 and data_read_out is          5 and address is 198
+i is         199 and data_read_out is          5 and address is 199
+i is         200 and data_read_out is          5 and address is 200
+i is         201 and data_read_out is          5 and address is 201
+i is         202 and data_read_out is          5 and address is 202
+i is         203 and data_read_out is          5 and address is 203
+i is         204 and data_read_out is          5 and address is 204
+i is         205 and data_read_out is          5 and address is 205
+i is         206 and data_read_out is          5 and address is 206
+i is         207 and data_read_out is          5 and address is 207
+i is         208 and data_read_out is          5 and address is 208
+i is         209 and data_read_out is          5 and address is 209
+i is         210 and data_read_out is          5 and address is 210
+i is         211 and data_read_out is          5 and address is 211
+i is         212 and data_read_out is          5 and address is 212
+i is         213 and data_read_out is          5 and address is 213
+i is         214 and data_read_out is          5 and address is 214
+i is         215 and data_read_out is          5 and address is 215
+i is         216 and data_read_out is          5 and address is 216
+i is         217 and data_read_out is          5 and address is 217
+i is         218 and data_read_out is          5 and address is 218
+i is         219 and data_read_out is          5 and address is 219
+i is         220 and data_read_out is          5 and address is 220
+i is         221 and data_read_out is          5 and address is 221
+i is         222 and data_read_out is          5 and address is 222
+i is         223 and data_read_out is          5 and address is 223
+i is         224 and data_read_out is          5 and address is 224
+i is         225 and data_read_out is          5 and address is 225
+i is         226 and data_read_out is          5 and address is 226
+i is         227 and data_read_out is          5 and address is 227
+i is         228 and data_read_out is          5 and address is 228
+i is         229 and data_read_out is          5 and address is 229
+i is         230 and data_read_out is          5 and address is 230
+i is         231 and data_read_out is          5 and address is 231
+i is         232 and data_read_out is          5 and address is 232
+i is         233 and data_read_out is          5 and address is 233
+i is         234 and data_read_out is          5 and address is 234
+i is         235 and data_read_out is          5 and address is 235
+i is         236 and data_read_out is          5 and address is 236
+i is         237 and data_read_out is          5 and address is 237
+i is         238 and data_read_out is          5 and address is 238
+i is         239 and data_read_out is          5 and address is 239
+i is         240 and data_read_out is          5 and address is 240
+i is         241 and data_read_out is          5 and address is 241
+i is         242 and data_read_out is          5 and address is 242
+i is         243 and data_read_out is          5 and address is 243
+i is         244 and data_read_out is          5 and address is 244
+i is         245 and data_read_out is          5 and address is 245
+i is         246 and data_read_out is          5 and address is 246
+i is         247 and data_read_out is          5 and address is 247
+i is         248 and data_read_out is          5 and address is 248
+i is         249 and data_read_out is          5 and address is 249
+i is         250 and data_read_out is          5 and address is 250
+i is         251 and data_read_out is          5 and address is 251
+i is         252 and data_read_out is          5 and address is 252
+i is         253 and data_read_out is          5 and address is 253
+i is         254 and data_read_out is          5 and address is 254
+i is         255 and data_read_out is          5 and address is 255
+Simulation ENDDDED!
+Stopped at time : 11 ms : File "C:/Users/tuf22191/Projects/Github_Repos/Building_Microprocessor_Verilog/MicroP_for_legv8/TB_Data_Memory.v" Line 58
