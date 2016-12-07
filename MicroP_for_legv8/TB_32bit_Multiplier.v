@@ -87,9 +87,9 @@ module TB_32bit_Multiplier;
 			 prod = a*b;
 			  
           @(negedge clk)
-			 $display
+			 
 			 if({32'b11111111111111111111111111111111,prod}!= product) begin
-				//$display("Multiplication is wrong is wrong negative");
+				$display("Multiplication is wrong is wrong negative");
 		    end
 			  
 		end

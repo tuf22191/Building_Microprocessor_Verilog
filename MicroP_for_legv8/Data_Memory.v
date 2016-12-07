@@ -30,7 +30,7 @@ module Data_Memory(
 	 reg [31:0] THE_MEMORY [0:255];//
 	 
 	 integer i;
-	 //initializae the data : SAW THIS ONLINE - So we have all 0's
+	 //initializae the data : SAW THIS ONLINE - So we have all 0's , do we have to initialize it?
 	 initial begin   //probably do not need this
 		data_read_out <= 0; //non blocking part
 		for(i=0; i<256; i=i+1)begin
