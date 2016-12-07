@@ -38,6 +38,10 @@
     <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="TB_32bit_Multiplier_stx_beh.prj"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="TB_64Bi_Subtractor_isim_beh.exe"/>
     <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="TB_64Bi_Subtractor_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="TB_Adder1_32bits_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="TB_Adder1_32bits_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="TB_Adder1_32bits_isim_beh.wdb"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="TB_Adder2_32bits_isim_beh.exe"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="TB_Data_Memory_isim_beh.exe"/>
     <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="TB_Data_Memory_stx_beh.prj"/>
     <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="TB_Instruction_Memory_beh.prj"/>
@@ -102,9 +106,11 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1481088608" xil_pn:in_ck="8423621872163783101" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1481088608">
+    <transform xil_pn:end_ts="1481136281" xil_pn:in_ck="573675230226792685" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1481136281">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="Adder1_32bit_adder.v"/>
+      <outfile xil_pn:name="Adder2_32bit_adder.v"/>
       <outfile xil_pn:name="Data_Memory.v"/>
       <outfile xil_pn:name="Four_Bit_Adder.v"/>
       <outfile xil_pn:name="Instruction_Memory_Thirty_Two_Bit.v"/>
@@ -118,6 +124,8 @@
       <outfile xil_pn:name="TB_32Bit_Divider.v"/>
       <outfile xil_pn:name="TB_32bit_Multiplier.v"/>
       <outfile xil_pn:name="TB_64Bi_Subtractor.v"/>
+      <outfile xil_pn:name="TB_Adder1_32bits.v"/>
+      <outfile xil_pn:name="TB_Adder2_32bits.v"/>
       <outfile xil_pn:name="TB_Data_Memory.v"/>
       <outfile xil_pn:name="TB_Instruction_Memory.v"/>
       <outfile xil_pn:name="TB_Mux2.v"/>
@@ -126,11 +134,11 @@
       <outfile xil_pn:name="half_adder.v"/>
       <outfile xil_pn:name="one_bit_full_adder.v"/>
     </transform>
-    <transform xil_pn:end_ts="1481078554" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="7876569513337359302" xil_pn:start_ts="1481078554">
+    <transform xil_pn:end_ts="1481136170" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="8083429462764031571" xil_pn:start_ts="1481136170">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1481078554" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="-3357795498535499384" xil_pn:start_ts="1481078554">
+    <transform xil_pn:end_ts="1481136170" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="-4467286284782625451" xil_pn:start_ts="1481136170">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
@@ -138,9 +146,11 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1481088608" xil_pn:in_ck="8423621872163783101" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1481088608">
+    <transform xil_pn:end_ts="1481136281" xil_pn:in_ck="573675230226792685" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1481136281">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="Adder1_32bit_adder.v"/>
+      <outfile xil_pn:name="Adder2_32bit_adder.v"/>
       <outfile xil_pn:name="Data_Memory.v"/>
       <outfile xil_pn:name="Four_Bit_Adder.v"/>
       <outfile xil_pn:name="Instruction_Memory_Thirty_Two_Bit.v"/>
@@ -154,6 +164,8 @@
       <outfile xil_pn:name="TB_32Bit_Divider.v"/>
       <outfile xil_pn:name="TB_32bit_Multiplier.v"/>
       <outfile xil_pn:name="TB_64Bi_Subtractor.v"/>
+      <outfile xil_pn:name="TB_Adder1_32bits.v"/>
+      <outfile xil_pn:name="TB_Adder2_32bits.v"/>
       <outfile xil_pn:name="TB_Data_Memory.v"/>
       <outfile xil_pn:name="TB_Instruction_Memory.v"/>
       <outfile xil_pn:name="TB_Mux2.v"/>
@@ -162,20 +174,20 @@
       <outfile xil_pn:name="half_adder.v"/>
       <outfile xil_pn:name="one_bit_full_adder.v"/>
     </transform>
-    <transform xil_pn:end_ts="1481088611" xil_pn:in_ck="8423621872163783101" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="-523944228417178035" xil_pn:start_ts="1481088608">
+    <transform xil_pn:end_ts="1481136284" xil_pn:in_ck="573675230226792685" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="-6865191013552112377" xil_pn:start_ts="1481136281">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <outfile xil_pn:name="TB_Instruction_Memory_beh.prj"/>
-      <outfile xil_pn:name="TB_Instruction_Memory_isim_beh.exe"/>
+      <outfile xil_pn:name="TB_Adder1_32bits_beh.prj"/>
+      <outfile xil_pn:name="TB_Adder1_32bits_isim_beh.exe"/>
       <outfile xil_pn:name="fuse.log"/>
       <outfile xil_pn:name="isim"/>
       <outfile xil_pn:name="isim.log"/>
       <outfile xil_pn:name="xilinxsim.ini"/>
     </transform>
-    <transform xil_pn:end_ts="1481088611" xil_pn:in_ck="-9209923808725687622" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="-2727937057276464624" xil_pn:start_ts="1481088611">
+    <transform xil_pn:end_ts="1481136284" xil_pn:in_ck="2953245360333850897" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="4936145146770055050" xil_pn:start_ts="1481136284">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <outfile xil_pn:name="TB_Instruction_Memory_isim_beh.wdb"/>
+      <outfile xil_pn:name="TB_Adder1_32bits_isim_beh.wdb"/>
       <outfile xil_pn:name="isim.cmd"/>
       <outfile xil_pn:name="isim.log"/>
     </transform>
