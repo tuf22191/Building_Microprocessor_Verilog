@@ -39,7 +39,7 @@ module Data_Memory(
 		//put the data here
 	 end
 	 
-	 always @(posedge clk) 
+	 always @(*)//(posedge clk) // remove the posedge?
 		begin
 	    if(write_data_flag == 1'b1) begin
 		    THE_MEMORY[address_of_data] <= data_to_write;

@@ -1,5 +1,5 @@
 ISim log file
-Running: C:\Users\tuf22191\Projects\Github_Repos\Building_Microprocessor_Verilog\MicroP_for_legv8\TB_Mux2_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb C:/Users/tuf22191/Projects/Github_Repos/Building_Microprocessor_Verilog/MicroP_for_legv8/TB_Mux2_isim_beh.wdb 
+Running: C:\Users\tuf22191\Projects\Github_Repos\Building_Microprocessor_Verilog\MicroP_for_legv8\TB_Instruction_Memory_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb C:/Users/tuf22191/Projects/Github_Repos/Building_Microprocessor_Verilog/MicroP_for_legv8/TB_Instruction_Memory_isim_beh.wdb 
 ISim P.49d (signature 0x7708f090)
 WARNING: A WEBPACK license was found.
 WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
@@ -12,5 +12,4 @@ Time resolution is 1 ps
 Simulator is doing circuit initialization process.
 Finished circuit initialization process.
 # run all
-Simulation ended for Mux2
-Stopped at time : 11 ms : File "C:/Users/tuf22191/Projects/Github_Repos/Building_Microprocessor_Verilog/MicroP_for_legv8/TB_Mux2.v" Line 46
+Stopped at time : 1100 ns : File "C:/Users/tuf22191/Projects/Github_Repos/Building_Microprocessor_Verilog/MicroP_for_legv8/TB_Instruction_Memory.v" Line 48

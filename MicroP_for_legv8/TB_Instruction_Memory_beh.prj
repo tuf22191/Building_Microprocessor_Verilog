@@ -1,0 +1,3 @@
+verilog work "Instruction_Memory_Thirty_Two_Bit.v"
+verilog work "TB_Instruction_Memory.v"
+verilog work "C:/Xilinx/14.4/ISE_DS/ISE//verilog/src/glbl.v"
