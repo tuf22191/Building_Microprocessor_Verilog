@@ -37,15 +37,14 @@ module TB_64bit_RegisterFile;
 	wire [63:0] reg_out_2;
 
 
-   always@(*)begin
+   always begin
 	clk=1;
 	#10;
 	clk=0;
 	#10;	
 	end
 
-	always @(*) begin
-	
+	always begin
 	$display("Simulation Starting : ***********");
 	#110000;
 	$display("Simulation Ended : Success ******");
@@ -86,7 +85,7 @@ module TB_64bit_RegisterFile;
 		read_reg_address_1 = 5'b00100;
 		read_reg_address_2 = 5'b00100;
 		
-      @(posedge clk);
+      #50;
 		if(reg_out_1 != 0)begin
 		$display("First Test  Not working!");
 		end
@@ -99,13 +98,14 @@ module TB_64bit_RegisterFile;
       data = {32'b00000000000000000000000000000000,i};
 		write_reg_address = 5'b01001;
 		reg_write = 1;
+		#50;
 		if(reg_out_1 != 0)begin
 		$display("Second Test  Not working1!");
 		end
 		if(reg_out_2 != 0)begin
 		$display("Second Test  Not working2!");
 		end
-      @(posedge clk);
+      #50;
 		
 		reg_write =0;
 		read_reg_address_1 = 5'b01001;
@@ -115,13 +115,13 @@ module TB_64bit_RegisterFile;
 		if(reg_out_2 != 0)begin
 		$display("Third Test  Not working2!");
 		end
-      @(posedge clk);
-
+     #50;
+	  
       i = 3;
       data = {32'b00000000000000000000000000000000,i};
 		write_reg_address = 5'b10000;
 		reg_write = 1;
-		@(posedge clk);
+		#50; 
 		i=43;
 		read_reg_address_2 = 5'b10000;
 		if(reg_out_1 != {32'b00000000000000000000000000000000,43})begin
@@ -130,8 +130,7 @@ module TB_64bit_RegisterFile;
 		if(reg_out_2 != {32'b00000000000000000000000000000000,3})begin
 		$display("Forth Test  Not working2!");
 		end
-      @(posedge clk);
-
+     #50;
 		// Add stimulus here
 
 	end
