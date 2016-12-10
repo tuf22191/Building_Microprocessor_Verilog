@@ -1,39 +1,19 @@
-Running: C:\Xilinx\14.4\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -o C:/Users/tuf22191/Projects/Github_Repos/Building_Microprocessor_Verilog/MicroP_for_legv8/TB_ALU_isim_beh.exe -prj C:/Users/tuf22191/Projects/Github_Repos/Building_Microprocessor_Verilog/MicroP_for_legv8/TB_ALU_beh.prj work.TB_ALU work.glbl 
+Running: C:\Xilinx\14.4\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -o C:/Users/tuf22191/Projects/Github_Repos/Building_Microprocessor_Verilog/MicroP_for_legv8/TB_Sign_Extender_isim_beh.exe -prj C:/Users/tuf22191/Projects/Github_Repos/Building_Microprocessor_Verilog/MicroP_for_legv8/TB_Sign_Extender_beh.prj work.TB_Sign_Extender work.glbl 
 ISim P.49d (signature 0x7708f090)
 Number of CPUs detected in this system: 4
 Turning on mult-threading, number of parallel sub-compilation jobs: 8 
 Determining compilation order of HDL files
-Analyzing Verilog file "C:/Users/tuf22191/Projects/Github_Repos/Building_Microprocessor_Verilog/MicroP_for_legv8/half_adder.v" into library work
-Analyzing Verilog file "C:/Users/tuf22191/Projects/Github_Repos/Building_Microprocessor_Verilog/MicroP_for_legv8/one_bit_full_adder.v" into library work
-Analyzing Verilog file "C:/Users/tuf22191/Projects/Github_Repos/Building_Microprocessor_Verilog/MicroP_for_legv8/Four_Bit_Adder.v" into library work
-Analyzing Verilog file "C:/Users/tuf22191/Projects/Github_Repos/Building_Microprocessor_Verilog/MicroP_for_legv8/Sixteen_Bit_Adder.v" into library work
-Analyzing Verilog file "C:/Users/tuf22191/Projects/Github_Repos/Building_Microprocessor_Verilog/MicroP_for_legv8/Sixty_Four_Bit_Adder.v" into library work
-Analyzing Verilog file "C:/Users/tuf22191/Projects/Github_Repos/Building_Microprocessor_Verilog/MicroP_for_legv8/Thirty_Two_Bit_Multiplier.v" into library work
-Analyzing Verilog file "C:/Users/tuf22191/Projects/Github_Repos/Building_Microprocessor_Verilog/MicroP_for_legv8/Thirty_Two_Bit_Divider.v" into library work
-Analyzing Verilog file "C:/Users/tuf22191/Projects/Github_Repos/Building_Microprocessor_Verilog/MicroP_for_legv8/Sixty_Four_Bit_Subtractor.v" into library work
-Analyzing Verilog file "C:/Users/tuf22191/Projects/Github_Repos/Building_Microprocessor_Verilog/MicroP_for_legv8/ALU.v" into library work
-Analyzing Verilog file "C:/Users/tuf22191/Projects/Github_Repos/Building_Microprocessor_Verilog/MicroP_for_legv8/TB_ALU.v" into library work
+Analyzing Verilog file "C:/Users/tuf22191/Projects/Github_Repos/Building_Microprocessor_Verilog/MicroP_for_legv8/Sixty_Four_Bit_Sign_Extender.v" into library work
+Analyzing Verilog file "C:/Users/tuf22191/Projects/Github_Repos/Building_Microprocessor_Verilog/MicroP_for_legv8/TB_Sign_Extender.v" into library work
 Analyzing Verilog file "C:/Xilinx/14.4/ISE_DS/ISE//verilog/src/glbl.v" into library work
 Starting static elaboration
-WARNING:HDLCompiler:329 - "C:/Users/tuf22191/Projects/Github_Repos/Building_Microprocessor_Verilog/MicroP_for_legv8/ALU.v" Line 41: Target <carry_out> of concurrent assignment or output port connection should be a net type.
-WARNING:HDLCompiler:329 - "C:/Users/tuf22191/Projects/Github_Repos/Building_Microprocessor_Verilog/MicroP_for_legv8/ALU.v" Line 42: Target <carry_out> of concurrent assignment or output port connection should be a net type.
-WARNING:HDLCompiler:189 - "C:/Users/tuf22191/Projects/Github_Repos/Building_Microprocessor_Verilog/MicroP_for_legv8/Sixty_Four_Bit_Subtractor.v" Line 40: Size mismatch in connection of port <c_in>. Formal port size is 1-bit while actual signal size is 32-bit.
-WARNING:HDLCompiler:189 - "C:/Users/tuf22191/Projects/Github_Repos/Building_Microprocessor_Verilog/MicroP_for_legv8/ALU.v" Line 42: Size mismatch in connection of port <c_in>. Formal port size is 1-bit while actual signal size is 32-bit.
 Completed static elaboration
-Compiling module half_adder
-Compiling module one_bit_full_adder
-Compiling module Four_Bit_Adder
-Compiling module Sixteen_Bit_Adder
-Compiling module Sixty_Four_Bit_Adder
-Compiling module Sixty_Four_Bit_Subtractor
-Compiling module Thirty_Two_Bit_Multiplier
-Compiling module Thirty_Two_Bit_Divider
-Compiling module ALU
-Compiling module TB_ALU
+Compiling module Sixty_Four_Bit_Sign_Extender
+Compiling module TB_Sign_Extender
 Compiling module glbl
 Time Resolution for simulation is 1ps.
-Waiting for 4 sub-compilation(s) to finish...
-Compiled 11 Verilog Units
-Built simulation executable C:/Users/tuf22191/Projects/Github_Repos/Building_Microprocessor_Verilog/MicroP_for_legv8/TB_ALU_isim_beh.exe
-Fuse Memory Usage: 28252 KB
-Fuse CPU Usage: 577 ms
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 3 Verilog Units
+Built simulation executable C:/Users/tuf22191/Projects/Github_Repos/Building_Microprocessor_Verilog/MicroP_for_legv8/TB_Sign_Extender_isim_beh.exe
+Fuse Memory Usage: 27792 KB
+Fuse CPU Usage: 421 ms
