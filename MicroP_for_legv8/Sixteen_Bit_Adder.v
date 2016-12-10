@@ -24,7 +24,7 @@ module Sixteen_Bit_Adder(
     input [15:0] a,
     input [15:0] b,
     input c_in
-    );
+    ); 
 
 wire c_1to2, c_2to3, c_0to1;
 

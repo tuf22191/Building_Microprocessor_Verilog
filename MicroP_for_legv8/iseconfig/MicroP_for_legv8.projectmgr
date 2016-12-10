@@ -7,6 +7,17 @@
    <ItemView engineview="SynthesisOnly" guiview="Source" compilemode="AutoCompile" >
       <ClosedNodes>
          <ClosedNodesVersion>2</ClosedNodesVersion>
+         <ClosedNode>/ALU C:|Users|tuf22191|Projects|Github_Repos|Building_Microprocessor_Verilog|MicroP_for_legv8|ALU.v/adder - Sixteen_Bit_Adder</ClosedNode>
+         <ClosedNode>/ALU C:|Users|tuf22191|Projects|Github_Repos|Building_Microprocessor_Verilog|MicroP_for_legv8|ALU.v/subtractor - Sixty_Four_Bit_Subtractor/sub - Sixty_Four_Bit_Adder/a1 - Sixteen_Bit_Adder/a1 - Four_Bit_Adder/a2 - one_bit_full_adder</ClosedNode>
+         <ClosedNode>/ALU C:|Users|tuf22191|Projects|Github_Repos|Building_Microprocessor_Verilog|MicroP_for_legv8|ALU.v/subtractor - Sixty_Four_Bit_Subtractor/sub - Sixty_Four_Bit_Adder/a1 - Sixteen_Bit_Adder/a1 - Four_Bit_Adder/a3 - one_bit_full_adder</ClosedNode>
+         <ClosedNode>/ALU C:|Users|tuf22191|Projects|Github_Repos|Building_Microprocessor_Verilog|MicroP_for_legv8|ALU.v/subtractor - Sixty_Four_Bit_Subtractor/sub - Sixty_Four_Bit_Adder/a1 - Sixteen_Bit_Adder/a1 - Four_Bit_Adder/a4 - one_bit_full_adder</ClosedNode>
+         <ClosedNode>/ALU C:|Users|tuf22191|Projects|Github_Repos|Building_Microprocessor_Verilog|MicroP_for_legv8|ALU.v/subtractor - Sixty_Four_Bit_Subtractor/sub - Sixty_Four_Bit_Adder/a1 - Sixteen_Bit_Adder/a2 - Four_Bit_Adder</ClosedNode>
+         <ClosedNode>/ALU C:|Users|tuf22191|Projects|Github_Repos|Building_Microprocessor_Verilog|MicroP_for_legv8|ALU.v/subtractor - Sixty_Four_Bit_Subtractor/sub - Sixty_Four_Bit_Adder/a1 - Sixteen_Bit_Adder/a3 - Four_Bit_Adder</ClosedNode>
+         <ClosedNode>/ALU C:|Users|tuf22191|Projects|Github_Repos|Building_Microprocessor_Verilog|MicroP_for_legv8|ALU.v/subtractor - Sixty_Four_Bit_Subtractor/sub - Sixty_Four_Bit_Adder/a1 - Sixteen_Bit_Adder/a4 - Four_Bit_Adder</ClosedNode>
+         <ClosedNode>/ALU C:|Users|tuf22191|Projects|Github_Repos|Building_Microprocessor_Verilog|MicroP_for_legv8|ALU.v/subtractor - Sixty_Four_Bit_Subtractor/sub - Sixty_Four_Bit_Adder/a2 - Sixteen_Bit_Adder</ClosedNode>
+         <ClosedNode>/ALU C:|Users|tuf22191|Projects|Github_Repos|Building_Microprocessor_Verilog|MicroP_for_legv8|ALU.v/subtractor - Sixty_Four_Bit_Subtractor/sub - Sixty_Four_Bit_Adder/a3 - Sixteen_Bit_Adder</ClosedNode>
+         <ClosedNode>/ALU C:|Users|tuf22191|Projects|Github_Repos|Building_Microprocessor_Verilog|MicroP_for_legv8|ALU.v/subtractor - Sixty_Four_Bit_Subtractor/sub - Sixty_Four_Bit_Adder/a4 - Sixteen_Bit_Adder</ClosedNode>
+         <ClosedNode>/Adder1_32bit_adder C:|Users|tuf22191|Projects|Github_Repos|Building_Microprocessor_Verilog|MicroP_for_legv8|Adder1_32bit_adder.v</ClosedNode>
          <ClosedNode>/Adder1_32bit_adder C:|Users|tuf22191|Projects|Github_Repos|Building_Microprocessor_Verilog|MicroP_for_legv8|Adder1_32bit_adder.v/adder - Adder2_32bit_adder/a1 - Sixteen_Bit_Adder/a1 - Four_Bit_Adder/a2 - one_bit_full_adder</ClosedNode>
          <ClosedNode>/Adder1_32bit_adder C:|Users|tuf22191|Projects|Github_Repos|Building_Microprocessor_Verilog|MicroP_for_legv8|Adder1_32bit_adder.v/adder - Adder2_32bit_adder/a1 - Sixteen_Bit_Adder/a1 - Four_Bit_Adder/a3 - one_bit_full_adder</ClosedNode>
          <ClosedNode>/Adder1_32bit_adder C:|Users|tuf22191|Projects|Github_Repos|Building_Microprocessor_Verilog|MicroP_for_legv8|Adder1_32bit_adder.v/adder - Adder2_32bit_adder/a1 - Sixteen_Bit_Adder/a1 - Four_Bit_Adder/a4 - one_bit_full_adder</ClosedNode>
@@ -28,13 +39,13 @@
          <ClosedNode>/Sixty_Four_Bit_Subtractor C:|Users|tuf22191|Projects|Github_Repos|Building_Microprocessor_Verilog|MicroP_for_legv8|Sixty_Four_Bit_Subtractor.v/sub - Sixty_Four_Bit_Adder/a4 - Sixteen_Bit_Adder</ClosedNode>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem>Adder1_32bit_adder (C:/Users/tuf22191/Projects/Github_Repos/Building_Microprocessor_Verilog/MicroP_for_legv8/Adder1_32bit_adder.v)</SelectedItem>
+         <SelectedItem>ALU (C:/Users/tuf22191/Projects/Github_Repos/Building_Microprocessor_Verilog/MicroP_for_legv8/ALU.v)</SelectedItem>
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
       <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000202000000010000000100000064000001d4000000020000000000000000000000000200000064ffffffff000000810000000300000002000001d40000000100000003000000000000000100000003</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
-      <CurrentItem>Adder1_32bit_adder (C:/Users/tuf22191/Projects/Github_Repos/Building_Microprocessor_Verilog/MicroP_for_legv8/Adder1_32bit_adder.v)</CurrentItem>
+      <CurrentItem>ALU (C:/Users/tuf22191/Projects/Github_Repos/Building_Microprocessor_Verilog/MicroP_for_legv8/ALU.v)</CurrentItem>
    </ItemView>
    <ItemView engineview="SynthesisOnly" sourcetype="" guiview="Process" >
       <ClosedNodes>
@@ -46,7 +57,7 @@
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000c9000000010000000100000000000000000000000064ffffffff000000810000000000000001000000c90000000100000000</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000163000000010000000100000000000000000000000064ffffffff000000810000000000000001000001630000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
       <CurrentItem></CurrentItem>
    </ItemView>
@@ -86,7 +97,7 @@
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000c9000000010000000100000000000000000000000064ffffffff000000810000000000000001000000c90000000100000000</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000163000000010000000100000000000000000000000064ffffffff000000810000000000000001000001630000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
       <CurrentItem></CurrentItem>
    </ItemView>
@@ -103,6 +114,9 @@
          <ClosedNode>/TB_32bit_Multiplier C:|Users|tuf22191|Projects|Github_Repos|Building_Microprocessor_Verilog|MicroP_for_legv8|TB_32bit_Multiplier.v</ClosedNode>
          <ClosedNode>/TB_64Bi_Subtractor C:|Users|tuf22191|Projects|Github_Repos|Building_Microprocessor_Verilog|MicroP_for_legv8|TB_64Bi_Subtractor.v</ClosedNode>
          <ClosedNode>/TB_64Bi_Subtractor C:|Users|tuf22191|Projects|Github_Repos|Building_Microprocessor_Verilog|MicroP_for_legv8|TB_64Bi_Subtractor.v/uut - Sixty_Four_Bit_Subtractor/sub - Sixty_Four_Bit_Adder</ClosedNode>
+         <ClosedNode>/TB_64bit_RegisterFile C:|Users|tuf22191|Projects|Github_Repos|Building_Microprocessor_Verilog|MicroP_for_legv8|TB_64bit_RegisterFile.v</ClosedNode>
+         <ClosedNode>/TB_ALU C:|Users|tuf22191|Projects|Github_Repos|Building_Microprocessor_Verilog|MicroP_for_legv8|TB_ALU.v/uut - ALU/adder - Sixteen_Bit_Adder</ClosedNode>
+         <ClosedNode>/TB_ALU C:|Users|tuf22191|Projects|Github_Repos|Building_Microprocessor_Verilog|MicroP_for_legv8|TB_ALU.v/uut - ALU/subtractor - Sixty_Four_Bit_Subtractor</ClosedNode>
          <ClosedNode>/TB_Adder1_32bits C:|Users|tuf22191|Projects|Github_Repos|Building_Microprocessor_Verilog|MicroP_for_legv8|TB_Adder1_32bits.v</ClosedNode>
          <ClosedNode>/TB_Adder2_32bits C:|Users|tuf22191|Projects|Github_Repos|Building_Microprocessor_Verilog|MicroP_for_legv8|TB_Adder2_32bits.v</ClosedNode>
          <ClosedNode>/TB_Data_Memory C:|Users|tuf22191|Projects|Github_Repos|Building_Microprocessor_Verilog|MicroP_for_legv8|TB_Data_Memory.v</ClosedNode>
@@ -110,13 +124,13 @@
          <ClosedNode>/TB_Mux2 C:|Users|tuf22191|Projects|Github_Repos|Building_Microprocessor_Verilog|MicroP_for_legv8|TB_Mux2.v</ClosedNode>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem>TB_Adder1_32bits (C:/Users/tuf22191/Projects/Github_Repos/Building_Microprocessor_Verilog/MicroP_for_legv8/TB_Adder1_32bits.v)</SelectedItem>
+         <SelectedItem>TB_ALU (C:/Users/tuf22191/Projects/Github_Repos/Building_Microprocessor_Verilog/MicroP_for_legv8/TB_ALU.v)</SelectedItem>
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000020200000001000000010000006400000158000000020000000000000000000000000200000064ffffffff000000810000000300000002000001580000000100000003000000000000000100000003</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000202000000010000000100000064000001ca000000020000000000000000000000000200000064ffffffff000000810000000300000002000001ca0000000100000003000000000000000100000003</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
-      <CurrentItem>TB_Adder1_32bits (C:/Users/tuf22191/Projects/Github_Repos/Building_Microprocessor_Verilog/MicroP_for_legv8/TB_Adder1_32bits.v)</CurrentItem>
+      <CurrentItem>TB_ALU (C:/Users/tuf22191/Projects/Github_Repos/Building_Microprocessor_Verilog/MicroP_for_legv8/TB_ALU.v)</CurrentItem>
    </ItemView>
    <ItemView engineview="BehavioralSim" sourcetype="" guiview="Process" >
       <ClosedNodes>
@@ -124,26 +138,26 @@
          <ClosedNode>Design Utilities</ClosedNode>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem></SelectedItem>
+         <SelectedItem/>
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000c9000000010000000100000000000000000000000064ffffffff000000810000000000000001000000c90000000100000000</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000e2000000010000000100000000000000000000000064ffffffff000000810000000000000001000000e20000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
-      <CurrentItem></CurrentItem>
+      <CurrentItem/>
    </ItemView>
    <ItemView engineview="BehavioralSim" sourcetype="DESUT_VERILOG" guiview="Process" >
       <ClosedNodes>
          <ClosedNodesVersion>1</ClosedNodesVersion>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem>Simulate Behavioral Model</SelectedItem>
+         <SelectedItem></SelectedItem>
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000c9000000010000000100000000000000000000000064ffffffff000000810000000000000001000000c90000000100000000</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000163000000010000000100000000000000000000000064ffffffff000000810000000000000001000001630000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
-      <CurrentItem>Simulate Behavioral Model</CurrentItem>
+      <CurrentItem></CurrentItem>
    </ItemView>
    <ItemView engineview="SynthesisOnly" sourcetype="DESUT_VHDL_ARCHITECTURE" guiview="Process" >
       <ClosedNodes>
