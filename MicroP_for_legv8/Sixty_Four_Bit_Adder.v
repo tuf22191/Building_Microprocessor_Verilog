@@ -18,7 +18,8 @@
 // Additional Comments: 
 //
 //////////////////////////////////////////////////////////////////////////////////
-module Sixty_Four_Bit_Adder(output [63:0] sum,
+module Sixty_Four_Bit_Adder(
+    output [63:0] sum,
     output c_out,
     input [63:0] a,
     input [63:0] b,

@@ -46,7 +46,7 @@ module TB_ALU;
 
    
    always begin
-	clk=1;
+	clk=1; 
 	#10;
 	clk=0;
 	#10;	
@@ -67,16 +67,22 @@ module TB_ALU;
 		alu_operation = 0;
 
 		// Wait 100 ns for global reset to finish
-		#100;
+		#200;
 		$display("hello");
        // result =0;
+		 //@ (posedge clk)
+		 //@ (posedge clk)
+		 @ (posedge clk)
+		 @ (posedge clk)
+
+
 		a_in = 5;
 		b_in =6;
-		alu_operation = 0;
+		alu_operation = 3'b010;
 		@ (posedge clk)
-		//if(result ==  64'b0000000000000000000000000000000000000000000000000000000000001011)begin 
-		//$display("Add working+++++++");
-		//end
+	   if(result ==  a_in+b_in)begin 
+		$display("Add working+++++++"); 
+		end
 		  
 		  
 		a_in = 8;
@@ -87,8 +93,22 @@ module TB_ALU;
 		$display("Multiply working *******");
 		end
 		    
+		a_in = 10;
+		b_in =7;
+		alu_operation = 3'b001;
+		@ (posedge clk)
+		if(result == 3)begin 
+		$display("Subtract working *******");
+		end
+		    
 		  
-		  
+		a_in =40;
+		b_in =8;
+		alu_operation = 3'b011;
+		@ (posedge clk)
+		if(result == 5)begin 
+		$display("Divide working *******");
+		end
 		// Add stimulus here
 
 	end

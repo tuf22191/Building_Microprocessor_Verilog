@@ -88,7 +88,7 @@ module TB_64Bi_Subtractor;
 		 @(negedge clk)
 		 //@(negedge clk)
 		 if({32'b00000000000000000000000000000000,diff}!= difference) begin
-		 $display("Sub1 is wrong");
+		 $display("Sub2 is wrong");
 		 end
  		 
 		 a = 10;
@@ -99,7 +99,7 @@ module TB_64Bi_Subtractor;
 		 @(negedge clk)
 		 //@(negedge clk)
 		 if({32'b11111111111111111111111111111111,diff}!= difference) begin
-		 $display("Sub1 is wrong");
+		 $display("Sub2 is wrong");
 		 end
 		// Add stimulus here
 

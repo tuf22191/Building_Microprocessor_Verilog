@@ -26,7 +26,7 @@ module Sixty_Four_Bit_Subtractor(
 	 output [63:0] difference
     );
 
-   reg to_1 = 1;
+   //reg to_1 = 1;
 	//Adder information 
 	//output [63:0] sum,
     //output c_out,
@@ -37,6 +37,6 @@ module Sixty_Four_Bit_Subtractor(
 	 //one_complement  <= ~b_in;
 	 //end
  
-	Sixty_Four_Bit_Adder sub (.sum(difference), .c_out(carry_out), .a(a_in), .b(~b_in), .c_in(to_1));;
+	Sixty_Four_Bit_Adder sub (.sum(difference), .c_out(carry_out), .a(a_in), .b(~b_in), .c_in(1));;
 
 endmodule

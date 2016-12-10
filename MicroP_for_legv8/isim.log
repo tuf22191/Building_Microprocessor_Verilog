@@ -5,6 +5,7 @@ WARNING: A WEBPACK license was found.
 WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
 WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
 This is a Lite version of ISim.
+WARNING:  For instance subtractor/sub/, width 1 of formal port c_in is not equal to width 32 of actual constant.
 WARNING:  For instance uut/adder/, width 1 of formal port c_in is not equal to width 32 of actual constant.
 Time resolution is 1 ps
 # onerror resume
@@ -14,6 +15,7 @@ Simulator is doing circuit initialization process.
 Simulation Starting : ***********
 Finished circuit initialization process.
 hello
-# run all
-Simulation Ended : Success ******
-Stopped at time : 110 us : File "C:/Users/tuf22191/Projects/Github_Repos/Building_Microprocessor_Verilog/MicroP_for_legv8/TB_ALU.v" Line 59
+Add working+++++++
+Multiply working *******
+Subtract working *******
+Divide working *******

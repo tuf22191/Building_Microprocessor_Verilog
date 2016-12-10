@@ -45,32 +45,39 @@ module ALU(
 	  
 
 	 
-	 always @(*)begin             // so if a is  reg and b is a reg as well we cannot do a = b; or assign a = b;. b must be a wire. 
+	 always @(alu_operation)begin             // so if a is  reg and b is a reg as well we cannot do a = b; or assign a = b;. b must be a wire. 
 	   //initialize before, other
 		//result <= 0; 
-	//	result =0;
-			     
-		if(alu_operation == 3'b000)begin//+
-		     result = add_output;
-		end
-		else if(alu_operation == 3'b001)begin
-			 result = sub_output;
-		end
-		else if(alu_operation == 3'b100)begin
-			  result = multiply_output;
-		end
-		else if(alu_operation == 3'b011)begin
-		    result = divide_output;
-		end
-		else begin
-		   assign result=64'b0000000000000000000000000000000000000000000000000000000000000000;
-		end
+	//	result =0; 
+	   case(alu_operation) 
+		
+		  3'b010: result = a_in+b_in;//add_output;
+		  3'b001: result = a_in-b_in;//sub_output;
+		  3'b100: result = multiply_output;
+	  	  3'b011: result = divide_output;
+		  default: result=64'b0000000000000000000000000000000000000000000000000000000000000000;
+		endcase
+//		if(alu_operation == 3'b000)begin//+
+//		     result = add_output;
+//		end
+//		else if(alu_operation == 3'b001)begin
+//			 result = sub_output;
+//		end
+//		else if(alu_operation == 3'b100)begin
+//			  result = multiply_output;
+//		end
+//		else if(alu_operation == 3'b011)begin
+//		    result = divide_output;
+//		end
+//		else begin
+//		   assign result=64'b0000000000000000000000000000000000000000000000000000000000000000;
+//		end
 		
       if(result ==0)begin 
-		   zero <=1;
+		   zero =1;
 		end
 	   else begin
-		   zero <=0;
+		   zero =0;
 		end
 		
 		
