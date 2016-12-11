@@ -19,8 +19,8 @@
 //
 //////////////////////////////////////////////////////////////////////////////////
 module Thirty_Two_Bit_Program_Counter(
-    input [7:0] address_counter,
-    output reg [7:0] address,
+    input [31:0] address_counter,
+    output reg [31:0] address,
 	 input reset,
     input clk
     );

@@ -1,5 +1,5 @@
 ISim log file
-Running: C:\Users\tuf22191\Projects\Github_Repos\Building_Microprocessor_Verilog\MicroP_for_legv8\TB_Sign_Extender_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb C:/Users/tuf22191/Projects/Github_Repos/Building_Microprocessor_Verilog/MicroP_for_legv8/TB_Sign_Extender_isim_beh.wdb 
+Running: C:\Users\tuf22191\Projects\Github_Repos\Building_Microprocessor_Verilog\MicroP_for_legv8\TB_Controller_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb C:/Users/tuf22191/Projects/Github_Repos/Building_Microprocessor_Verilog/MicroP_for_legv8/TB_Controller_isim_beh.wdb 
 ISim P.49d (signature 0x7708f090)
 WARNING: A WEBPACK license was found.
 WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
@@ -11,3 +11,9 @@ Time resolution is 1 ps
 # run 1000 ns
 Simulator is doing circuit initialization process.
 Finished circuit initialization process.
+default case is working
+default case is working
+addition is working is working
+subtraction is working is working
+multiply is working is working
+division is working is working
