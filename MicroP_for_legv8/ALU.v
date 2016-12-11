@@ -45,7 +45,7 @@ module ALU(
 	  
 
 	 
-	 always @(alu_operation)begin             // so if a is  reg and b is a reg as well we cannot do a = b; or assign a = b;. b must be a wire. 
+	 always @(alu_operation, a_in, b_in)begin             // so if a is  reg and b is a reg as well we cannot do a = b; or assign a = b;. b must be a wire. 
 	   //initialize before, other
 		//result <= 0; 
 	//	result =0; 
@@ -55,6 +55,7 @@ module ALU(
 		  3'b001: result = a_in-b_in;//sub_output;
 		  3'b100: result = multiply_output;
 	  	  3'b011: result = divide_output;
+		  3'b101: result = a_in;//effectively adding 0 to first register
 		  default: result=64'b0000000000000000000000000000000000000000000000000000000000000000;
 		endcase
 //		if(alu_operation == 3'b000)begin//+

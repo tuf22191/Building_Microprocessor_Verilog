@@ -47,7 +47,7 @@ module TB_Controller;
 		.mux3(mux3), 
 		.alu_op(alu_op)
 	);
-   integer sum;
+   //integer sum;
 	initial begin
 		// Initialize Inputs
 		instruction = 0;
@@ -91,7 +91,12 @@ module TB_Controller;
 			$display("division is working is working");
 		end	
 		    
-		  
+			 
+		instruction = 32'b1010101010;
+		#10;
+      if(mux3==0 && reg_write_rf==1 && alu_op ==3'b010)begin
+			$display("load immediate is working is working");
+		end	
 		  
 		  
 		  
