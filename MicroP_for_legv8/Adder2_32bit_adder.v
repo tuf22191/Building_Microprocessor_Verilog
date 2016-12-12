@@ -25,11 +25,11 @@ module Adder2_32bit_adder(
     );
 
 
-reg c_in = 0;
+//reg c_in = 0;
 wire c_1to2, c_0to1;
 
 
-Sixteen_Bit_Adder a1 (.c_in(c_in), .a(a_in[15:0]), .b(b_in[15:0]), .sum(sum[15:0]), .c_out(c_0to1));
+Sixteen_Bit_Adder a1 (.c_in(1'b0), .a(a_in[15:0]), .b(b_in[15:0]), .sum(sum[15:0]), .c_out(c_0to1));
 Sixteen_Bit_Adder a2 (.c_in(c_0to1), .a(a_in[31:16]), .b(b_in[31:16]), .sum(sum[31:16]), .c_out(c_1to2));
 
 

@@ -29,7 +29,7 @@ module Thirty_Two_Bit_Program_Counter(
 	      address = 0 ;
 	  end
      
-     always @(*)begin  //you can change it to be on the clock
+     always @(posedge clk)begin  //you can change it to be on the clock
 			if(reset)begin
 				address <= 0;
 			end

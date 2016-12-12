@@ -25,6 +25,6 @@ module Adder1_32bit_adder(
 
      //reg [31:0] a_in = 4;
 
-     Adder2_32bit_adder adder (.a_in(32'b00000000000000000000000000000100), .b_in(b_in), .sum(sum));
+     Adder2_32bit_adder adder (.a_in(32'b00000000000000000000000000000001), .b_in(b_in), .sum(sum));
 
 endmodule

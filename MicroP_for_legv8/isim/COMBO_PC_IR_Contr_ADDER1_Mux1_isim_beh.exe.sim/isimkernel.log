@@ -1,0 +1,29 @@
+Command line:
+   COMBO_PC_IR_Contr_ADDER1_Mux1_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  49510
+
+Sun Dec 11 14:32:41 2016
+
+
+ Elaboration Time: 0.03125 sec
+
+ Current Memory Usage: 840.438 Meg
+
+ Total Signals          : 1231
+ Total Nets             : 476
+ Total Signal Drivers   : 342
+ Total Blocks           : 221
+ Total Primitive Blocks : 133
+ Total Processes        : 351
+ Total Traceable Variables  : 31
+ Total Scalar Nets and Variables : 8855
+Total Line Count : 117
+
+ Total Simulation Time: 0.03125 sec
+
+ Current Memory Usage: 683.151 Meg
+
+Sun Dec 11 14:34:45 2016
+

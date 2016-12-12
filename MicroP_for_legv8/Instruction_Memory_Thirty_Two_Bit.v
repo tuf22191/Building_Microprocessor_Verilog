@@ -32,8 +32,8 @@ module Instruction_Memory_Thirty_Two_Bit(
 	 initial begin   //probably do not need this
 		//instruction <= 0; //non blocking part
 		
-		THE_MEMORY[0]= 10;//0; //initialize  it
-		THE_MEMORY[1]= 9;
+		THE_MEMORY[0]= 0;//0; //initialize  it
+		THE_MEMORY[1]= 32'b10101010100000000000000000000000;
 		THE_MEMORY[2]= 8;
 		THE_MEMORY[3]= 7;
 		THE_MEMORY[4]= 6;

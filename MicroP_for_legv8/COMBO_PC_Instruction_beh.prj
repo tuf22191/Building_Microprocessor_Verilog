@@ -1,0 +1,5 @@
+verilog work "Thirty_Two_Bit_Program_Counter.v"
+verilog work "Instruction_Memory_Thirty_Two_Bit.v"
+verilog work "Controller.v"
+verilog work "COMBO_PC_Instruction.v"
+verilog work "C:/Xilinx/14.4/ISE_DS/ISE//verilog/src/glbl.v"

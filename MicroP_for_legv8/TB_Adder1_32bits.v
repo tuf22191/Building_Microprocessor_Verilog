@@ -45,7 +45,7 @@ module TB_Adder1_32bits;
 		  for(i=0;i<122423;i=i+1)begin
 		   b_in = i;
 			#20;
-			if(sum!= i+4)begin
+			if(sum!= i+1)begin
 			$display("adder1 not working: sum is %d and b_in was %d", sum, b_in);
 			end//if
 		  
