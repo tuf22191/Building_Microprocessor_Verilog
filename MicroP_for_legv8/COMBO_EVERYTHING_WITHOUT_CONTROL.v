@@ -37,18 +37,18 @@ module COMBO_EVERYTHING_WITHOUT_CONTROL;
 	
 	// Instantiate the Unit Under Test (UUT)
 	Thirty_Two_Bit_Program_Counter uut (
-		.address_counter(data_out), 
-		.address(address1), 
-		.reset(reset),  
-		.clk(clk)
+		.address_counter(data_out), //done
+		.address(address1), //done
+		.reset(reset),  //done
+		.clk(clk)//done
 	);
    ////////////////////////////////////////INSTRUCTION MEMORY
 
 	// Instantiate the Unit Under Test (UUT)
 	Instruction_Memory_Thirty_Two_Bit uut2 (
-		.instruction(instruction), 
-		.address(address1),
-		.clk(clk)
+		.instruction(instruction), //done
+		.address(address1), //done
+		.clk(clk) //done
 	);
 	///////////////////////////////////////CONTROLLER
 	wire mem_write_dm;
@@ -61,14 +61,14 @@ module COMBO_EVERYTHING_WITHOUT_CONTROL;
 
 	// Instantiate the Unit Under Test (UUT)
 	Controller uut3 (
-		.opcode(instruction[31:22]), 
-		.mem_write_dm(mem_write_dm), 
-		.mem_read_dm(mem_read_dm), 
-		.branch(branch), 
-		.reg_write_rf(reg_write_rf), 
-		.mux2(mux2), 
-		.mux3(mux3), 
-		.alu_op(alu_op)
+		.opcode(instruction[31:22]), //done
+		.mem_write_dm(mem_write_dm), //done
+		.mem_read_dm(mem_read_dm), //done
+		.branch(branch),  //done
+		.reg_write_rf(reg_write_rf), //done
+		.mux2(mux2), //done
+		.mux3(mux3), //done
+		.alu_op(alu_op)//done
 	);
 	
 	//////////////////////////////////////// Adder1
@@ -78,8 +78,8 @@ module COMBO_EVERYTHING_WITHOUT_CONTROL;
 
 	// Instantiate the Unit Under Test (UUT)
 	Adder1_32bit_adder uut4 (
-		.b_in(address1), 
-		.sum(sum)
+		.b_in(address1), //done
+		.sum(sum) //done
 	);
 	
 	////////////////////////////////////////Mux1
@@ -87,15 +87,15 @@ module COMBO_EVERYTHING_WITHOUT_CONTROL;
 	//reg [31:0] adder_1;
 	//reg [31:0] adder_2;
 	//reg mux_1_control;
-
+    wire mux1;
 	// Outputs
 
 	// Instantiate the Unit Under Test (UUT)
-	Mux1 uut5 (
+	Mux1 uut5 (          //CHECK THE mux1 definition
 		.adder_1(sum),//adder1 really is adder1 from outisde 
-		.adder_2(sum2), 
-		.mux_1_control(1'b0), //UPDATE
-		.data_out(data_out)
+		.adder_2(sum2), //done
+		.mux_1_control(mux1), //done
+		.data_out(data_out) //done
 	);
 	
 	////////////////////////////////////////Adder2
@@ -223,6 +223,10 @@ module COMBO_EVERYTHING_WITHOUT_CONTROL;
 	);
 	
 	////////////////////////////////////////////////Branching AND gate
+	
+	and uut ( mux1, zero, branch); //done
+	
+	
 	
    always begin
 	clk =1;#10;
