@@ -24,7 +24,7 @@ module Instruction_Memory_Thirty_Two_Bit(
 	 input clk
     );
 
-	 reg [31:0] THE_MEMORY [0:255];//8 bits long the memory
+	 reg [31:0] THE_MEMORY [0:63];//8 bits long the memory
 	 
 	 
 	 integer i;
@@ -43,6 +43,9 @@ module Instruction_Memory_Thirty_Two_Bit(
  		THE_MEMORY[8]={10'b1010101010,5'b00111,7'b0000000 ,5'b00110,5'b00110};
  		THE_MEMORY[9]={10'b0000011111,5'b00110,7'b0000000 ,5'b00101,5'b00110};
  		THE_MEMORY[10]={10'b1111011000,5'b00000,7'b0000111 ,5'b00110,5'b00000};
+		for(i=11;i<64;i=i+1)begin
+		THE_MEMORY[i] = 0;
+		end
 		//put the data here
 	 end
 	 

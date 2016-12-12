@@ -46,7 +46,7 @@ module TB_64bit_RegisterFile;
 
 	always begin
 	$display("Simulation Starting : ***********");
-	#110000;
+	#1100;
 	$display("Simulation Ended : Success ******");
 	$finish;
 	end

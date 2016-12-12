@@ -19,7 +19,7 @@
 //
 //////////////////////////////////////////////////////////////////////////////////
 module Sixty_Four_Bit_Sign_Extender(
-	input signed [4:0] in,
+	input signed [6:0] in,
 	output signed [63:0] out
     ); 
  assign out =in;

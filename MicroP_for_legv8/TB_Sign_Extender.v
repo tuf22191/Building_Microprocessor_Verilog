@@ -25,7 +25,7 @@
 module TB_Sign_Extender;
 
 	// Inputs
-	reg [4:0] in;
+	reg [6:0] in;
 
 	// Outputs
 	wire [63:0] out;
@@ -44,20 +44,20 @@ module TB_Sign_Extender;
 		#100;
       
 		
-		in = 5'b11111;
+		in = 7'b1111111;
 		#100;
 		if(out != 64'b1111111111111111111111111111111111111111111111111111111111111111)begin
 		$display("Negative Sign Extension not working");
 		end
 		
 		
-		in = 5'b00000;
+		in = 7'b0000000;
 		#100;
 		if(out != 64'b0000000000000000000000000000000000000000000000000000000000000000)begin
 		$display("Zero Sign Extension not working");
 		end
 		
-		in = 5'b10100;
+		in = 7'b1110100;
 		#100;
 		if(out != 64'b1111111111111111111111111111111111111111111111111111111111110100)begin
 		$display("Positive Sign Extension not working");

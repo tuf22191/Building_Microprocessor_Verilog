@@ -82,6 +82,7 @@ module TB_Data_Memory;
 		  for(i=0;i<256;i=i+1)begin
 		     address_of_data = i;
 		     @(negedge clk);
+			  @(negedge clk);
 			  if(data_read_out!=i)begin
 		      $display("i value initialization not working");
 		     end

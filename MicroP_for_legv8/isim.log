@@ -1,5 +1,5 @@
 ISim log file
-Running: C:\Users\tuf22191\Projects\Github_Repos\Building_Microprocessor_Verilog\MicroP_for_legv8\COMBO_PC_InstructionReg_Controller_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb C:/Users/tuf22191/Projects/Github_Repos/Building_Microprocessor_Verilog/MicroP_for_legv8/COMBO_PC_InstructionReg_Controller_isim_beh.wdb 
+Running: C:\Users\tuf22191\Projects\Github_Repos\Building_Microprocessor_Verilog\MicroP_for_legv8\TB_Sign_Extender_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb C:/Users/tuf22191/Projects/Github_Repos/Building_Microprocessor_Verilog/MicroP_for_legv8/TB_Sign_Extender_isim_beh.wdb 
 ISim P.49d (signature 0x7708f090)
 WARNING: A WEBPACK license was found.
 WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
@@ -11,13 +11,3 @@ Time resolution is 1 ps
 # run 1000 ns
 Simulator is doing circuit initialization process.
 Finished circuit initialization process.
-100 = clock ,          1 = address_counter ,          0 = address1,          0 =instruction 
-120 = clock ,          2 = address_counter ,          1 = address1,          0 =instruction 
-140 = clock ,          3 = address_counter ,          2 = address1, 2860527618 =instruction 
-160 = clock ,          4 = address_counter ,          3 = address1, 2860525571 =instruction 
-180 = clock ,          5 = address_counter ,          4 = address1, 2860520452 =instruction 
-200 = clock ,          6 = address_counter ,          5 = address1, 2860517381 =instruction 
-220 = clock ,          7 = address_counter ,          6 = address1, 3406037094 =instruction 
-240 = clock ,          8 = address_counter ,          7 = address1, 4028104838 =instruction 
-260 = clock ,          8 = address_counter ,          8 = address1, 3406299303 =instruction 
-280 = clock ,          8 = address_counter ,          8 = address1, 2861433030 =instruction 
