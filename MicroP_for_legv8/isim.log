@@ -1,5 +1,5 @@
 ISim log file
-Running: C:\Users\tuf22191\Projects\Github_Repos\Building_Microprocessor_Verilog\MicroP_for_legv8\COMBO_PC_IR_Contr_ADDER1_Mux1_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb C:/Users/tuf22191/Projects/Github_Repos/Building_Microprocessor_Verilog/MicroP_for_legv8/COMBO_PC_IR_Contr_ADDER1_Mux1_isim_beh.wdb 
+Running: C:\Users\tuf22191\Projects\Github_Repos\Building_Microprocessor_Verilog\MicroP_for_legv8\COMBO_PC_InstructionReg_Controller_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb C:/Users/tuf22191/Projects/Github_Repos/Building_Microprocessor_Verilog/MicroP_for_legv8/COMBO_PC_InstructionReg_Controller_isim_beh.wdb 
 ISim P.49d (signature 0x7708f090)
 WARNING: A WEBPACK license was found.
 WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
@@ -11,52 +11,13 @@ Time resolution is 1 ps
 # run 1000 ns
 Simulator is doing circuit initialization process.
 Finished circuit initialization process.
-100 = clock ,          1 = address_counter ,          0 = address1,          x =instruction 
-120 = clock ,          1 = address_counter ,          0 = address1,          0 =instruction 
-200 = clock ,          2 = address_counter ,          1 = address1,          0 =instruction 
-220 = clock ,          3 = address_counter ,          2 = address1, 2860515328 =instruction 
-240 = clock ,          4 = address_counter ,          3 = address1,          8 =instruction 
-260 = clock ,          5 = address_counter ,          4 = address1,          7 =instruction 
-280 = clock ,          6 = address_counter ,          5 = address1,          6 =instruction 
-300 = clock ,          7 = address_counter ,          6 = address1,          5 =instruction 
-320 = clock ,          8 = address_counter ,          7 = address1,          4 =instruction 
-340 = clock ,          9 = address_counter ,          8 = address1,          3 =instruction 
-360 = clock ,         10 = address_counter ,          9 = address1,          2 =instruction 
-380 = clock ,         11 = address_counter ,         10 = address1,          1 =instruction 
-400 = clock ,         12 = address_counter ,         11 = address1,          x =instruction 
-420 = clock ,         13 = address_counter ,         12 = address1,          x =instruction 
-440 = clock ,         14 = address_counter ,         13 = address1,          x =instruction 
-460 = clock ,         15 = address_counter ,         14 = address1,          x =instruction 
-480 = clock ,         16 = address_counter ,         15 = address1,          x =instruction 
-500 = clock ,         17 = address_counter ,         16 = address1,          x =instruction 
-520 = clock ,         18 = address_counter ,         17 = address1,          x =instruction 
-540 = clock ,         19 = address_counter ,         18 = address1,          x =instruction 
-560 = clock ,         20 = address_counter ,         19 = address1,          x =instruction 
-580 = clock ,         21 = address_counter ,         20 = address1,          x =instruction 
-600 = clock ,         22 = address_counter ,         21 = address1,          x =instruction 
-620 = clock ,         23 = address_counter ,         22 = address1,          x =instruction 
-640 = clock ,         24 = address_counter ,         23 = address1,          x =instruction 
-660 = clock ,         25 = address_counter ,         24 = address1,          x =instruction 
-680 = clock ,         26 = address_counter ,         25 = address1,          x =instruction 
-700 = clock ,         27 = address_counter ,         26 = address1,          x =instruction 
-720 = clock ,         28 = address_counter ,         27 = address1,          x =instruction 
-740 = clock ,         29 = address_counter ,         28 = address1,          x =instruction 
-760 = clock ,         30 = address_counter ,         29 = address1,          x =instruction 
-780 = clock ,         31 = address_counter ,         30 = address1,          x =instruction 
-800 = clock ,         32 = address_counter ,         31 = address1,          x =instruction 
-820 = clock ,         33 = address_counter ,         32 = address1,          x =instruction 
-840 = clock ,         34 = address_counter ,         33 = address1,          0 =instruction 
-860 = clock ,         35 = address_counter ,         34 = address1, 2860515328 =instruction 
-880 = clock ,         36 = address_counter ,         35 = address1,          8 =instruction 
-900 = clock ,         37 = address_counter ,         36 = address1,          7 =instruction 
-920 = clock ,         38 = address_counter ,         37 = address1,          6 =instruction 
-940 = clock ,         39 = address_counter ,         38 = address1,          5 =instruction 
-960 = clock ,         40 = address_counter ,         39 = address1,          4 =instruction 
-980 = clock ,         41 = address_counter ,         40 = address1,          3 =instruction 
-1000 = clock ,         42 = address_counter ,         41 = address1,          2 =instruction 
-# run all
-1020 = clock ,         43 = address_counter ,         42 = address1,          1 =instruction 
-1040 = clock ,         44 = address_counter ,         43 = address1,          x =instruction 
-1060 = clock ,         45 = address_counter ,         44 = address1,          x =instruction 
-1080 = clock ,         46 = address_counter ,         45 = address1,          x =instruction 
-Stopped at time : 1100 ns : File "C:/Users/tuf22191/Projects/Github_Repos/Building_Microprocessor_Verilog/MicroP_for_legv8/COMBO_PC_IR_Contr_ADDER1_Mux1.v" Line 119
+100 = clock ,          1 = address_counter ,          0 = address1,          0 =instruction 
+120 = clock ,          2 = address_counter ,          1 = address1,          0 =instruction 
+140 = clock ,          3 = address_counter ,          2 = address1, 2860527618 =instruction 
+160 = clock ,          4 = address_counter ,          3 = address1, 2860525571 =instruction 
+180 = clock ,          5 = address_counter ,          4 = address1, 2860520452 =instruction 
+200 = clock ,          6 = address_counter ,          5 = address1, 2860517381 =instruction 
+220 = clock ,          7 = address_counter ,          6 = address1, 3406037094 =instruction 
+240 = clock ,          8 = address_counter ,          7 = address1, 4028104838 =instruction 
+260 = clock ,          8 = address_counter ,          8 = address1, 3406299303 =instruction 
+280 = clock ,          8 = address_counter ,          8 = address1, 2861433030 =instruction 

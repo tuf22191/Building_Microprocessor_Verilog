@@ -23,9 +23,10 @@
 
   <files xmlns="http://www.xilinx.com/XMLSchema">
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name=".lso"/>
-    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="COMBO_PC_IR_Contr_ADDER1_Mux1_beh.prj"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="COMBO_PC_IR_Contr_ADDER1_Mux1_isim_beh.exe"/>
-    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="COMBO_PC_IR_Contr_ADDER1_Mux1_isim_beh.wdb"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="COMBO_PC_InstructionReg_Controller_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="COMBO_PC_InstructionReg_Controller_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="COMBO_PC_InstructionReg_Controller_isim_beh.wdb"/>
     <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="COMBO_PC_Instruction_beh.prj"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="COMBO_PC_Instruction_isim_beh.exe"/>
     <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="COMBO_PC_Instruction_isim_beh.wdb"/>
@@ -115,7 +116,7 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1481484756" xil_pn:in_ck="8055618909844698392" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1481484756">
+    <transform xil_pn:end_ts="1481568657" xil_pn:in_ck="8055618909844698392" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1481568656">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <outfile xil_pn:name="ALU.v"/>
@@ -159,11 +160,11 @@
       <outfile xil_pn:name="half_adder.v"/>
       <outfile xil_pn:name="one_bit_full_adder.v"/>
     </transform>
-    <transform xil_pn:end_ts="1481484455" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="2804104459501856530" xil_pn:start_ts="1481484455">
+    <transform xil_pn:end_ts="1481568657" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="6228391149310636283" xil_pn:start_ts="1481568657">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1481484455" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="-3892080670320672812" xil_pn:start_ts="1481484455">
+    <transform xil_pn:end_ts="1481568657" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="5451072935555308029" xil_pn:start_ts="1481568657">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
@@ -171,7 +172,7 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1481484756" xil_pn:in_ck="8055618909844698392" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1481484756">
+    <transform xil_pn:end_ts="1481568657" xil_pn:in_ck="8055618909844698392" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1481568657">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <outfile xil_pn:name="ALU.v"/>
@@ -215,24 +216,20 @@
       <outfile xil_pn:name="half_adder.v"/>
       <outfile xil_pn:name="one_bit_full_adder.v"/>
     </transform>
-    <transform xil_pn:end_ts="1481484760" xil_pn:in_ck="8055618909844698392" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="3661050158831777893" xil_pn:start_ts="1481484756">
+    <transform xil_pn:end_ts="1481568661" xil_pn:in_ck="8055618909844698392" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="-7697845868145305129" xil_pn:start_ts="1481568657">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForOutputs"/>
-      <status xil_pn:value="OutputChanged"/>
-      <outfile xil_pn:name="COMBO_PC_IR_Contr_ADDER1_Mux1_beh.prj"/>
-      <outfile xil_pn:name="COMBO_PC_IR_Contr_ADDER1_Mux1_isim_beh.exe"/>
+      <outfile xil_pn:name="COMBO_PC_InstructionReg_Controller_beh.prj"/>
+      <outfile xil_pn:name="COMBO_PC_InstructionReg_Controller_isim_beh.exe"/>
       <outfile xil_pn:name="fuse.log"/>
       <outfile xil_pn:name="isim"/>
       <outfile xil_pn:name="isim.log"/>
       <outfile xil_pn:name="xilinxsim.ini"/>
     </transform>
-    <transform xil_pn:end_ts="1481484760" xil_pn:in_ck="3366365544256135061" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="5762461006291845800" xil_pn:start_ts="1481484760">
+    <transform xil_pn:end_ts="1481568661" xil_pn:in_ck="3291430180306317952" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="9047453128799372058" xil_pn:start_ts="1481568661">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForOutputs"/>
-      <status xil_pn:value="OutputChanged"/>
-      <outfile xil_pn:name="COMBO_PC_IR_Contr_ADDER1_Mux1_isim_beh.wdb"/>
+      <outfile xil_pn:name="COMBO_PC_InstructionReg_Controller_isim_beh.wdb"/>
       <outfile xil_pn:name="isim.cmd"/>
       <outfile xil_pn:name="isim.log"/>
     </transform>
@@ -281,7 +278,7 @@
     </transform>
     <transform xil_pn:end_ts="1481333925" xil_pn:in_ck="7090057223451327488" xil_pn:name="TRANEXT_ngdbuild_FPGA" xil_pn:prop_ck="-2582745059042342709" xil_pn:start_ts="1481333917">
       <status xil_pn:value="SuccessfullyRun"/>
-      <status xil_pn:value="NotReadyToRun"/>
+      <status xil_pn:value="ReadyToRun"/>
       <status xil_pn:value="OutOfDateForInputs"/>
       <status xil_pn:value="OutOfDateForPredecessor"/>
       <status xil_pn:value="OutOfDateForOutputs"/>
@@ -290,7 +287,7 @@
     </transform>
     <transform xil_pn:end_ts="1481333932" xil_pn:in_ck="7090057223451327489" xil_pn:name="TRANEXT_map_spartan3" xil_pn:prop_ck="7728334167582700538" xil_pn:start_ts="1481333925">
       <status xil_pn:value="SuccessfullyRun"/>
-      <status xil_pn:value="NotReadyToRun"/>
+      <status xil_pn:value="ReadyToRun"/>
       <status xil_pn:value="OutOfDateForInputs"/>
       <status xil_pn:value="OutOfDateForPredecessor"/>
       <status xil_pn:value="OutOfDateForOutputs"/>
@@ -299,7 +296,7 @@
     </transform>
     <transform xil_pn:end_ts="1481333951" xil_pn:in_ck="442769010399323034" xil_pn:name="TRANEXT_par_spartan3" xil_pn:prop_ck="6268780068511726196" xil_pn:start_ts="1481333932">
       <status xil_pn:value="SuccessfullyRun"/>
-      <status xil_pn:value="NotReadyToRun"/>
+      <status xil_pn:value="ReadyToRun"/>
       <status xil_pn:value="OutOfDateForInputs"/>
       <status xil_pn:value="OutOfDateForPredecessor"/>
       <status xil_pn:value="OutOfDateForOutputs"/>
@@ -308,7 +305,7 @@
     </transform>
     <transform xil_pn:end_ts="1481333951" xil_pn:in_ck="7090057223451327357" xil_pn:name="TRAN_postRouteTrce" xil_pn:prop_ck="445577401284416187" xil_pn:start_ts="1481333947">
       <status xil_pn:value="SuccessfullyRun"/>
-      <status xil_pn:value="NotReadyToRun"/>
+      <status xil_pn:value="ReadyToRun"/>
       <status xil_pn:value="OutOfDateForInputs"/>
       <status xil_pn:value="OutOfDateForPredecessor"/>
       <status xil_pn:value="OutOfDateForOutputs"/>
