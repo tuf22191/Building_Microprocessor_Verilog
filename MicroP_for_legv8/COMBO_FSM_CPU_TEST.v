@@ -24,7 +24,7 @@
 
 module COMBO_FSM_CPU_TEST;
 
-	   wire [63:0] answer_answer;
+	 wire [63:0] answer_answer;
     wire [63:0] answer_answer2;
 	// Inputs
 	//reg [31:0] address_counter;
@@ -53,7 +53,7 @@ module COMBO_FSM_CPU_TEST;
 		.address(address1), //done
 		.clk(clk2) //done
 	); 
-	///////////////////////////////////////CONTROLLER
+	///////////////////////////////////////FCONTROLLER
 	wire mem_write_dm;
 	wire mem_read_dm;
 	wire branch;
@@ -61,18 +61,29 @@ module COMBO_FSM_CPU_TEST;
 	wire mux2;
 	wire mux3;
 	wire [2:0] alu_op;
+	wire [4:0] read_reg_1;
+	wire [4:0] read_reg_2;
+	wire [4:0] write_reg;
+	wire [6:0] sign_extension_bits;
 
 	// Instantiate the Unit Under Test (UUT)
-	Controller uut3 (
-		.opcode(instruction[31:22]), //done
-		.mem_write_dm(mem_write_dm), //done
-		.mem_read_dm(mem_read_dm), //done
-		.branch(branch),  //done
-		.reg_write_rf(reg_write_rf), //done
-		.mux2(mux2), //done
-		.mux3(mux3), //done
-		.alu_op(alu_op)//done
+	FSM_Controller uut3 (
+		.clk(clk), 
+		.opcode(instruction[31:22]), 
+		.instruction(instruction),  
+		.mem_write_dm(mem_write_dm), 
+		.mem_read_dm(mem_read_dm), 
+		.branch(branch), 
+		.reg_write_rf(reg_write_rf),  
+		.mux2(mux2), 
+		.mux3(mux3), 
+		.read_reg_1(read_reg_1), 
+		.read_reg_2(read_reg_2), 
+		.write_reg(write_reg), 
+		.sign_extension_bits(sign_extension_bits), 
+		.alu_op(alu_op)
 	);
+	
 	
 	//////////////////////////////////////// Adder1
 	// Inputs
@@ -127,10 +138,10 @@ module COMBO_FSM_CPU_TEST;
 
 	// Instantiate the Unit Under Test (UUT)
 	Sixty_Four_Bit_Register_File uut7 (
-		.read_reg_address_1(instruction[21:17]), //h. up
-		.read_reg_address_2(instruction[9:5]),//h. up 
+		.read_reg_address_1(read_reg_1), //h. up
+		.read_reg_address_2(read_reg_2),//h. up 
 		.data(data_out_mux2), 
-		.write_reg_address(instruction[4:0]), //h. up
+		.write_reg_address(write_reg), //h. up
 		.reg_write(reg_write_rf), //h. up
 		.clk(clk), //h. up
 		.reg_out_1(reg_out_1_rf), //done
@@ -180,7 +191,7 @@ module COMBO_FSM_CPU_TEST;
 		// Output
 	// Instantiate the Unit Under Test (UUT)
 	Sixty_Four_Bit_Sign_Extender uut10 (
-		.in(instruction[16:10]), //done
+		.in(sign_extension_bits), //done
 		.out(sign_extend_out) //done
 	);
 

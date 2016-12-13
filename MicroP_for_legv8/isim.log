@@ -48,3 +48,10 @@ in fetch!  682 is opcode
 next_state =  6
 in fetch!  682 is opcode
 next_state =  6
+# run all
+in fetch!  682 is opcode
+next_state =  6
+in fetch!  682 is opcode
+next_state =  6
+Simulation ENDDDED!
+Stopped at time : 1100 ns : File "C:/Users/tuf22191/Projects/Github_Repos/Building_Microprocessor_Verilog/MicroP_for_legv8/TB_FSM_CONTROLLER.v" Line 74
