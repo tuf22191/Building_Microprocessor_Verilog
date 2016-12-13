@@ -18,7 +18,7 @@
 // Additional Comments: 
 //
 //////////////////////////////////////////////////////////////////////////////////
-module FSM_Controller(
+   module FSM_Controller(
 		input clk,
 		input [9:0] opcode,
       input [31:0] instruction,             		//regular controller
@@ -29,27 +29,14 @@ module FSM_Controller(
     );
 	 //how many states
 	 reg [3:0] state = 0, next_state;
+	 reg [1:0] counter;
+	 reg [9:0]ropcode;
 	 
-	 always@(posedge clk)begin
-		state = next_state;
-	 end
-	 
-	 //reg [2:0] counter; //for seeing if the register is good
-	 
-	 parameter START = 0;
-	 parameter FETCH = 1;
-	 parameter LOAD_IMMEDIATE_INSTRUCTION = 2;
-	 parameter ARITHMETIC_INSTRUCTION_A = 3;
-	 parameter ARITHMETIC_INSTRUCTION_B = 4;
-    parameter STORE_INSTRUCTION = 5;
-    parameter LOAD_IMMEDIATE_INSTRUCTION_A=6;
-    parameter LOAD_IMMEDIATE_INSTRUCTION_B =7;
- 
-    always@(state)begin
-		
-		case(state)
-			START: begin
-			   $display("initialized in start");
+	 initial begin
+				$display("initialized in start %d", $time);
+				$monitor("the ropcode is %d, the time is %d", ropcode, $time);
+				ropcode=0;
+				counter=0;
 				mem_write_dm = 0;
 				mem_read_dm = 0;
 				branch = 0;
@@ -60,21 +47,44 @@ module FSM_Controller(
 				write_reg= 5'b00000;
 				sign_extension_bits=7'b0000000;
 				alu_op =3'b101; 
-			
-			   if(instruction == 0)begin
-				   next_state = START;
-				end 
-				else begin
-				   next_state = FETCH;
-				end
-				
-			end //end start
-			
+	 end
+	 
+	 
+	 always@(posedge clk)begin
+		state <= next_state;	
+	 end
+	 
+	 always@(posedge clk)begin
+			if(counter == 2'b11)begin
+			counter = 0;
+			ropcode <= instruction[31:22];
+			end
+			counter = counter +1;
+	 end
+	 
+	 //reg [2:0] counter; //for seeing if the register is good
+	 
+	// parameter START = 0;
+	 parameter FETCH = 0;
+	 parameter LOAD_IMMEDIATE_INSTRUCTION = 2;
+	 parameter ARITHMETIC_INSTRUCTION_A = 3;
+	 parameter ARITHMETIC_INSTRUCTION_B = 4;
+    parameter STORE_INSTRUCTION = 5;
+    parameter LOAD_IMMEDIATE_INSTRUCTION_A=6;
+    parameter LOAD_IMMEDIATE_INSTRUCTION_B =7;
+ 
+ 
+ 
+ 
+    always@(state, clk)begin
+		
+		  $display("ropcode in a state, %d", ropcode);
+		case(state)
 			FETCH: begin //
-	          $display("in fetch! %d is opcode", opcode);
-         	case(opcode)
+	          $display("in fetch! %d is opcode, %d", ropcode, $time);
+         	case(ropcode)
 				 10'b1000101000: begin  //ADDITION !!!
-				  $display("in addition");
+				  //$display("in addition"); 
 					alu_op = 3'b010;// to add in ALU
 					mem_read_dm = 0;
 					mem_write_dm = 0;
@@ -86,7 +96,7 @@ module FSM_Controller(
 				 end
 					 
 				 10'b1100101100: begin  //SUBTRACTION !!!
-				   $display("in subtraction");
+				  // $display("in subtraction");
 					alu_op = 3'b001;//
 					mem_read_dm = 0;
 					mem_write_dm = 0;
@@ -120,6 +130,7 @@ module FSM_Controller(
 				 end	 
 				
 				 10'b1010101010: begin  //Load Immediate Instruction !!!
+				   $display("we should be in load at time: %d", $time);
 					alu_op = 3'b010;// use addition from ALU of immediate sign extended and zero
 					mem_read_dm = 0;  //first register in register file is always 0!
 					mem_write_dm = 0;
@@ -139,6 +150,17 @@ module FSM_Controller(
 					mux2 = 1; //doesn't matter
 					mux3 = 0; //doesn't matter
 	           end	
+
+				default: begin 
+						alu_op = 0;
+						mem_write_dm =0; 
+						mem_read_dm =0; 
+						branch =0; 
+						reg_write_rf =0; 
+						mux2 =0;
+						mux3 =0;
+						next_state = FETCH;
+				 end//default
 				
 			  endcase //the opcode
 			   //SET THE REGISTER FILE
@@ -147,30 +169,38 @@ module FSM_Controller(
 				read_reg_2 =instruction[9:5];
 				write_reg = instruction[4:0];
 				sign_extension_bits = instruction[16:10];
-			   $display("next_state = %d", next_state);
+			   $display("next_state = %d, current time: %d", next_state, $time);
 				
 			end //end Fetch
 			
 			ARITHMETIC_INSTRUCTION_A: begin
 				reg_write_rf = 1; //write the result
 				next_state = ARITHMETIC_INSTRUCTION_B;
+				$display("next_state = %d, current time: %d", next_state, $time);
 			end //end ARITHMETIC_INSTRUCTION
 			
 		   ARITHMETIC_INSTRUCTION_B: begin
 				reg_write_rf = 0; //now stop reading the result
 				next_state = FETCH;
+				$display("next_state = %d, current time: %d", next_state, $time);
 			end //end ARITHMETIC_INSTRUCTION
 		
 		   LOAD_IMMEDIATE_INSTRUCTION_A: begin
 				reg_write_rf = 1; //now stop reading the result
 				next_state = LOAD_IMMEDIATE_INSTRUCTION_B;
+				$display("next_state = %d, current time: %d", next_state, $time);
 			end //end ARITHMETIC_INSTRUCTION
 		
 		   LOAD_IMMEDIATE_INSTRUCTION_B: begin
-				reg_write_rf = 1; //now stop reading the result
+				reg_write_rf = 0; //now stop reading the result
 				next_state = FETCH;
+				$display("next_state = %d, current time: %d", next_state, $time);
 			end //end ARITHMETIC_INSTRUCTION
 		   
+			default: begin 
+						$display("why are we in default state?");
+			end//default
+			
 		endcase//end the case
 	 end //always
 

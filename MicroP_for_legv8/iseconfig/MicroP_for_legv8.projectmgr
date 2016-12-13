@@ -22,6 +22,7 @@
          <ClosedNode>/ALU C:|Users|tuf22191|Projects|Github_Repos|Building_Microprocessor_Verilog|MicroP_for_legv8|ALU.v/subtractor - Sixty_Four_Bit_Subtractor/sub - Sixty_Four_Bit_Adder/a2 - Sixteen_Bit_Adder</ClosedNode>
          <ClosedNode>/ALU C:|Users|tuf22191|Projects|Github_Repos|Building_Microprocessor_Verilog|MicroP_for_legv8|ALU.v/subtractor - Sixty_Four_Bit_Subtractor/sub - Sixty_Four_Bit_Adder/a3 - Sixteen_Bit_Adder</ClosedNode>
          <ClosedNode>/ALU C:|Users|tuf22191|Projects|Github_Repos|Building_Microprocessor_Verilog|MicroP_for_legv8|ALU.v/subtractor - Sixty_Four_Bit_Subtractor/sub - Sixty_Four_Bit_Adder/a4 - Sixteen_Bit_Adder</ClosedNode>
+         <ClosedNode>/Adder1_32bit_adder C:|Users|tuf22191|Projects|Github_Repos|Building_Microprocessor_Verilog|MicroP_for_legv8|Adder1_32bit_adder.v</ClosedNode>
          <ClosedNode>/Adder1_32bit_adder C:|Users|tuf22191|Projects|Github_Repos|Building_Microprocessor_Verilog|MicroP_for_legv8|Adder1_32bit_adder.v/adder - Adder2_32bit_adder</ClosedNode>
          <ClosedNode>/Adder1_32bit_adder C:|Users|tuf22191|Projects|Github_Repos|Building_Microprocessor_Verilog|MicroP_for_legv8|Adder1_32bit_adder.v/adder - Adder2_32bit_adder/a1 - Sixteen_Bit_Adder/a1 - Four_Bit_Adder/a2 - one_bit_full_adder</ClosedNode>
          <ClosedNode>/Adder1_32bit_adder C:|Users|tuf22191|Projects|Github_Repos|Building_Microprocessor_Verilog|MicroP_for_legv8|Adder1_32bit_adder.v/adder - Adder2_32bit_adder/a1 - Sixteen_Bit_Adder/a1 - Four_Bit_Adder/a3 - one_bit_full_adder</ClosedNode>
@@ -31,6 +32,7 @@
          <ClosedNode>/Adder1_32bit_adder C:|Users|tuf22191|Projects|Github_Repos|Building_Microprocessor_Verilog|MicroP_for_legv8|Adder1_32bit_adder.v/adder - Adder2_32bit_adder/a1 - Sixteen_Bit_Adder/a4 - Four_Bit_Adder</ClosedNode>
          <ClosedNode>/Adder1_32bit_adder C:|Users|tuf22191|Projects|Github_Repos|Building_Microprocessor_Verilog|MicroP_for_legv8|Adder1_32bit_adder.v/adder - Adder2_32bit_adder/a2 - Sixteen_Bit_Adder</ClosedNode>
          <ClosedNode>/Adder2_32bit_adder C:|Users|tuf22191|Projects|Github_Repos|Building_Microprocessor_Verilog|MicroP_for_legv8|Adder2_32bit_adder.v</ClosedNode>
+         <ClosedNode>/DATAPATH_AND_MEMORIES_IM_DM C:|Users|tuf22191|Projects|Github_Repos|Building_Microprocessor_Verilog|MicroP_for_legv8|DATAPATH_AND_MEMORIES_IM_DM.v</ClosedNode>
          <ClosedNode>/Four_Bit_Adder C:|Users|tuf22191|Projects|Github_Repos|Building_Microprocessor_Verilog|MicroP_for_legv8|Four_Bit_Adder.v/a1 - one_bit_full_adder</ClosedNode>
          <ClosedNode>/MAIN_DATA_PATH C:|Users|tuf22191|Projects|Github_Repos|Building_Microprocessor_Verilog|MicroP_for_legv8|MAIN_DATA_PATH.v</ClosedNode>
          <ClosedNode>/Sixty_Four_Bit_Subtractor C:|Users|tuf22191|Projects|Github_Repos|Building_Microprocessor_Verilog|MicroP_for_legv8|Sixty_Four_Bit_Subtractor.v</ClosedNode>
@@ -45,13 +47,13 @@
          <ClosedNode>/Sixty_Four_Bit_Subtractor C:|Users|tuf22191|Projects|Github_Repos|Building_Microprocessor_Verilog|MicroP_for_legv8|Sixty_Four_Bit_Subtractor.v/sub - Sixty_Four_Bit_Adder/a4 - Sixteen_Bit_Adder</ClosedNode>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem>Controller (C:/Users/tuf22191/Projects/Github_Repos/Building_Microprocessor_Verilog/MicroP_for_legv8/Controller.v)</SelectedItem>
+         <SelectedItem>FSM_Controller (C:/Users/tuf22191/Projects/Github_Repos/Building_Microprocessor_Verilog/MicroP_for_legv8/FSM_Controller.v)</SelectedItem>
       </SelectedItems>
-      <ScrollbarPosition orientation="vertical" >5</ScrollbarPosition>
+      <ScrollbarPosition orientation="vertical" >11</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000020200000001000000010000006400000205000000020000000000000000000000000200000064ffffffff000000810000000300000002000002050000000100000003000000000000000100000003</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000202000000010000000100000064000001e6000000020000000000000000000000000200000064ffffffff000000810000000300000002000001e60000000100000003000000000000000100000003</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
-      <CurrentItem>Controller (C:/Users/tuf22191/Projects/Github_Repos/Building_Microprocessor_Verilog/MicroP_for_legv8/Controller.v)</CurrentItem>
+      <CurrentItem>FSM_Controller (C:/Users/tuf22191/Projects/Github_Repos/Building_Microprocessor_Verilog/MicroP_for_legv8/FSM_Controller.v)</CurrentItem>
    </ItemView>
    <ItemView engineview="SynthesisOnly" sourcetype="" guiview="Process" >
       <ClosedNodes>
@@ -59,13 +61,13 @@
          <ClosedNode>Design Utilities</ClosedNode>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem/>
+         <SelectedItem></SelectedItem>
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000187000000010000000100000000000000000000000064ffffffff000000810000000000000001000001870000000100000000</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000134000000010000000100000000000000000000000064ffffffff000000810000000000000001000001340000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
-      <CurrentItem/>
+      <CurrentItem></CurrentItem>
    </ItemView>
    <ItemView guiview="File" >
       <ClosedNodes>
@@ -103,21 +105,36 @@
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000154000000010000000100000000000000000000000064ffffffff000000810000000000000001000001540000000100000000</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000134000000010000000100000000000000000000000064ffffffff000000810000000000000001000001340000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
       <CurrentItem></CurrentItem>
    </ItemView>
    <SourceProcessView>000000ff000000000000000200000158000000ab01000000050100000002</SourceProcessView>
-   <CurrentView>Implementation</CurrentView>
+   <CurrentView>Behavioral Simulation</CurrentView>
    <ItemView engineview="BehavioralSim" guiview="Source" compilemode="AutoCompile" >
       <ClosedNodes>
          <ClosedNodesVersion>2</ClosedNodesVersion>
          <ClosedNode>/Adder1_32bit_adder C:|Users|tuf22191|Projects|Github_Repos|Building_Microprocessor_Verilog|MicroP_for_legv8|Adder1_32bit_adder.v</ClosedNode>
          <ClosedNode>/Adder2_32bit_adder C:|Users|tuf22191|Projects|Github_Repos|Building_Microprocessor_Verilog|MicroP_for_legv8|Adder2_32bit_adder.v</ClosedNode>
+         <ClosedNode>/COMBO_EVERYTHING_DIFFCLOCKS C:|Users|tuf22191|Projects|Github_Repos|Building_Microprocessor_Verilog|MicroP_for_legv8|COMBO_EVERYTHING_DIFFCLOCKS.v</ClosedNode>
+         <ClosedNode>/COMBO_EVERYTHING_DIFFCLOCKS C:|Users|tuf22191|Projects|Github_Repos|Building_Microprocessor_Verilog|MicroP_for_legv8|COMBO_EVERYTHING_DIFFCLOCKS.v/uut11 - ALU</ClosedNode>
+         <ClosedNode>/COMBO_EVERYTHING_DIFFCLOCKS C:|Users|tuf22191|Projects|Github_Repos|Building_Microprocessor_Verilog|MicroP_for_legv8|COMBO_EVERYTHING_DIFFCLOCKS.v/uut4 - Adder1_32bit_adder</ClosedNode>
+         <ClosedNode>/COMBO_EVERYTHING_DIFFCLOCKS C:|Users|tuf22191|Projects|Github_Repos|Building_Microprocessor_Verilog|MicroP_for_legv8|COMBO_EVERYTHING_DIFFCLOCKS.v/uut6 - Adder2_32bit_adder</ClosedNode>
+         <ClosedNode>/COMBO_EVERYTHING_DIFFCLOCKS_2 C:|Users|tuf22191|Projects|Github_Repos|Building_Microprocessor_Verilog|MicroP_for_legv8|COMBO_EVERYTHING_DIFFCLOCKS_2.v</ClosedNode>
+         <ClosedNode>/COMBO_EVERYTHING_DIFFCLOCKS_2 C:|Users|tuf22191|Projects|Github_Repos|Building_Microprocessor_Verilog|MicroP_for_legv8|COMBO_EVERYTHING_DIFFCLOCKS_2.v/uut11 - ALU</ClosedNode>
+         <ClosedNode>/COMBO_EVERYTHING_DIFFCLOCKS_2 C:|Users|tuf22191|Projects|Github_Repos|Building_Microprocessor_Verilog|MicroP_for_legv8|COMBO_EVERYTHING_DIFFCLOCKS_2.v/uut4 - Adder1_32bit_adder</ClosedNode>
+         <ClosedNode>/COMBO_EVERYTHING_DIFFCLOCKS_2 C:|Users|tuf22191|Projects|Github_Repos|Building_Microprocessor_Verilog|MicroP_for_legv8|COMBO_EVERYTHING_DIFFCLOCKS_2.v/uut6 - Adder2_32bit_adder</ClosedNode>
+         <ClosedNode>/COMBO_EVERYTHING_WITHOUT_CONTROL C:|Users|tuf22191|Projects|Github_Repos|Building_Microprocessor_Verilog|MicroP_for_legv8|COMBO_EVERYTHING_WITHOUT_CONTROL.v</ClosedNode>
+         <ClosedNode>/COMBO_FSM_CPU_TEST C:|Users|tuf22191|Projects|Github_Repos|Building_Microprocessor_Verilog|MicroP_for_legv8|COMBO_FSM_CPU_TEST.v</ClosedNode>
+         <ClosedNode>/COMBO_FSM_CPU_TEST C:|Users|tuf22191|Projects|Github_Repos|Building_Microprocessor_Verilog|MicroP_for_legv8|COMBO_FSM_CPU_TEST.v/uut11 - ALU</ClosedNode>
+         <ClosedNode>/COMBO_FSM_CPU_TEST C:|Users|tuf22191|Projects|Github_Repos|Building_Microprocessor_Verilog|MicroP_for_legv8|COMBO_FSM_CPU_TEST.v/uut4 - Adder1_32bit_adder</ClosedNode>
+         <ClosedNode>/COMBO_FSM_CPU_TEST C:|Users|tuf22191|Projects|Github_Repos|Building_Microprocessor_Verilog|MicroP_for_legv8|COMBO_FSM_CPU_TEST.v/uut6 - Adder2_32bit_adder</ClosedNode>
+         <ClosedNode>/COMBO_PC_IR_Contr_ADDER1_Mux1 C:|Users|tuf22191|Projects|Github_Repos|Building_Microprocessor_Verilog|MicroP_for_legv8|COMBO_PC_IR_Contr_ADDER1_Mux1.v</ClosedNode>
          <ClosedNode>/COMBO_PC_IR_Contr_ADDER1_Mux1 C:|Users|tuf22191|Projects|Github_Repos|Building_Microprocessor_Verilog|MicroP_for_legv8|COMBO_PC_IR_Contr_ADDER1_Mux1.v/uut4 - Adder1_32bit_adder</ClosedNode>
          <ClosedNode>/COMBO_PC_IR_Contr_ADDER1_Mux1 C:|Users|tuf22191|Projects|Github_Repos|Building_Microprocessor_Verilog|MicroP_for_legv8|COMBO_PC_IR_Contr_ADDER1_Mux1.v/uut6 - Adder2_32bit_adder</ClosedNode>
          <ClosedNode>/COMBO_PC_Instruction C:|Users|tuf22191|Projects|Github_Repos|Building_Microprocessor_Verilog|MicroP_for_legv8|COMBO_PC_Instruction.v</ClosedNode>
          <ClosedNode>/COMBO_PC_InstructionReg_Controller C:|Users|tuf22191|Projects|Github_Repos|Building_Microprocessor_Verilog|MicroP_for_legv8|COMBO_PC_InstructionReg_Controller.v</ClosedNode>
+         <ClosedNode>/DATAPATH_AND_MEMORIES_IM_DM C:|Users|tuf22191|Projects|Github_Repos|Building_Microprocessor_Verilog|MicroP_for_legv8|DATAPATH_AND_MEMORIES_IM_DM.v</ClosedNode>
          <ClosedNode>/One_Bit_Full_Adder_Test C:|Users|tuf22191|Projects|Github_Repos|Building_Microprocessor_Verilog|MicroP_for_legv8|One_Bit_Full_Adder_Test.v</ClosedNode>
          <ClosedNode>/TB_16BitAdder C:|Users|tuf22191|Projects|Github_Repos|Building_Microprocessor_Verilog|MicroP_for_legv8|TB_16BitAdder.v</ClosedNode>
          <ClosedNode>/TB_32Bit_Divider C:|Users|tuf22191|Projects|Github_Repos|Building_Microprocessor_Verilog|MicroP_for_legv8|TB_32Bit_Divider.v</ClosedNode>
@@ -125,7 +142,6 @@
          <ClosedNode>/TB_64Bi_Subtractor C:|Users|tuf22191|Projects|Github_Repos|Building_Microprocessor_Verilog|MicroP_for_legv8|TB_64Bi_Subtractor.v</ClosedNode>
          <ClosedNode>/TB_64Bi_Subtractor C:|Users|tuf22191|Projects|Github_Repos|Building_Microprocessor_Verilog|MicroP_for_legv8|TB_64Bi_Subtractor.v/uut - Sixty_Four_Bit_Subtractor/sub - Sixty_Four_Bit_Adder</ClosedNode>
          <ClosedNode>/TB_64bit_RegisterFile C:|Users|tuf22191|Projects|Github_Repos|Building_Microprocessor_Verilog|MicroP_for_legv8|TB_64bit_RegisterFile.v</ClosedNode>
-         <ClosedNode>/TB_ALU C:|Users|tuf22191|Projects|Github_Repos|Building_Microprocessor_Verilog|MicroP_for_legv8|TB_ALU.v</ClosedNode>
          <ClosedNode>/TB_ALU C:|Users|tuf22191|Projects|Github_Repos|Building_Microprocessor_Verilog|MicroP_for_legv8|TB_ALU.v/uut - ALU</ClosedNode>
          <ClosedNode>/TB_ALU C:|Users|tuf22191|Projects|Github_Repos|Building_Microprocessor_Verilog|MicroP_for_legv8|TB_ALU.v/uut - ALU/adder - Sixteen_Bit_Adder</ClosedNode>
          <ClosedNode>/TB_ALU C:|Users|tuf22191|Projects|Github_Repos|Building_Microprocessor_Verilog|MicroP_for_legv8|TB_ALU.v/uut - ALU/adder - Sixty_Four_Bit_Adder</ClosedNode>
@@ -136,18 +152,19 @@
          <ClosedNode>/TB_Data_Memory C:|Users|tuf22191|Projects|Github_Repos|Building_Microprocessor_Verilog|MicroP_for_legv8|TB_Data_Memory.v</ClosedNode>
          <ClosedNode>/TB_Instruction_Memory C:|Users|tuf22191|Projects|Github_Repos|Building_Microprocessor_Verilog|MicroP_for_legv8|TB_Instruction_Memory.v</ClosedNode>
          <ClosedNode>/TB_MUX1 C:|Users|tuf22191|Projects|Github_Repos|Building_Microprocessor_Verilog|MicroP_for_legv8|TB_MUX1.v</ClosedNode>
+         <ClosedNode>/TB_MUX3 C:|Users|tuf22191|Projects|Github_Repos|Building_Microprocessor_Verilog|MicroP_for_legv8|TB_MUX3.v</ClosedNode>
          <ClosedNode>/TB_Mux2 C:|Users|tuf22191|Projects|Github_Repos|Building_Microprocessor_Verilog|MicroP_for_legv8|TB_Mux2.v</ClosedNode>
          <ClosedNode>/TB_Program_Counter C:|Users|tuf22191|Projects|Github_Repos|Building_Microprocessor_Verilog|MicroP_for_legv8|TB_Program_Counter.v</ClosedNode>
          <ClosedNode>/TB_Sign_Extender C:|Users|tuf22191|Projects|Github_Repos|Building_Microprocessor_Verilog|MicroP_for_legv8|TB_Sign_Extender.v</ClosedNode>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem>COMBO_PC_IR_Contr_ADDER1_Mux1 (C:/Users/tuf22191/Projects/Github_Repos/Building_Microprocessor_Verilog/MicroP_for_legv8/COMBO_PC_IR_Contr_ADDER1_Mux1.v)</SelectedItem>
+         <SelectedItem>COMBO_FSM_CPU_TEST (C:/Users/tuf22191/Projects/Github_Repos/Building_Microprocessor_Verilog/MicroP_for_legv8/COMBO_FSM_CPU_TEST.v)</SelectedItem>
       </SelectedItems>
-      <ScrollbarPosition orientation="vertical" >1</ScrollbarPosition>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000010000000000000000000000000000000002020000000100000001000000640000020b000000020000000000000000000000000200000064ffffffff0000008100000003000000020000020b0000000100000003000000000000000100000003</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000020200000001000000010000006400000234000000020000000000000000000000000200000064ffffffff000000810000000300000002000002340000000100000003000000000000000100000003</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
-      <CurrentItem>COMBO_PC_IR_Contr_ADDER1_Mux1 (C:/Users/tuf22191/Projects/Github_Repos/Building_Microprocessor_Verilog/MicroP_for_legv8/COMBO_PC_IR_Contr_ADDER1_Mux1.v)</CurrentItem>
+      <CurrentItem>COMBO_FSM_CPU_TEST (C:/Users/tuf22191/Projects/Github_Repos/Building_Microprocessor_Verilog/MicroP_for_legv8/COMBO_FSM_CPU_TEST.v)</CurrentItem>
    </ItemView>
    <ItemView engineview="BehavioralSim" sourcetype="" guiview="Process" >
       <ClosedNodes>
@@ -155,13 +172,13 @@
          <ClosedNode>Design Utilities</ClosedNode>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem/>
+         <SelectedItem></SelectedItem>
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000154000000010000000100000000000000000000000064ffffffff000000810000000000000001000001540000000100000000</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000134000000010000000100000000000000000000000064ffffffff000000810000000000000001000001340000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
-      <CurrentItem/>
+      <CurrentItem></CurrentItem>
    </ItemView>
    <ItemView engineview="BehavioralSim" sourcetype="DESUT_VERILOG" guiview="Process" >
       <ClosedNodes>
@@ -172,7 +189,7 @@
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000154000000010000000100000000000000000000000064ffffffff000000810000000000000001000001540000000100000000</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000134000000010000000100000000000000000000000064ffffffff000000810000000000000001000001340000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
       <CurrentItem>Simulate Behavioral Model</CurrentItem>
    </ItemView>

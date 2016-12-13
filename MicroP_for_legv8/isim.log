@@ -1,57 +1,377 @@
 ISim log file
-Running: C:\Users\tuf22191\Projects\Github_Repos\Building_Microprocessor_Verilog\MicroP_for_legv8\TB_FSM_CONTROLLER_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb C:/Users/tuf22191/Projects/Github_Repos/Building_Microprocessor_Verilog/MicroP_for_legv8/TB_FSM_CONTROLLER_isim_beh.wdb 
+Running: C:\Users\tuf22191\Projects\Github_Repos\Building_Microprocessor_Verilog\MicroP_for_legv8\COMBO_FSM_CPU_TEST_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb C:/Users/tuf22191/Projects/Github_Repos/Building_Microprocessor_Verilog/MicroP_for_legv8/COMBO_FSM_CPU_TEST_isim_beh.wdb 
 ISim P.49d (signature 0x7708f090)
 WARNING: A WEBPACK license was found.
 WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
 WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
 This is a Lite version of ISim.
+WARNING:  For instance subtractor/sub/, width 1 of formal port c_in is not equal to width 32 of actual constant.
+WARNING:  For instance uut11/adder/, width 1 of formal port c_in is not equal to width 32 of actual constant.
+WARNING: File "C:/Users/tuf22191/Projects/Github_Repos/Building_Microprocessor_Verilog/MicroP_for_legv8/COMBO_FSM_CPU_TEST.v" Line 135.  For instance COMBO_FSM_CPU_TEST/uut12/, width 32 of formal port data_to_write is not equal to width 64 of actual signal reg_out_2_rf.
+WARNING: File "C:/Users/tuf22191/Projects/Github_Repos/Building_Microprocessor_Verilog/MicroP_for_legv8/COMBO_FSM_CPU_TEST.v" Line 27.  For instance COMBO_FSM_CPU_TEST/uut12/, width 32 of formal port answer_answer is not equal to width 64 of actual signal answer_answer.
 Time resolution is 1 ps
 # onerror resume
 # wave add /
 # run 1000 ns
 Simulator is doing circuit initialization process.
-initialized in start
-in fetch!  812 is opcode
-in subtraction
-next_state =  3
+initialized in start                    0
+ropcode in a state,    0
+in fetch!    0 is opcode,                    0
+next_state =  0, current time:                    0
+ropcode in a state,    0
+in fetch!    0 is opcode,                    0
+next_state =  0, current time:                    0
 Finished circuit initialization process.
-in fetch!  682 is opcode
-next_state =  6
-in fetch!  812 is opcode
-in subtraction
-next_state =  3
-in fetch!  682 is opcode
-next_state =  6
-in fetch!  682 is opcode
-next_state =  6
-in fetch!  682 is opcode
-next_state =  6
-in fetch!  682 is opcode
-next_state =  6
-in fetch!  682 is opcode
-next_state =  6
-in fetch!  682 is opcode
-next_state =  6
-in fetch!  682 is opcode
-next_state =  6
-in fetch!  682 is opcode
-next_state =  6
-in fetch!  682 is opcode
-next_state =  6
-in fetch!  682 is opcode
-next_state =  6
-in fetch!  682 is opcode
-next_state =  6
-in fetch!  682 is opcode
-next_state =  6
-in fetch!  682 is opcode
-next_state =  6
-in fetch!  682 is opcode
-next_state =  6
-# run all
-in fetch!  682 is opcode
-next_state =  6
-in fetch!  682 is opcode
-next_state =  6
-Simulation ENDDDED!
-Stopped at time : 1100 ns : File "C:/Users/tuf22191/Projects/Github_Repos/Building_Microprocessor_Verilog/MicroP_for_legv8/TB_FSM_CONTROLLER.v" Line 74
+the ropcode is    0, the time is                    0
+ropcode in a state,    0
+in fetch!    0 is opcode,                   10
+next_state =  0, current time:                   10
+ropcode in a state,    0
+in fetch!    0 is opcode,                   20
+next_state =  0, current time:                   20
+ropcode in a state,    0
+in fetch!    0 is opcode,                   30
+next_state =  0, current time:                   30
+ropcode in a state,    0
+in fetch!    0 is opcode,                   40
+next_state =  0, current time:                   40
+ropcode in a state,    0
+in fetch!    0 is opcode,                   50
+next_state =  0, current time:                   50
+ropcode in a state,    0
+in fetch!    0 is opcode,                   60
+next_state =  0, current time:                   60
+ropcode in a state,    0
+in fetch!    0 is opcode,                   70
+next_state =  0, current time:                   70
+ropcode in a state,    0
+in fetch!    0 is opcode,                   80
+next_state =  0, current time:                   80
+ropcode in a state,    0
+in fetch!    0 is opcode,                   90
+next_state =  0, current time:                   90
+ropcode in a state,    0
+in fetch!    0 is opcode,                  100
+next_state =  0, current time:                  100
+ropcode in a state,    0
+in fetch!    0 is opcode,                  110
+next_state =  0, current time:                  110
+ropcode in a state,    0
+in fetch!    0 is opcode,                  120
+next_state =  0, current time:                  120
+the ropcode is    x, the time is                  120
+ropcode in a state,    x
+in fetch!    x is opcode,                  130
+next_state =  0, current time:                  130
+ropcode in a state,    x
+in fetch!    x is opcode,                  140
+next_state =  0, current time:                  140
+ropcode in a state,    x
+in fetch!    x is opcode,                  150
+next_state =  0, current time:                  150
+ropcode in a state,    x
+in fetch!    x is opcode,                  160
+next_state =  0, current time:                  160
+ropcode in a state,    x
+in fetch!    x is opcode,                  170
+next_state =  0, current time:                  170
+ropcode in a state,    x
+in fetch!    x is opcode,                  180
+next_state =  0, current time:                  180
+ropcode in a state,    x
+in fetch!    x is opcode,                  190
+next_state =  0, current time:                  190
+ropcode in a state,    x
+in fetch!    x is opcode,                  200
+next_state =  0, current time:                  200
+ropcode in a state,    x
+in fetch!    x is opcode,                  210
+next_state =  0, current time:                  210
+ropcode in a state,    x
+in fetch!    x is opcode,                  220
+next_state =  0, current time:                  220
+ropcode in a state,    x
+in fetch!    x is opcode,                  230
+next_state =  0, current time:                  230
+ropcode in a state,    x
+in fetch!    x is opcode,                  240
+next_state =  0, current time:                  240
+the ropcode is    0, the time is                  240
+ropcode in a state,    0
+in fetch!    0 is opcode,                  250
+next_state =  0, current time:                  250
+ropcode in a state,    0
+in fetch!    0 is opcode,                  260
+next_state =  0, current time:                  260
+ropcode in a state,    0
+in fetch!    0 is opcode,                  270
+next_state =  0, current time:                  270
+ropcode in a state,    0
+in fetch!    0 is opcode,                  280
+next_state =  0, current time:                  280
+ropcode in a state,    0
+in fetch!    0 is opcode,                  290
+next_state =  0, current time:                  290
+ropcode in a state,    0
+in fetch!    0 is opcode,                  300
+next_state =  0, current time:                  300
+ropcode in a state,    0
+in fetch!    0 is opcode,                  310
+next_state =  0, current time:                  310
+ropcode in a state,    0
+in fetch!    0 is opcode,                  320
+next_state =  0, current time:                  320
+ropcode in a state,    0
+in fetch!    0 is opcode,                  330
+next_state =  0, current time:                  330
+CHECK BETWEEN 200 and 400 ns
+ropcode in a state,    0
+in fetch!    0 is opcode,                  340
+next_state =  0, current time:                  340
+ropcode in a state,    0
+in fetch!    0 is opcode,                  350
+next_state =  0, current time:                  350
+ropcode in a state,    0
+in fetch!    0 is opcode,                  360
+next_state =  0, current time:                  360
+the ropcode is  682, the time is                  360
+ropcode in a state,  682
+in fetch!  682 is opcode,                  370
+we should be in load at time:                  370
+next_state =  6, current time:                  370
+ropcode in a state,  682
+in fetch!  682 is opcode,                  380
+we should be in load at time:                  380
+next_state =  6, current time:                  380
+ropcode in a state,  682
+next_state =  7, current time:                  380
+ropcode in a state,  682
+next_state =  7, current time:                  390
+ropcode in a state,  682
+next_state =  7, current time:                  400
+ropcode in a state,  682
+next_state =  0, current time:                  400
+ropcode in a state,  682
+next_state =  0, current time:                  410
+ropcode in a state,  682
+next_state =  0, current time:                  420
+ropcode in a state,  682
+in fetch!  682 is opcode,                  420
+we should be in load at time:                  420
+next_state =  6, current time:                  420
+ropcode in a state,  682
+in fetch!  682 is opcode,                  430
+we should be in load at time:                  430
+next_state =  6, current time:                  430
+ropcode in a state,  682
+in fetch!  682 is opcode,                  440
+we should be in load at time:                  440
+next_state =  6, current time:                  440
+ropcode in a state,  682
+next_state =  7, current time:                  440
+ropcode in a state,  682
+next_state =  7, current time:                  450
+ropcode in a state,  682
+next_state =  7, current time:                  460
+ropcode in a state,  682
+next_state =  0, current time:                  460
+ropcode in a state,  682
+next_state =  0, current time:                  470
+ropcode in a state,  682
+next_state =  0, current time:                  480
+ropcode in a state,  682
+in fetch!  682 is opcode,                  480
+we should be in load at time:                  480
+next_state =  6, current time:                  480
+ropcode in a state,  682
+in fetch!  682 is opcode,                  490
+we should be in load at time:                  490
+next_state =  6, current time:                  490
+ropcode in a state,  682
+in fetch!  682 is opcode,                  500
+we should be in load at time:                  500
+next_state =  6, current time:                  500
+ropcode in a state,  682
+next_state =  7, current time:                  500
+ropcode in a state,  682
+next_state =  7, current time:                  510
+ropcode in a state,  682
+next_state =  7, current time:                  520
+ropcode in a state,  682
+next_state =  0, current time:                  520
+ropcode in a state,  682
+next_state =  0, current time:                  530
+ropcode in a state,  682
+next_state =  0, current time:                  540
+ropcode in a state,  682
+in fetch!  682 is opcode,                  540
+we should be in load at time:                  540
+next_state =  6, current time:                  540
+ropcode in a state,  682
+in fetch!  682 is opcode,                  550
+we should be in load at time:                  550
+next_state =  6, current time:                  550
+ropcode in a state,  682
+in fetch!  682 is opcode,                  560
+we should be in load at time:                  560
+next_state =  6, current time:                  560
+ropcode in a state,  682
+next_state =  7, current time:                  560
+ropcode in a state,  682
+next_state =  7, current time:                  570
+ropcode in a state,  682
+next_state =  7, current time:                  580
+ropcode in a state,  682
+next_state =  0, current time:                  580
+ropcode in a state,  682
+next_state =  0, current time:                  590
+ropcode in a state,  682
+next_state =  0, current time:                  600
+ropcode in a state,  812
+in fetch!  812 is opcode,                  600
+next_state =  3, current time:                  600
+the ropcode is  812, the time is                  600
+ropcode in a state,  812
+in fetch!  812 is opcode,                  610
+next_state =  3, current time:                  610
+ropcode in a state,  812
+in fetch!  812 is opcode,                  620
+next_state =  3, current time:                  620
+ropcode in a state,  812
+next_state =  4, current time:                  620
+ropcode in a state,  812
+next_state =  4, current time:                  630
+ropcode in a state,  812
+next_state =  4, current time:                  640
+ropcode in a state,  812
+next_state =  0, current time:                  640
+ropcode in a state,  812
+next_state =  0, current time:                  650
+ropcode in a state,  812
+next_state =  0, current time:                  660
+ropcode in a state,  992
+in fetch!  992 is opcode,                  660
+next_state =  3, current time:                  660
+the ropcode is  992, the time is                  660
+ropcode in a state,  992
+in fetch!  992 is opcode,                  670
+next_state =  3, current time:                  670
+ropcode in a state,  992
+in fetch!  992 is opcode,                  680
+next_state =  3, current time:                  680
+ropcode in a state,  992
+next_state =  4, current time:                  680
+ropcode in a state,  992
+next_state =  4, current time:                  690
+ropcode in a state,  992
+next_state =  4, current time:                  700
+ropcode in a state,  992
+next_state =  0, current time:                  700
+ropcode in a state,  992
+next_state =  0, current time:                  710
+ropcode in a state,  992
+next_state =  0, current time:                  720
+ropcode in a state,  812
+in fetch!  812 is opcode,                  720
+next_state =  3, current time:                  720
+the ropcode is  812, the time is                  720
+ropcode in a state,  812
+in fetch!  812 is opcode,                  730
+next_state =  3, current time:                  730
+ropcode in a state,  812
+in fetch!  812 is opcode,                  740
+next_state =  3, current time:                  740
+ropcode in a state,  812
+next_state =  4, current time:                  740
+ropcode in a state,  812
+next_state =  4, current time:                  750
+ropcode in a state,  812
+next_state =  4, current time:                  760
+ropcode in a state,  812
+next_state =  0, current time:                  760
+ropcode in a state,  812
+next_state =  0, current time:                  770
+ropcode in a state,  812
+next_state =  0, current time:                  780
+ropcode in a state,  682
+in fetch!  682 is opcode,                  780
+we should be in load at time:                  780
+next_state =  6, current time:                  780
+the ropcode is  682, the time is                  780
+ropcode in a state,  682
+in fetch!  682 is opcode,                  790
+we should be in load at time:                  790
+next_state =  6, current time:                  790
+ropcode in a state,  682
+in fetch!  682 is opcode,                  800
+we should be in load at time:                  800
+next_state =  6, current time:                  800
+ropcode in a state,  682
+next_state =  7, current time:                  800
+ropcode in a state,  682
+next_state =  7, current time:                  810
+ropcode in a state,  682
+next_state =  7, current time:                  820
+ropcode in a state,  682
+next_state =  0, current time:                  820
+ropcode in a state,  682
+next_state =  0, current time:                  830
+ropcode in a state,  682
+next_state =  0, current time:                  840
+ropcode in a state,   31
+in fetch!   31 is opcode,                  840
+next_state =  3, current time:                  840
+the ropcode is   31, the time is                  840
+ropcode in a state,   31
+in fetch!   31 is opcode,                  850
+next_state =  3, current time:                  850
+ropcode in a state,   31
+in fetch!   31 is opcode,                  860
+next_state =  3, current time:                  860
+ropcode in a state,   31
+next_state =  4, current time:                  860
+ropcode in a state,   31
+next_state =  4, current time:                  870
+ropcode in a state,   31
+next_state =  4, current time:                  880
+ropcode in a state,   31
+next_state =  0, current time:                  880
+ropcode in a state,   31
+next_state =  0, current time:                  890
+ropcode in a state,   31
+next_state =  0, current time:                  900
+ropcode in a state,  984
+in fetch!  984 is opcode,                  900
+next_state =  0, current time:                  900
+the ropcode is  984, the time is                  900
+ropcode in a state,  984
+in fetch!  984 is opcode,                  910
+next_state =  0, current time:                  910
+ropcode in a state,  984
+in fetch!  984 is opcode,                  920
+next_state =  0, current time:                  920
+ropcode in a state,  984
+in fetch!  984 is opcode,                  930
+next_state =  0, current time:                  930
+ropcode in a state,  984
+in fetch!  984 is opcode,                  940
+next_state =  0, current time:                  940
+ropcode in a state,  984
+in fetch!  984 is opcode,                  950
+next_state =  0, current time:                  950
+ropcode in a state,  984
+in fetch!  984 is opcode,                  960
+next_state =  0, current time:                  960
+the ropcode is    0, the time is                  960
+ropcode in a state,    0
+in fetch!    0 is opcode,                  970
+next_state =  0, current time:                  970
+ropcode in a state,    0
+in fetch!    0 is opcode,                  980
+next_state =  0, current time:                  980
+ropcode in a state,    0
+in fetch!    0 is opcode,                  990
+next_state =  0, current time:                  990
+ropcode in a state,    0
+in fetch!    0 is opcode,                 1000
+next_state =  0, current time:                 1000

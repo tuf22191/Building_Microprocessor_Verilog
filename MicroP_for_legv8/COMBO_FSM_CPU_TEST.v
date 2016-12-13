@@ -35,7 +35,7 @@ module COMBO_FSM_CPU_TEST;
 	// Outputs
 	wire [31:0] address1; //adder2, pc, instruction memory
 	wire [31:0] instruction; 
-	wire [31:0] data_out; //BY PC and Mux1
+	wire [31:0] data_out; //BY PC and Mux1 
 	wire [31:0] sum2; //adder2 and mux1
 	
 	// Instantiate the Unit Under Test (UUT)
@@ -43,10 +43,10 @@ module COMBO_FSM_CPU_TEST;
 		.address_counter(data_out), //done
 		.address(address1), //done
 		.reset(reset),  //done
-		.clk(clk2)//done
+		.clk(clk2)//done 
 	);
    ////////////////////////////////////////INSTRUCTION MEMORY
-
+ 
 	// Instantiate the Unit Under Test (UUT)
 	Instruction_Memory_Thirty_Two_Bit uut2 ( 
 		.instruction(instruction), //done
@@ -68,7 +68,7 @@ module COMBO_FSM_CPU_TEST;
 
 	// Instantiate the Unit Under Test (UUT)
 	FSM_Controller uut3 (
-		.clk(clk), 
+		.clk(clk),  
 		.opcode(instruction[31:22]), 
 		.instruction(instruction),  
 		.mem_write_dm(mem_write_dm), 
@@ -252,22 +252,25 @@ module COMBO_FSM_CPU_TEST;
 	clk =1;#10;
 	clk =0;#10;
 	end
-	
+	 
 	always begin
-	#11000;
+	#1100;
 	$finish("finished with simulation");
 	end
 
 	initial begin
 		// Initialize Inputs
-		
-		
+		#100;
+		reset = 1;
+		#100;
+		reset = 0;
+		#140;
 		// Wait 100 ns for global reset to finish
-		#100;
-         $monitor( "%g = clock , %d = address_counter , %d = address1, %d =instruction ",$time,data_out,address1, instruction);
+		//#100;
+       //  $monitor( "%g = clock , %d = address_counter , %d = address1, %d =instruction ",$time,data_out,address1, instruction);
 		// Add stimulus here
-      reset=1;
-		#100;
+      //reset=1;
+		//#100;
 //		@(posedge clk)
 //		//address_counter = 1;
 //		@(posedge clk)
@@ -283,11 +286,11 @@ module COMBO_FSM_CPU_TEST;
 //		@(posedge clk)
 //		//address_counter = 7;
 //		@(posedge clk)
-		reset=0;
-		#1000;
+		//reset=0;
+		//#1000;
 		//address_counter = 8;
 		$display("CHECK BETWEEN 200 and 400 ns");
-		$finish;
+//		$finish;
 		
 	end
       
