@@ -53,8 +53,8 @@ module ALU(
 		
 		  3'b010: result = a_in+b_in;//add_output;
 		  3'b001: result = a_in-b_in;//sub_output;
-		  3'b100: result = multiply_output;
-	  	  3'b011: result = divide_output;
+		  3'b100: result = a_in*b_in;
+	  	  3'b011: result = a_in/b_in;
 		  3'b101: result = a_in;//effectively adding 0 to first register
 		  default: result=64'b0000000000000000000000000000000000000000000000000000000000000000;
 		endcase

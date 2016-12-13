@@ -26,6 +26,7 @@
     <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="COMBO_EVERYTHING_DIFFCLOCKS_beh.prj"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="COMBO_EVERYTHING_DIFFCLOCKS_isim_beh.exe"/>
     <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="COMBO_EVERYTHING_DIFFCLOCKS_isim_beh.wdb"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="COMBO_EVERYTHING_DIFFCLOCKS_stx_beh.prj"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="COMBO_EVERYTHING_WITHOUT_CONTROL_isim_beh.exe"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="COMBO_PC_IR_Contr_ADDER1_Mux1_isim_beh.exe"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="COMBO_PC_InstructionReg_Controller_isim_beh.exe"/>
@@ -102,6 +103,7 @@
     <file xil_pn:fileType="FILE_XRPT" xil_pn:name="half_adder_xst.xrpt"/>
     <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="isim"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_CMD" xil_pn:name="isim.cmd"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_LOG" xil_pn:name="isim.log"/>
     <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="webtalk_pn.xml"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_INI" xil_pn:name="xilinxsim.ini"/>
     <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xlnx_auto_0_xdb"/>
@@ -117,7 +119,7 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1481591652" xil_pn:in_ck="-4791205120044463080" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1481591652">
+    <transform xil_pn:end_ts="1481598287" xil_pn:in_ck="-4791205120044463080" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1481598287">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <outfile xil_pn:name="ALU.v"/>
@@ -176,7 +178,7 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1481591652" xil_pn:in_ck="-4791205120044463080" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1481591652">
+    <transform xil_pn:end_ts="1481598287" xil_pn:in_ck="-4791205120044463080" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1481598287">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <outfile xil_pn:name="ALU.v"/>
@@ -223,20 +225,22 @@
       <outfile xil_pn:name="half_adder.v"/>
       <outfile xil_pn:name="one_bit_full_adder.v"/>
     </transform>
-    <transform xil_pn:end_ts="1481591655" xil_pn:in_ck="-4791205120044463080" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="-7049201704492237947" xil_pn:start_ts="1481591652">
+    <transform xil_pn:end_ts="1481598291" xil_pn:in_ck="-4791205120044463080" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="-7049201704492237947" xil_pn:start_ts="1481598287">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <outfile xil_pn:name="COMBO_EVERYTHING_DIFFCLOCKS_beh.prj"/>
       <outfile xil_pn:name="COMBO_EVERYTHING_DIFFCLOCKS_isim_beh.exe"/>
       <outfile xil_pn:name="fuse.log"/>
       <outfile xil_pn:name="isim"/>
+      <outfile xil_pn:name="isim.log"/>
       <outfile xil_pn:name="xilinxsim.ini"/>
     </transform>
-    <transform xil_pn:end_ts="1481591656" xil_pn:in_ck="-50051327468637648" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="-6223471681229923320" xil_pn:start_ts="1481591655">
+    <transform xil_pn:end_ts="1481598291" xil_pn:in_ck="-50051327468637648" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="-6223471681229923320" xil_pn:start_ts="1481598291">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <outfile xil_pn:name="COMBO_EVERYTHING_DIFFCLOCKS_isim_beh.wdb"/>
       <outfile xil_pn:name="isim.cmd"/>
+      <outfile xil_pn:name="isim.log"/>
     </transform>
     <transform xil_pn:end_ts="1478453701" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1478453701">
       <status xil_pn:value="SuccessfullyRun"/>

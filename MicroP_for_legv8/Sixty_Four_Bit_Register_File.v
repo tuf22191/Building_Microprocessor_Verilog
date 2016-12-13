@@ -26,7 +26,8 @@ module Sixty_Four_Bit_Register_File(
     input reg_write,
 	 input clk,
     output reg [63:0] reg_out_1,
-    output reg [63:0] reg_out_2
+    output reg [63:0] reg_out_2,
+	 output reg [63:0] answer_answer2
     );
 
      reg [63:0] MEMORY [0:31];
@@ -56,10 +57,10 @@ always @(posedge clk) begin
 
 reg_out_1 <= MEMORY[read_reg_address_1];
 reg_out_2 <= MEMORY[read_reg_address_2];
-
+answer_answer2 <= MEMORY[5'b00110]; 
 end
 
-always@(*)begin //for the write register
+always@(posedge clk)begin //for the write register 
 	if(reg_write)begin
        MEMORY[write_reg_address] = data;
 	end //if reg_write

@@ -23,8 +23,8 @@
 ////////////////////////////////////////////////////////////////////////////////
 
 module COMBO_EVERYTHING_DIFFCLOCKS;
-    wire answer_answer;
-
+    wire [63:0] answer_answer;
+    wire [63:0] answer_answer2;
 	// Inputs
 	//reg [31:0] address_counter;
 	reg reset;
@@ -51,7 +51,7 @@ module COMBO_EVERYTHING_DIFFCLOCKS;
 		.instruction(instruction), //done
 		.address(address1), //done
 		.clk(clk) //done
-	);
+	); 
 	///////////////////////////////////////CONTROLLER
 	wire mem_write_dm;
 	wire mem_read_dm;
@@ -133,7 +133,8 @@ module COMBO_EVERYTHING_DIFFCLOCKS;
 		.reg_write(reg_write_rf), //h. up
 		.clk(clk), //h. up
 		.reg_out_1(reg_out_1_rf), //done
-		.reg_out_2(reg_out_2_rf) //done
+		.reg_out_2(reg_out_2_rf), //done
+      .answer_answer2(answer_answer2)
 	);
 
    //////////////////////////////////////////////MUX2
@@ -241,7 +242,7 @@ module COMBO_EVERYTHING_DIFFCLOCKS;
 	end
 	
 	always begin
-	#1100;
+	#5500;
 	$finish("finished with simulation");
 	end
 

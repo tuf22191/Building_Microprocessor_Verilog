@@ -2,28 +2,28 @@ Command line:
    COMBO_EVERYTHING_DIFFCLOCKS_isim_beh.exe
      -simmode  gui
      -simrunnum  0
-     -socket  63027
+     -socket  63324
 
-Mon Dec 12 20:14:17 2016
+Mon Dec 12 22:04:52 2016
 
 
- Elaboration Time: 0.078125 sec
+ Elaboration Time: 0.046875 sec
 
- Current Memory Usage: 848.843 Meg
+ Current Memory Usage: 848.847 Meg
 
- Total Signals          : 3664
- Total Nets             : 1856
- Total Signal Drivers   : 1001
+ Total Signals          : 3665
+ Total Nets             : 1952
+ Total Signal Drivers   : 1002
  Total Blocks           : 656
  Total Primitive Blocks : 396
- Total Processes        : 1018
- Total Traceable Variables  : 44
- Total Scalar Nets and Variables : 14655
-Total Line Count : 164
+ Total Processes        : 1019
+ Total Traceable Variables  : 45
+ Total Scalar Nets and Variables : 23039
+Total Line Count : 166
 
- Total Simulation Time: 0.125 sec
+ Total Simulation Time: 0.046875 sec
 
- Current Memory Usage: 691.556 Meg
+ Current Memory Usage: 1163.42 Meg
 
-Mon Dec 12 20:30:56 2016
+Mon Dec 12 22:05:29 2016
 

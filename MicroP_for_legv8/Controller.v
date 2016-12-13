@@ -75,8 +75,9 @@ always @(opcode) begin
 		mem_write_dm = 0;
 		branch = 0;
 		reg_write_rf = 1;
-		mux2 = 0;
+		mux2 = 0; 
 		mux3 = 0; //where the sign extensition is done
+		//#15;
 	 end //time critical?
 	
 	 10'b1111011010: begin  //Loading Instruction from Data Memory!!

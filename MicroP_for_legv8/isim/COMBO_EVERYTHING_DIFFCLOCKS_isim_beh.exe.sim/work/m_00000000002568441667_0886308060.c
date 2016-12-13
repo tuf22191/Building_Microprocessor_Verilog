@@ -166,17 +166,23 @@ LAB9:    xsi_set_current_line(55, ng0);
     goto LAB19;
 
 LAB11:    xsi_set_current_line(56, ng0);
-    t3 = (t0 + 2008U);
+    t3 = (t0 + 1048U);
     t4 = *((char **)t3);
+    t3 = (t0 + 1208U);
+    t7 = *((char **)t3);
+    xsi_vlog_unsigned_multiply(t10, 64, t4, 64, t7, 64);
     t3 = (t0 + 2728);
-    xsi_vlogvar_assign_value(t3, t4, 0, 0, 64);
+    xsi_vlogvar_assign_value(t3, t10, 0, 0, 64);
     goto LAB19;
 
 LAB13:    xsi_set_current_line(57, ng0);
-    t3 = (t0 + 1848U);
+    t3 = (t0 + 1048U);
     t4 = *((char **)t3);
+    t3 = (t0 + 1208U);
+    t7 = *((char **)t3);
+    xsi_vlog_unsigned_divide(t10, 64, t4, 64, t7, 64);
     t3 = (t0 + 2728);
-    xsi_vlogvar_assign_value(t3, t4, 0, 0, 64);
+    xsi_vlogvar_assign_value(t3, t10, 0, 0, 64);
     goto LAB19;
 
 LAB15:    xsi_set_current_line(58, ng0);
