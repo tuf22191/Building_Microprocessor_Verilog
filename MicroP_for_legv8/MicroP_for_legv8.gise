@@ -126,7 +126,7 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1481642062" xil_pn:in_ck="1676913751672655558" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1481642062">
+    <transform xil_pn:end_ts="1481650716" xil_pn:in_ck="1676913751672655558" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1481650716">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <outfile xil_pn:name="ALU.v"/>
@@ -176,11 +176,11 @@
       <outfile xil_pn:name="half_adder.v"/>
       <outfile xil_pn:name="one_bit_full_adder.v"/>
     </transform>
-    <transform xil_pn:end_ts="1481642038" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="8496295144800840466" xil_pn:start_ts="1481642038">
+    <transform xil_pn:end_ts="1481647393" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="8496295144800840466" xil_pn:start_ts="1481647393">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1481642038" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="-3765761599279676460" xil_pn:start_ts="1481642038">
+    <transform xil_pn:end_ts="1481647393" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="-3765761599279676460" xil_pn:start_ts="1481647393">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
@@ -188,7 +188,7 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1481642062" xil_pn:in_ck="1676913751672655558" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1481642062">
+    <transform xil_pn:end_ts="1481650716" xil_pn:in_ck="1676913751672655558" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1481650716">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <outfile xil_pn:name="ALU.v"/>
@@ -238,7 +238,7 @@
       <outfile xil_pn:name="half_adder.v"/>
       <outfile xil_pn:name="one_bit_full_adder.v"/>
     </transform>
-    <transform xil_pn:end_ts="1481642066" xil_pn:in_ck="1676913751672655558" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="7973934059898037381" xil_pn:start_ts="1481642062">
+    <transform xil_pn:end_ts="1481650721" xil_pn:in_ck="1676913751672655558" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="7973934059898037381" xil_pn:start_ts="1481650716">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <outfile xil_pn:name="COMBO_FSM_CPU_TEST_beh.prj"/>
@@ -248,7 +248,7 @@
       <outfile xil_pn:name="isim.log"/>
       <outfile xil_pn:name="xilinxsim.ini"/>
     </transform>
-    <transform xil_pn:end_ts="1481642066" xil_pn:in_ck="6766158545793325290" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="-3170970241968357848" xil_pn:start_ts="1481642066">
+    <transform xil_pn:end_ts="1481650721" xil_pn:in_ck="6766158545793325290" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="-3170970241968357848" xil_pn:start_ts="1481650721">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <outfile xil_pn:name="COMBO_FSM_CPU_TEST_isim_beh.wdb"/>

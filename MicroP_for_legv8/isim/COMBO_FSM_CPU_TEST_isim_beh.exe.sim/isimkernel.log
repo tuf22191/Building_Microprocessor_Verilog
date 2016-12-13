@@ -2,9 +2,28 @@ Command line:
    COMBO_FSM_CPU_TEST_isim_beh.exe
      -simmode  gui
      -simrunnum  0
-     -socket  55821
+     -socket  56339
 
-Tue Dec 13 10:14:28 2016
+Tue Dec 13 12:38:43 2016
 
 
  Elaboration Time: 0.0625 sec
+
+ Current Memory Usage: 848.888 Meg
+
+ Total Signals          : 3671
+ Total Nets             : 1975
+ Total Signal Drivers   : 1007
+ Total Blocks           : 656
+ Total Primitive Blocks : 396
+ Total Processes        : 1027
+ Total Traceable Variables  : 61
+ Total Scalar Nets and Variables : 23329
+Total Line Count : 211
+
+ Total Simulation Time: 0.171875 sec
+
+ Current Memory Usage: 1163.46 Meg
+
+Tue Dec 13 12:39:23 2016
+

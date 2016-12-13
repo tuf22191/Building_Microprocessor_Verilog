@@ -44,11 +44,11 @@ module COMBO_FSM_CPU_TEST;
 		.address(address1), //done
 		.reset(reset),  //done
 		.clk(clk2)//done 
-	);
+	); 
    ////////////////////////////////////////INSTRUCTION MEMORY
  
 	// Instantiate the Unit Under Test (UUT)
-	Instruction_Memory_Thirty_Two_Bit uut2 ( 
+	Instruction_Memory_Thirty_Two_Bit uut2 (  
 		.instruction(instruction), //done
 		.address(address1), //done
 		.clk(clk2) //done
@@ -243,8 +243,8 @@ module COMBO_FSM_CPU_TEST;
 	and uut13 ( mux1, zero, branch); //done
 	
 	always begin
-	clk2 =1;#30;
-	clk2 =0;#30; 
+	clk2 =1;#60;
+	clk2 =0;#60; 
 	end
 	
 	
@@ -254,7 +254,7 @@ module COMBO_FSM_CPU_TEST;
 	end
 	 
 	always begin
-	#1100;
+	#8800;
 	$finish("finished with simulation");
 	end
 

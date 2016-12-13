@@ -82,7 +82,7 @@ module Instruction_Memory_Thirty_Two_Bit(
 		end  
 		*/
 		
-			
+		/*	 real one
 		THE_MEMORY[0]= 0;//0; //initialize  it
  		THE_MEMORY[1]={10'b1010101010,5'b00000,7'b0001100 ,5'b00000,5'b00010};
  		THE_MEMORY[2]={10'b1010101010,5'b00000,7'b0001010 ,5'b00000,5'b00011};
@@ -94,9 +94,28 @@ module Instruction_Memory_Thirty_Two_Bit(
  		THE_MEMORY[7]={10'b1100101100,5'b00100,7'b0000000 ,5'b00101,5'b00111};//7
 		THE_MEMORY[8]={10'b1010101010,5'b00111,7'b0000000 ,5'b00110,5'b00110};//8
 		THE_MEMORY[9]={10'b0000011111,5'b00110,7'b0000000 ,5'b00101,5'b00110};//9
-	  THE_MEMORY[10]={10'b1111011000,5'b00000,7'b0000111 ,5'b00110,5'b00000};//10
+	  THE_MEMORY[10]={10'b1111011000,5'b00000,7'b0000111 ,5'b00110,5'b00000};//10 
+	  for(i=11;i<64;i=i+1)begin   //CHANGE THIS!!!!!!!!!!!!!!!!!!!!!!!!!
+		THE_MEMORY[i] = 0;
+		end
+	  */
 		
-		for(i=11;i<64;i=i+1)begin   //CHANGE THIS!!!!!!!!!!!!!!!!!!!!!!!!!
+			THE_MEMORY[0]= 0;//0; //initialize  it
+ 		THE_MEMORY[1]={10'b1010101010,5'b00000,7'b0001100 ,5'b00000,5'b00010}; //load instruction
+ 		THE_MEMORY[2]={10'b1010101010,5'b00000,7'b0001010 ,5'b00000,5'b00011};//load instruction
+ 		THE_MEMORY[3]={10'b1010101010,5'b00000,7'b0000101 ,5'b00000,5'b00100};//load instruction
+ 		THE_MEMORY[4]={10'b1010101010,5'b00000,7'b0000010 ,5'b00000,5'b00101}; //load instruction
+		///good up till here
+ 		THE_MEMORY[5]={10'b1100101100,5'b00010,7'b0000000 ,5'b00011,5'b01000};//5 subtract to t8 register
+		THE_MEMORY[6]={10'b1111100000,5'b01000,7'b0000000 ,5'b00100,5'b01001}; //multiply operation in t9 register
+		THE_MEMORY[7]={10'b1100101100,5'b00100,7'b0000000 ,5'b00101,5'b01010}; //subtract operation 5-2 result in t10 register of 3		
+ 		THE_MEMORY[8]={10'b1000101000,5'b01001,7'b0000000 ,5'b01010,5'b01011};	// add operation 10+3 or 13 stored in t11 register 
+ 		THE_MEMORY[9]={10'b0000011111,5'b01011,7'b0000000 ,5'b00101,5'b01100};// division of 13/2 or 6 is stored in t12
+		THE_MEMORY[10]={10'b0000000000,5'b00000,7'b0000000 ,5'b00000,5'b00110};		
+		THE_MEMORY[11]={10'b0000000000,5'b00000,7'b0000000 ,5'b00000,5'b00110};
+		THE_MEMORY[12]={10'b0000000000,5'b00000,7'b0000000 ,5'b00000,5'b00110};
+		
+		for(i=13;i<64;i=i+1)begin   //CHANGE THIS!!!!!!!!!!!!!!!!!!!!!!!!!
 		THE_MEMORY[i] = 0;
 		end
 		

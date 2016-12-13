@@ -43,7 +43,7 @@ module TB_FSM_CONTROLLER;
 	wire [2:0] alu_op;
 
 	// Instantiate the Unit Under Test (UUT)
-	FSM_Controller uut ( 
+	FSM_Controller uut (  
 		.clk(clk), 
 		.opcode(opcode), 
 		.instruction(instruction),  
@@ -88,7 +88,7 @@ module TB_FSM_CONTROLLER;
 	end
 
 always begin 
-		#1100
+		#2200
 		$display("Simulation ENDDDED!");
 		$finish; // because always blocks are executing in parallel, it works
 	end
@@ -96,27 +96,31 @@ always begin
 
 	initial begin
 		// Initialize Inputs
-		opcode = 10'b1100101100; //subtraction
-		instruction = {10'b1100101100,5'b00010,7'b0000000 ,5'b00011,5'b00110};
+		//opcode = 10'b1100101100; //subtraction  - 812
+		//instruction = {10'b1100101100,5'b00010,7'b0000000 ,5'b00011,5'b00110};
 		
 	
 		// Wait 100 ns for global reset to finish
-		#60;
+		#120;
+		$display("STARTING NOW!");
 		
-		
-		opcode = 10'b1010101010; 
+		opcode = 10'b1010101010; //loading  - 682
       instruction = {10'b1010101010,5'b00000,7'b0001100 ,5'b00000,5'b00010};
-		#60;
+		#120;
 		
 		
 		opcode = 10'b1100101100; //subtraction
 		instruction = {10'b1100101100,5'b00010,7'b0000000 ,5'b00011,5'b00110};
-		#60;
+		#120;
    
 		
-		opcode = 10'b1010101010;
+		opcode = 10'b1010101010; //loading
       instruction = {10'b1010101010,5'b00000,7'b0001100 ,5'b00000,5'b00010};
-		#60;
+		#120;
+		
+		opcode = 10'b1100101100; //subtraction
+		instruction = {10'b1100101100,5'b00010,7'b0000000 ,5'b00011,5'b00110};
+		#120;
     	       
 		// Add stimulus here
 

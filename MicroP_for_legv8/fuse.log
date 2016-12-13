@@ -56,8 +56,8 @@ Compiling module Data_Memory
 Compiling module COMBO_FSM_CPU_TEST
 Compiling module glbl
 Time Resolution for simulation is 1ps.
-Waiting for 12 sub-compilation(s) to finish...
+Waiting for 7 sub-compilation(s) to finish...
 Compiled 22 Verilog Units
 Built simulation executable C:/Users/tuf22191/Projects/Github_Repos/Building_Microprocessor_Verilog/MicroP_for_legv8/COMBO_FSM_CPU_TEST_isim_beh.exe
-Fuse Memory Usage: 28540 KB
-Fuse CPU Usage: 702 ms
+Fuse Memory Usage: 28632 KB
+Fuse CPU Usage: 562 ms

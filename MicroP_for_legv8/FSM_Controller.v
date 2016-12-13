@@ -26,16 +26,17 @@
 		output reg [4:0] read_reg_1, read_reg_2, write_reg,
 		output reg [6:0] sign_extension_bits,
 		output reg [2:0] alu_op  
-    );
+    ); 
 	 //how many states
 	 reg [3:0] state = 0, next_state;
 	 reg [1:0] counter;
 	 reg [9:0]ropcode;
 	 
 	 initial begin
-				$display("initialized in start %d", $time);
-				$monitor("the ropcode is %d, the time is %d", ropcode, $time);
+				$display("initialized in start: time: %d",  $time);
+				//$monitor("the ropcode is %d, the time: %d", ropcode, $time);
 				ropcode=0;
+				bool =0;
 				counter=0;
 				mem_write_dm = 0;
 				mem_read_dm = 0;
@@ -49,9 +50,10 @@
 				alu_op =3'b101; 
 	 end
 	 
+	 reg bool;
 	 
 	 always@(posedge clk)begin
-		state <= next_state;	
+		state = next_state;	
 	 end
 	 
 	 always@(posedge clk)begin
@@ -76,12 +78,12 @@
  
  
  
-    always@(state, clk)begin
-		
-		  $display("ropcode in a state, %d", ropcode);
+   // always@(state, posedge clk)begin 
+	 always@(state, posedge clk)begin	
+		  
 		case(state)
 			FETCH: begin //
-	          $display("in fetch! %d is opcode, %d", ropcode, $time);
+	          $display("IN fetch! %d is ropcode, time: %d", ropcode, $time);
          	case(ropcode)
 				 10'b1000101000: begin  //ADDITION !!!
 				  //$display("in addition"); 
@@ -91,12 +93,12 @@
 					branch = 0;
 					//reg_write_rf = 1;
 					mux2 = 0;
-					mux3 = 1;
+					mux3 = 1; 
 					next_state=ARITHMETIC_INSTRUCTION_A;
 				 end
 					 
 				 10'b1100101100: begin  //SUBTRACTION !!!
-				  // $display("in subtraction");
+				  // $display("in subtra ction");
 					alu_op = 3'b001;//
 					mem_read_dm = 0;
 					mem_write_dm = 0;
@@ -169,32 +171,36 @@
 				read_reg_2 =instruction[9:5];
 				write_reg = instruction[4:0];
 				sign_extension_bits = instruction[16:10];
-			   $display("next_state = %d, current time: %d", next_state, $time);
+			   $display("next_state = %d, current time: %d \n", next_state, $time);
 				
 			end //end Fetch
 			
 			ARITHMETIC_INSTRUCTION_A: begin
+			   $display("IN A_INSTRUCTION_A! %d is ropcode, time: %d", ropcode, $time);
 				reg_write_rf = 1; //write the result
 				next_state = ARITHMETIC_INSTRUCTION_B;
-				$display("next_state = %d, current time: %d", next_state, $time);
+				$display("next_state = %d, current time: %d \n", next_state, $time);
 			end //end ARITHMETIC_INSTRUCTION
 			
 		   ARITHMETIC_INSTRUCTION_B: begin
+			   $display("IN A_INSTRUCTION_B! %d is ropcode, time: %d", ropcode, $time);
 				reg_write_rf = 0; //now stop reading the result
 				next_state = FETCH;
-				$display("next_state = %d, current time: %d", next_state, $time);
+				$display("next_state = %d, current time: %d \n", next_state, $time);
 			end //end ARITHMETIC_INSTRUCTION
 		
-		   LOAD_IMMEDIATE_INSTRUCTION_A: begin
+		    LOAD_IMMEDIATE_INSTRUCTION_A: begin
+			   $display("IN L_I_INSTRUCTION_A! %d is ropcode, time: %d", ropcode, $time);
 				reg_write_rf = 1; //now stop reading the result
 				next_state = LOAD_IMMEDIATE_INSTRUCTION_B;
-				$display("next_state = %d, current time: %d", next_state, $time);
+				$display("next_state = %d, current time: %d \n", next_state, $time);
 			end //end ARITHMETIC_INSTRUCTION
 		
-		   LOAD_IMMEDIATE_INSTRUCTION_B: begin
+		   LOAD_IMMEDIATE_INSTRUCTION_B: begin			
+			   $display("IN L_I_INSTRUCTION_B! %d is ropcode, time: %d", ropcode, $time);
 				reg_write_rf = 0; //now stop reading the result
 				next_state = FETCH;
-				$display("next_state = %d, current time: %d", next_state, $time);
+				$display("next_state = %d, current time: %d \n", next_state, $time);
 			end //end ARITHMETIC_INSTRUCTION
 		   
 			default: begin 
