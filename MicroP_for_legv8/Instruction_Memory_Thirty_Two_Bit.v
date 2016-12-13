@@ -106,16 +106,18 @@ module Instruction_Memory_Thirty_Two_Bit(
  		THE_MEMORY[3]={10'b1010101010,5'b00000,7'b0000101 ,5'b00000,5'b00100};//load instruction
  		THE_MEMORY[4]={10'b1010101010,5'b00000,7'b0000010 ,5'b00000,5'b00101}; //load instruction
 		///good up till here
- 		THE_MEMORY[5]={10'b1100101100,5'b00010,7'b0000000 ,5'b00011,5'b01000};//5 subtract to t8 register
-		THE_MEMORY[6]={10'b1111100000,5'b01000,7'b0000000 ,5'b00100,5'b01001}; //multiply operation in t9 register
-		THE_MEMORY[7]={10'b1100101100,5'b00100,7'b0000000 ,5'b00101,5'b01010}; //subtract operation 5-2 result in t10 register of 3		
- 		THE_MEMORY[8]={10'b1000101000,5'b01001,7'b0000000 ,5'b01010,5'b01011};	// add operation 10+3 or 13 stored in t11 register 
- 		THE_MEMORY[9]={10'b0000011111,5'b01011,7'b0000000 ,5'b00101,5'b01100};// division of 13/2 or 6 is stored in t12
-		THE_MEMORY[10]={10'b0000000000,5'b00000,7'b0000000 ,5'b00000,5'b00110};		
-		THE_MEMORY[11]={10'b0000000000,5'b00000,7'b0000000 ,5'b00000,5'b00110};
-		THE_MEMORY[12]={10'b0000000000,5'b00000,7'b0000000 ,5'b00000,5'b00110};
-		
-		for(i=13;i<64;i=i+1)begin   //CHANGE THIS!!!!!!!!!!!!!!!!!!!!!!!!!
+ 		THE_MEMORY[5]={10'b1100101100,5'b00010,7'b0000000 ,5'b00011,5'b01000};//12-10 result of subtract to t8 register (t8 should have 2)
+		THE_MEMORY[6]={10'b1111100000,5'b01000,7'b0000000 ,5'b00100,5'b01001}; //multiply operation (12-10)*5 or 2*5 in t9 register  (t9 should have 10)
+		THE_MEMORY[7]={10'b1100101100,5'b00100,7'b0000000 ,5'b00101,5'b01010}; //subtract operation 5-2 result in t10 register of 3 (t10 should have 3)	
+ 		THE_MEMORY[8]={10'b1000101000,5'b01001,7'b0000000 ,5'b01010,5'b01011};	// add operation (12-10)*5 + (5-2) or 10+3 or 13 stored in t11 register   (t11 should have 13)
+ 		THE_MEMORY[9]={10'b0000011111,5'b01011,7'b0000000 ,5'b00101,5'b01100};// division of ((12-10)*5 + (5-2))/2 or 13/2 or 6 is stored in t12  (t12 should have 6)
+		THE_MEMORY[10]={10'b0000000000,5'b00000,7'b0000000 ,5'b00000,5'b11111}; //wait before store		
+		THE_MEMORY[11]={10'b0000000000,5'b00000,7'b0000000 ,5'b00000,5'b11111}; //wait before store
+		THE_MEMORY[12]={10'b1111011000,5'b00000,7'b0000111 ,5'b01100,5'b00000};
+		THE_MEMORY[13]={10'b0000000000,5'b00000,7'b0000000 ,5'b00000,5'b11111}; //wait after store
+		THE_MEMORY[14]={10'b0000000000,5'b00000,7'b0000000 ,5'b00000,5'b11111}; //wait after store
+
+		for(i=15;i<64;i=i+1)begin   //CHANGE THIS!!!!!!!!!!!!!!!!!!!!!!!!!
 		THE_MEMORY[i] = 0;
 		end
 		
