@@ -5,23 +5,5 @@
      behavior or data corruption.  It is strongly advised that
      users do not edit the contents of this file. -->
 <messages>
-<msg type="warning" file="HDLCompiler" num="329" delta="unknown" >"C:/Users/tuf22191/Projects/Github_Repos/Building_Microprocessor_Verilog/MicroP_for_legv8/ALU.v" Line 41: Target &lt;<arg fmt="%s" index="1">carry_out</arg>&gt; of concurrent assignment or output port connection should be a net type.
-</msg>
-
-<msg type="warning" file="HDLCompiler" num="329" delta="unknown" >"C:/Users/tuf22191/Projects/Github_Repos/Building_Microprocessor_Verilog/MicroP_for_legv8/ALU.v" Line 42: Target &lt;<arg fmt="%s" index="1">carry_out</arg>&gt; of concurrent assignment or output port connection should be a net type.
-</msg>
-
-<msg type="warning" file="HDLCompiler" num="189" delta="unknown" >"C:/Users/tuf22191/Projects/Github_Repos/Building_Microprocessor_Verilog/MicroP_for_legv8/ALU.v" Line 42: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">c_in</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
-</msg>
-
-<msg type="warning" file="HDLCompiler" num="189" delta="unknown" >"C:/Users/tuf22191/Projects/Github_Repos/Building_Microprocessor_Verilog/MicroP_for_legv8/Sixty_Four_Bit_Subtractor.v" Line 40: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">c_in</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
-</msg>
-
-<msg type="warning" file="HDLCompiler" num="189" delta="unknown" >"C:/Users/tuf22191/Projects/Github_Repos/Building_Microprocessor_Verilog/MicroP_for_legv8/COMBO_EVERYTHING_DIFFCLOCKS.v" Line 222: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">data_to_write</arg>&gt;. Formal port size is <arg fmt="%d" index="2">32</arg>-bit while actual signal size is <arg fmt="%d" index="1">64</arg>-bit.
-</msg>
-
-<msg type="warning" file="HDLCompiler" num="189" delta="unknown" >"C:/Users/tuf22191/Projects/Github_Repos/Building_Microprocessor_Verilog/MicroP_for_legv8/COMBO_EVERYTHING_DIFFCLOCKS.v" Line 226: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">answer_answer</arg>&gt;. Formal port size is <arg fmt="%d" index="2">32</arg>-bit while actual signal size is <arg fmt="%d" index="1">64</arg>-bit.
-</msg>
-
 </messages>
 

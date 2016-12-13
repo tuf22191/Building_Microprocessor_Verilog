@@ -35,6 +35,7 @@
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="COMBO_PC_Instruction_isim_beh.exe"/>
     <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="COMBO_PC_Instruction_isim_beh.wdb"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="Controller_isim_beh.exe"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="FSM_Controller_isim_beh.exe"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="One_Bit_Full_Adder_Test_isim_beh.exe"/>
     <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Sixteen_Bit_Adder.prj"/>
     <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="Sixteen_Bit_Adder.stx"/>
@@ -58,6 +59,9 @@
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="TB_Controller_isim_beh.exe"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="TB_Data_Memory_isim_beh.exe"/>
     <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="TB_Data_Memory_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="TB_FSM_CONTROLLER_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="TB_FSM_CONTROLLER_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="TB_FSM_CONTROLLER_isim_beh.wdb"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="TB_Instruction_Memory_isim_beh.exe"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="TB_Program_Counter_isim_beh.exe"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="TB_Sign_Extender_isim_beh.exe"/>
@@ -120,22 +124,61 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1481606764" xil_pn:in_ck="-830522548600537384" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1481606764">
+    <transform xil_pn:end_ts="1481614799" xil_pn:in_ck="1676913751672655558" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1481614799">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForInputs"/>
-      <status xil_pn:value="OutOfDateForOutputs"/>
-      <status xil_pn:value="InputAdded"/>
-      <status xil_pn:value="InputChanged"/>
-      <status xil_pn:value="InputRemoved"/>
-      <status xil_pn:value="OutputChanged"/>
-      <status xil_pn:value="OutputRemoved"/>
+      <outfile xil_pn:name="ALU.v"/>
+      <outfile xil_pn:name="Adder1_32bit_adder.v"/>
+      <outfile xil_pn:name="Adder2_32bit_adder.v"/>
+      <outfile xil_pn:name="COMBO_EVERYTHING_DIFFCLOCKS.v"/>
+      <outfile xil_pn:name="COMBO_EVERYTHING_WITHOUT_CONTROL.v"/>
+      <outfile xil_pn:name="COMBO_FSM_CPU_TEST.v"/>
+      <outfile xil_pn:name="COMBO_PC_IR_Contr_ADDER1_Mux1.v"/>
+      <outfile xil_pn:name="COMBO_PC_Instruction.v"/>
+      <outfile xil_pn:name="COMBO_PC_InstructionReg_Controller.v"/>
+      <outfile xil_pn:name="Controller.v"/>
+      <outfile xil_pn:name="DATAPATH_AND_MEMORIES_IM_DM.v"/>
+      <outfile xil_pn:name="Data_Memory.v"/>
+      <outfile xil_pn:name="FSM_Controller.v"/>
+      <outfile xil_pn:name="Four_Bit_Adder.v"/>
+      <outfile xil_pn:name="Instruction_Memory_Thirty_Two_Bit.v"/>
+      <outfile xil_pn:name="Mux1.v"/>
+      <outfile xil_pn:name="Mux2.v"/>
+      <outfile xil_pn:name="Mux3.v"/>
+      <outfile xil_pn:name="One_Bit_Full_Adder_Test.v"/>
+      <outfile xil_pn:name="Sixteen_Bit_Adder.v"/>
+      <outfile xil_pn:name="Sixty_Four_Bit_Adder.v"/>
+      <outfile xil_pn:name="Sixty_Four_Bit_Register_File.v"/>
+      <outfile xil_pn:name="Sixty_Four_Bit_Sign_Extender.v"/>
+      <outfile xil_pn:name="Sixty_Four_Bit_Subtractor.v"/>
+      <outfile xil_pn:name="TB_16BitAdder.v"/>
+      <outfile xil_pn:name="TB_32Bit_Divider.v"/>
+      <outfile xil_pn:name="TB_32bit_Multiplier.v"/>
+      <outfile xil_pn:name="TB_64Bi_Subtractor.v"/>
+      <outfile xil_pn:name="TB_64bit_RegisterFile.v"/>
+      <outfile xil_pn:name="TB_ALU.v"/>
+      <outfile xil_pn:name="TB_Adder1_32bits.v"/>
+      <outfile xil_pn:name="TB_Adder2_32bits.v"/>
+      <outfile xil_pn:name="TB_Controller.v"/>
+      <outfile xil_pn:name="TB_Data_Memory.v"/>
+      <outfile xil_pn:name="TB_FSM_CONTROLLER.v"/>
+      <outfile xil_pn:name="TB_Instruction_Memory.v"/>
+      <outfile xil_pn:name="TB_MUX1.v"/>
+      <outfile xil_pn:name="TB_MUX3.v"/>
+      <outfile xil_pn:name="TB_Mux2.v"/>
+      <outfile xil_pn:name="TB_Program_Counter.v"/>
+      <outfile xil_pn:name="TB_Sign_Extender.v"/>
+      <outfile xil_pn:name="Thirty_Two_Bit_Divider.v"/>
+      <outfile xil_pn:name="Thirty_Two_Bit_Multiplier.v"/>
+      <outfile xil_pn:name="Thirty_Two_Bit_Program_Counter.v"/>
+      <outfile xil_pn:name="half_adder.v"/>
+      <outfile xil_pn:name="one_bit_full_adder.v"/>
     </transform>
-    <transform xil_pn:end_ts="1481600771" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="-6153019198675078334" xil_pn:start_ts="1481600771">
+    <transform xil_pn:end_ts="1481613612" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="-624791175291611339" xil_pn:start_ts="1481613612">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1481600771" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="5575934938855454724" xil_pn:start_ts="1481600771">
+    <transform xil_pn:end_ts="1481613612" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="-6701191015569118537" xil_pn:start_ts="1481613612">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
@@ -143,39 +186,72 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1481606764" xil_pn:in_ck="-830522548600537384" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1481606764">
+    <transform xil_pn:end_ts="1481614799" xil_pn:in_ck="1676913751672655558" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1481614799">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForInputs"/>
-      <status xil_pn:value="OutOfDateForPredecessor"/>
-      <status xil_pn:value="OutOfDateForOutputs"/>
-      <status xil_pn:value="InputChanged"/>
-      <status xil_pn:value="InputRemoved"/>
-      <status xil_pn:value="OutputChanged"/>
-      <status xil_pn:value="OutputRemoved"/>
+      <outfile xil_pn:name="ALU.v"/>
+      <outfile xil_pn:name="Adder1_32bit_adder.v"/>
+      <outfile xil_pn:name="Adder2_32bit_adder.v"/>
+      <outfile xil_pn:name="COMBO_EVERYTHING_DIFFCLOCKS.v"/>
+      <outfile xil_pn:name="COMBO_EVERYTHING_WITHOUT_CONTROL.v"/>
+      <outfile xil_pn:name="COMBO_FSM_CPU_TEST.v"/>
+      <outfile xil_pn:name="COMBO_PC_IR_Contr_ADDER1_Mux1.v"/>
+      <outfile xil_pn:name="COMBO_PC_Instruction.v"/>
+      <outfile xil_pn:name="COMBO_PC_InstructionReg_Controller.v"/>
+      <outfile xil_pn:name="Controller.v"/>
+      <outfile xil_pn:name="DATAPATH_AND_MEMORIES_IM_DM.v"/>
+      <outfile xil_pn:name="Data_Memory.v"/>
+      <outfile xil_pn:name="FSM_Controller.v"/>
+      <outfile xil_pn:name="Four_Bit_Adder.v"/>
+      <outfile xil_pn:name="Instruction_Memory_Thirty_Two_Bit.v"/>
+      <outfile xil_pn:name="Mux1.v"/>
+      <outfile xil_pn:name="Mux2.v"/>
+      <outfile xil_pn:name="Mux3.v"/>
+      <outfile xil_pn:name="One_Bit_Full_Adder_Test.v"/>
+      <outfile xil_pn:name="Sixteen_Bit_Adder.v"/>
+      <outfile xil_pn:name="Sixty_Four_Bit_Adder.v"/>
+      <outfile xil_pn:name="Sixty_Four_Bit_Register_File.v"/>
+      <outfile xil_pn:name="Sixty_Four_Bit_Sign_Extender.v"/>
+      <outfile xil_pn:name="Sixty_Four_Bit_Subtractor.v"/>
+      <outfile xil_pn:name="TB_16BitAdder.v"/>
+      <outfile xil_pn:name="TB_32Bit_Divider.v"/>
+      <outfile xil_pn:name="TB_32bit_Multiplier.v"/>
+      <outfile xil_pn:name="TB_64Bi_Subtractor.v"/>
+      <outfile xil_pn:name="TB_64bit_RegisterFile.v"/>
+      <outfile xil_pn:name="TB_ALU.v"/>
+      <outfile xil_pn:name="TB_Adder1_32bits.v"/>
+      <outfile xil_pn:name="TB_Adder2_32bits.v"/>
+      <outfile xil_pn:name="TB_Controller.v"/>
+      <outfile xil_pn:name="TB_Data_Memory.v"/>
+      <outfile xil_pn:name="TB_FSM_CONTROLLER.v"/>
+      <outfile xil_pn:name="TB_Instruction_Memory.v"/>
+      <outfile xil_pn:name="TB_MUX1.v"/>
+      <outfile xil_pn:name="TB_MUX3.v"/>
+      <outfile xil_pn:name="TB_Mux2.v"/>
+      <outfile xil_pn:name="TB_Program_Counter.v"/>
+      <outfile xil_pn:name="TB_Sign_Extender.v"/>
+      <outfile xil_pn:name="Thirty_Two_Bit_Divider.v"/>
+      <outfile xil_pn:name="Thirty_Two_Bit_Multiplier.v"/>
+      <outfile xil_pn:name="Thirty_Two_Bit_Program_Counter.v"/>
+      <outfile xil_pn:name="half_adder.v"/>
+      <outfile xil_pn:name="one_bit_full_adder.v"/>
     </transform>
-    <transform xil_pn:end_ts="1481606768" xil_pn:in_ck="-830522548600537384" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="-7049201704492237947" xil_pn:start_ts="1481606764">
-      <status xil_pn:value="SuccessfullyRun"/>
-      <status xil_pn:value="NotReadyToRun"/>
-      <status xil_pn:value="OutOfDateForInputs"/>
-      <status xil_pn:value="OutOfDateForProperties"/>
-      <status xil_pn:value="OutOfDateForPredecessor"/>
-      <status xil_pn:value="OutOfDateForOutputs"/>
-      <status xil_pn:value="InputChanged"/>
-      <status xil_pn:value="InputRemoved"/>
-      <status xil_pn:value="OutputChanged"/>
-      <status xil_pn:value="OutputRemoved"/>
-    </transform>
-    <transform xil_pn:end_ts="1481606768" xil_pn:in_ck="1689497390249615451" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="-6223471681229923320" xil_pn:start_ts="1481606768">
+    <transform xil_pn:end_ts="1481614801" xil_pn:in_ck="1676913751672655558" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="704975126024784203" xil_pn:start_ts="1481614799">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForInputs"/>
-      <status xil_pn:value="OutOfDateForProperties"/>
-      <status xil_pn:value="OutOfDateForPredecessor"/>
-      <status xil_pn:value="OutOfDateForOutputs"/>
-      <status xil_pn:value="InputRemoved"/>
-      <status xil_pn:value="OutputChanged"/>
-      <status xil_pn:value="OutputRemoved"/>
+      <outfile xil_pn:name="TB_FSM_CONTROLLER_beh.prj"/>
+      <outfile xil_pn:name="TB_FSM_CONTROLLER_isim_beh.exe"/>
+      <outfile xil_pn:name="fuse.log"/>
+      <outfile xil_pn:name="isim"/>
+      <outfile xil_pn:name="isim.log"/>
+      <outfile xil_pn:name="xilinxsim.ini"/>
+    </transform>
+    <transform xil_pn:end_ts="1481614802" xil_pn:in_ck="-2944538989858916666" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="3118556857650096878" xil_pn:start_ts="1481614801">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="TB_FSM_CONTROLLER_isim_beh.wdb"/>
+      <outfile xil_pn:name="isim.cmd"/>
+      <outfile xil_pn:name="isim.log"/>
     </transform>
     <transform xil_pn:end_ts="1478453701" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1478453701">
       <status xil_pn:value="SuccessfullyRun"/>

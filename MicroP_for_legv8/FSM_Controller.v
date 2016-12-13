@@ -28,25 +28,39 @@ module FSM_Controller(
 		output reg [2:0] alu_op  
     );
 	 //how many states
-	 reg [2:0] state = 0, next_state;
+	 reg [3:0] state = 0, next_state;
 	 
 	 always@(posedge clk)begin
 		state = next_state;
 	 end
 	 
-	 reg [2:0] counter; //for seeing if the register is good
+	 //reg [2:0] counter; //for seeing if the register is good
 	 
 	 parameter START = 0;
 	 parameter FETCH = 1;
 	 parameter LOAD_IMMEDIATE_INSTRUCTION = 2;
-	 parameter ARITHMETIC_INSTRUCTION = 3;
-    parameter STORE_INSTRUCTION = 4;
- 
+	 parameter ARITHMETIC_INSTRUCTION_A = 3;
+	 parameter ARITHMETIC_INSTRUCTION_B = 4;
+    parameter STORE_INSTRUCTION = 5;
+    parameter LOAD_IMMEDIATE_INSTRUCTION_A=6;
+    parameter LOAD_IMMEDIATE_INSTRUCTION_B =7;
  
     always@(state)begin
 		
 		case(state)
 			START: begin
+			   $display("initialized in start");
+				mem_write_dm = 0;
+				mem_read_dm = 0;
+				branch = 0;
+				reg_write_rf=0;
+				mux2=0; mux3=0;
+				read_reg_1 = 5'b00000; 
+				read_reg_2= 5'b00000; 
+				write_reg= 5'b00000;
+				sign_extension_bits=7'b0000000;
+				alu_op =3'b101; 
+			
 			   if(instruction == 0)begin
 				   next_state = START;
 				end 
@@ -54,12 +68,13 @@ module FSM_Controller(
 				   next_state = FETCH;
 				end
 				
-			end
+			end //end start
 			
 			FETCH: begin //
-	
+	          $display("in fetch! %d is opcode", opcode);
          	case(opcode)
 				 10'b1000101000: begin  //ADDITION !!!
+				  $display("in addition");
 					alu_op = 3'b010;// to add in ALU
 					mem_read_dm = 0;
 					mem_write_dm = 0;
@@ -71,6 +86,7 @@ module FSM_Controller(
 				 end
 					 
 				 10'b1100101100: begin  //SUBTRACTION !!!
+				   $display("in subtraction");
 					alu_op = 3'b001;//
 					mem_read_dm = 0;
 					mem_write_dm = 0;
@@ -131,7 +147,8 @@ module FSM_Controller(
 				read_reg_2 =instruction[9:5];
 				write_reg = instruction[4:0];
 				sign_extension_bits = instruction[16:10];
-			
+			   $display("next_state = %d", next_state);
+				
 			end //end Fetch
 			
 			ARITHMETIC_INSTRUCTION_A: begin
