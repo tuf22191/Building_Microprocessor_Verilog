@@ -1,4 +1,4 @@
-Running: C:\Xilinx\14.4\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -o C:/Users/tuf22191/Projects/Github_Repos/Building_Microprocessor_Verilog/MicroP_for_legv8/COMBO_EVERYTHING_WITHOUT_CONTROL_isim_beh.exe -prj C:/Users/tuf22191/Projects/Github_Repos/Building_Microprocessor_Verilog/MicroP_for_legv8/COMBO_EVERYTHING_WITHOUT_CONTROL_beh.prj COMBO_EVERYTHING_WITHOUT_CONTROL work.glbl 
+Running: C:\Xilinx\14.4\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -o C:/Users/tuf22191/Projects/Github_Repos/Building_Microprocessor_Verilog/MicroP_for_legv8/COMBO_EVERYTHING_DIFFCLOCKS_isim_beh.exe -prj C:/Users/tuf22191/Projects/Github_Repos/Building_Microprocessor_Verilog/MicroP_for_legv8/COMBO_EVERYTHING_DIFFCLOCKS_beh.prj COMBO_EVERYTHING_DIFFCLOCKS work.glbl 
 ISim P.49d (signature 0x7708f090)
 Number of CPUs detected in this system: 4
 Turning on mult-threading, number of parallel sub-compilation jobs: 8 
@@ -23,15 +23,16 @@ Analyzing Verilog file "C:/Users/tuf22191/Projects/Github_Repos/Building_Micropr
 Analyzing Verilog file "C:/Users/tuf22191/Projects/Github_Repos/Building_Microprocessor_Verilog/MicroP_for_legv8/Controller.v" into library work
 Analyzing Verilog file "C:/Users/tuf22191/Projects/Github_Repos/Building_Microprocessor_Verilog/MicroP_for_legv8/ALU.v" into library work
 Analyzing Verilog file "C:/Users/tuf22191/Projects/Github_Repos/Building_Microprocessor_Verilog/MicroP_for_legv8/Adder1_32bit_adder.v" into library work
-Analyzing Verilog file "C:/Users/tuf22191/Projects/Github_Repos/Building_Microprocessor_Verilog/MicroP_for_legv8/COMBO_EVERYTHING_WITHOUT_CONTROL.v" into library work
+Analyzing Verilog file "C:/Users/tuf22191/Projects/Github_Repos/Building_Microprocessor_Verilog/MicroP_for_legv8/COMBO_EVERYTHING_DIFFCLOCKS.v" into library work
 Analyzing Verilog file "C:/Xilinx/14.4/ISE_DS/ISE//verilog/src/glbl.v" into library work
 Starting static elaboration
-WARNING:HDLCompiler:189 - "C:/Users/tuf22191/Projects/Github_Repos/Building_Microprocessor_Verilog/MicroP_for_legv8/COMBO_EVERYTHING_WITHOUT_CONTROL.v" Line 148: Size mismatch in connection of port <data_mem_in>. Formal port size is 64-bit while actual signal size is 32-bit.
+WARNING:HDLCompiler:189 - "C:/Users/tuf22191/Projects/Github_Repos/Building_Microprocessor_Verilog/MicroP_for_legv8/COMBO_EVERYTHING_DIFFCLOCKS.v" Line 150: Size mismatch in connection of port <data_mem_in>. Formal port size is 64-bit while actual signal size is 32-bit.
 WARNING:HDLCompiler:329 - "C:/Users/tuf22191/Projects/Github_Repos/Building_Microprocessor_Verilog/MicroP_for_legv8/ALU.v" Line 41: Target <carry_out> of concurrent assignment or output port connection should be a net type.
 WARNING:HDLCompiler:329 - "C:/Users/tuf22191/Projects/Github_Repos/Building_Microprocessor_Verilog/MicroP_for_legv8/ALU.v" Line 42: Target <carry_out> of concurrent assignment or output port connection should be a net type.
 WARNING:HDLCompiler:189 - "C:/Users/tuf22191/Projects/Github_Repos/Building_Microprocessor_Verilog/MicroP_for_legv8/ALU.v" Line 42: Size mismatch in connection of port <c_in>. Formal port size is 1-bit while actual signal size is 32-bit.
 WARNING:HDLCompiler:189 - "C:/Users/tuf22191/Projects/Github_Repos/Building_Microprocessor_Verilog/MicroP_for_legv8/Sixty_Four_Bit_Subtractor.v" Line 40: Size mismatch in connection of port <c_in>. Formal port size is 1-bit while actual signal size is 32-bit.
-WARNING:HDLCompiler:189 - "C:/Users/tuf22191/Projects/Github_Repos/Building_Microprocessor_Verilog/MicroP_for_legv8/COMBO_EVERYTHING_WITHOUT_CONTROL.v" Line 219: Size mismatch in connection of port <data_to_write>. Formal port size is 32-bit while actual signal size is 64-bit.
+WARNING:HDLCompiler:189 - "C:/Users/tuf22191/Projects/Github_Repos/Building_Microprocessor_Verilog/MicroP_for_legv8/COMBO_EVERYTHING_DIFFCLOCKS.v" Line 221: Size mismatch in connection of port <data_to_write>. Formal port size is 32-bit while actual signal size is 64-bit.
+WARNING:HDLCompiler:189 - "C:/Users/tuf22191/Projects/Github_Repos/Building_Microprocessor_Verilog/MicroP_for_legv8/COMBO_EVERYTHING_DIFFCLOCKS.v" Line 225: Size mismatch in connection of port <answer_answer>. Formal port size is 32-bit while actual signal size is 1-bit.
 Completed static elaboration
 Compiling module Thirty_Two_Bit_Program_Counter
 Compiling module Instruction_Memory_Thirty_Two_Bi...
@@ -53,11 +54,11 @@ Compiling module Thirty_Two_Bit_Multiplier
 Compiling module Thirty_Two_Bit_Divider
 Compiling module ALU
 Compiling module Data_Memory
-Compiling module COMBO_EVERYTHING_WITHOUT_CONTROL
+Compiling module COMBO_EVERYTHING_DIFFCLOCKS
 Compiling module glbl
 Time Resolution for simulation is 1ps.
-Waiting for 7 sub-compilation(s) to finish...
+Waiting for 11 sub-compilation(s) to finish...
 Compiled 22 Verilog Units
-Built simulation executable C:/Users/tuf22191/Projects/Github_Repos/Building_Microprocessor_Verilog/MicroP_for_legv8/COMBO_EVERYTHING_WITHOUT_CONTROL_isim_beh.exe
-Fuse Memory Usage: 28740 KB
-Fuse CPU Usage: 609 ms
+Built simulation executable C:/Users/tuf22191/Projects/Github_Repos/Building_Microprocessor_Verilog/MicroP_for_legv8/COMBO_EVERYTHING_DIFFCLOCKS_isim_beh.exe
+Fuse Memory Usage: 28540 KB
+Fuse CPU Usage: 593 ms

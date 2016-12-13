@@ -24,17 +24,18 @@ module Data_Memory(
     input wire [31:0] data_to_write,
     input wire [7:0] address_of_data,
 	 input wire clk,
-	 output reg [31:0] data_read_out
+	 output reg [63:0] data_read_out,
+	 output reg [31:0] answer_answer
     );
 	 
-	 reg [31:0] THE_MEMORY [0:255];//
+	 reg [63:0] THE_MEMORY [0:255];//
 	 
 	 integer i;
 	 //initializae the data : SAW THIS ONLINE - So we have all 0's , do we have to initialize it?
 	 initial begin   //probably do not need this
 		data_read_out <= 0; //non blocking part
 		for(i=0; i<256; i=i+1)begin
-		 THE_MEMORY[i]= i;//0; //initialize  it
+		 THE_MEMORY[i]= 0;//0; //initialize  it
 		end		
 		//put the data here
 	 end
@@ -47,7 +48,7 @@ module Data_Memory(
 		 if(read_data_flag == 1'b1) begin
 		    data_read_out <= THE_MEMORY[address_of_data];
 		 end
-	 
+	    answer_answer <=THE_MEMORY[6];
 	 end
 	 
 

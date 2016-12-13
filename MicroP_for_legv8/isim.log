@@ -1,66 +1,45 @@
 ISim log file
-Running: C:\Users\tuf22191\Projects\Github_Repos\Building_Microprocessor_Verilog\MicroP_for_legv8\COMBO_EVERYTHING_WITHOUT_CONTROL_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb C:/Users/tuf22191/Projects/Github_Repos/Building_Microprocessor_Verilog/MicroP_for_legv8/COMBO_EVERYTHING_WITHOUT_CONTROL_isim_beh.wdb 
+Running: C:\Users\tuf22191\Projects\Github_Repos\Building_Microprocessor_Verilog\MicroP_for_legv8\COMBO_EVERYTHING_DIFFCLOCKS_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb C:/Users/tuf22191/Projects/Github_Repos/Building_Microprocessor_Verilog/MicroP_for_legv8/COMBO_EVERYTHING_DIFFCLOCKS_isim_beh.wdb 
 ISim P.49d (signature 0x7708f090)
 WARNING: A WEBPACK license was found.
 WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
 WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
 This is a Lite version of ISim.
-WARNING: File "C:/Users/tuf22191/Projects/Github_Repos/Building_Microprocessor_Verilog/MicroP_for_legv8/COMBO_EVERYTHING_WITHOUT_CONTROL.v" Line 144.  For instance COMBO_EVERYTHING_WITHOUT_CONTROL/uut8/, width 64 of formal port data_mem_in is not equal to width 32 of actual signal data_read_out.
+WARNING: File "C:/Users/tuf22191/Projects/Github_Repos/Building_Microprocessor_Verilog/MicroP_for_legv8/COMBO_EVERYTHING_DIFFCLOCKS.v" Line 146.  For instance COMBO_EVERYTHING_DIFFCLOCKS/uut8/, width 64 of formal port data_mem_in is not equal to width 32 of actual signal data_read_out.
 WARNING:  For instance subtractor/sub/, width 1 of formal port c_in is not equal to width 32 of actual constant.
 WARNING:  For instance uut11/adder/, width 1 of formal port c_in is not equal to width 32 of actual constant.
-WARNING: File "C:/Users/tuf22191/Projects/Github_Repos/Building_Microprocessor_Verilog/MicroP_for_legv8/COMBO_EVERYTHING_WITHOUT_CONTROL.v" Line 121.  For instance COMBO_EVERYTHING_WITHOUT_CONTROL/uut12/, width 32 of formal port data_to_write is not equal to width 64 of actual signal reg_out_2_rf.
+WARNING: File "C:/Users/tuf22191/Projects/Github_Repos/Building_Microprocessor_Verilog/MicroP_for_legv8/COMBO_EVERYTHING_DIFFCLOCKS.v" Line 123.  For instance COMBO_EVERYTHING_DIFFCLOCKS/uut12/, width 32 of formal port data_to_write is not equal to width 64 of actual signal reg_out_2_rf.
+WARNING: File "C:/Users/tuf22191/Projects/Github_Repos/Building_Microprocessor_Verilog/MicroP_for_legv8/COMBO_EVERYTHING_DIFFCLOCKS.v" Line 26.  For instance COMBO_EVERYTHING_DIFFCLOCKS/uut12/, width 32 of formal port answer_answer is not equal to width 1 of actual signal answer_answer.
 Time resolution is 1 ps
 # onerror resume
 # wave add /
 # run 1000 ns
 Simulator is doing circuit initialization process.
 Finished circuit initialization process.
-100 = clock ,          1 = address_counter ,          0 = address1,          x =instruction 
-120 = clock ,          1 = address_counter ,          0 = address1,          0 =instruction 
-200 = clock ,          2 = address_counter ,          1 = address1,          0 =instruction 
-220 = clock ,          3 = address_counter ,          2 = address1, 2860527618 =instruction 
-240 = clock ,          4 = address_counter ,          3 = address1, 2860525571 =instruction 
-260 = clock ,          5 = address_counter ,          4 = address1, 2860520452 =instruction 
-280 = clock ,          6 = address_counter ,          5 = address1, 2860517381 =instruction 
-300 = clock ,          7 = address_counter ,          6 = address1, 3406037094 =instruction 
-320 = clock ,          8 = address_counter ,          7 = address1, 4028104838 =instruction 
-340 = clock ,          9 = address_counter ,          8 = address1, 3406299303 =instruction 
-360 = clock ,         10 = address_counter ,          9 = address1, 2861433030 =instruction 
-380 = clock ,         11 = address_counter ,         10 = address1,  130810022 =instruction 
-400 = clock ,         12 = address_counter ,         11 = address1, 4127202496 =instruction 
-420 = clock ,         13 = address_counter ,         12 = address1,          0 =instruction 
-440 = clock ,         14 = address_counter ,         13 = address1,          0 =instruction 
-460 = clock ,         15 = address_counter ,         14 = address1,          0 =instruction 
-480 = clock ,         16 = address_counter ,         15 = address1,          0 =instruction 
-500 = clock ,         17 = address_counter ,         16 = address1,          0 =instruction 
-520 = clock ,         18 = address_counter ,         17 = address1,          0 =instruction 
-540 = clock ,         19 = address_counter ,         18 = address1,          0 =instruction 
-560 = clock ,         20 = address_counter ,         19 = address1,          0 =instruction 
-580 = clock ,         21 = address_counter ,         20 = address1,          0 =instruction 
-600 = clock ,         22 = address_counter ,         21 = address1,          0 =instruction 
-620 = clock ,         23 = address_counter ,         22 = address1,          0 =instruction 
-640 = clock ,         24 = address_counter ,         23 = address1,          0 =instruction 
-660 = clock ,         25 = address_counter ,         24 = address1,          0 =instruction 
-680 = clock ,         26 = address_counter ,         25 = address1,          0 =instruction 
-700 = clock ,         27 = address_counter ,         26 = address1,          0 =instruction 
-720 = clock ,         28 = address_counter ,         27 = address1,          0 =instruction 
-740 = clock ,         29 = address_counter ,         28 = address1,          0 =instruction 
-760 = clock ,         30 = address_counter ,         29 = address1,          0 =instruction 
-780 = clock ,         31 = address_counter ,         30 = address1,          0 =instruction 
-800 = clock ,         32 = address_counter ,         31 = address1,          0 =instruction 
-820 = clock ,         33 = address_counter ,         32 = address1,          0 =instruction 
-840 = clock ,         34 = address_counter ,         33 = address1,          0 =instruction 
-860 = clock ,         35 = address_counter ,         34 = address1, 2860527618 =instruction 
-880 = clock ,         36 = address_counter ,         35 = address1, 2860525571 =instruction 
-900 = clock ,         37 = address_counter ,         36 = address1, 2860520452 =instruction 
-920 = clock ,         38 = address_counter ,         37 = address1, 2860517381 =instruction 
-940 = clock ,         39 = address_counter ,         38 = address1, 3406037094 =instruction 
-960 = clock ,         40 = address_counter ,         39 = address1, 4028104838 =instruction 
-980 = clock ,         41 = address_counter ,         40 = address1, 3406299303 =instruction 
-1000 = clock ,         42 = address_counter ,         41 = address1, 2861433030 =instruction 
-# run all
-1020 = clock ,         43 = address_counter ,         42 = address1,  130810022 =instruction 
-1040 = clock ,         44 = address_counter ,         43 = address1, 4127202496 =instruction 
-1060 = clock ,         45 = address_counter ,         44 = address1,          0 =instruction 
-1080 = clock ,         46 = address_counter ,         45 = address1,          0 =instruction 
-Stopped at time : 1100 ns : File "C:/Users/tuf22191/Projects/Github_Repos/Building_Microprocessor_Verilog/MicroP_for_legv8/COMBO_EVERYTHING_WITHOUT_CONTROL.v" Line 238
+100 = clock ,          x = address_counter ,          x = address1,          x =instruction 
+120 = clock ,          1 = address_counter ,          0 = address1,          x =instruction 
+140 = clock ,          1 = address_counter ,          0 = address1,          0 =instruction 
+240 = clock ,          2 = address_counter ,          1 = address1,          0 =instruction 
+260 = clock ,          2 = address_counter ,          1 = address1, 2860527618 =instruction 
+300 = clock ,          3 = address_counter ,          2 = address1, 2860527618 =instruction 
+320 = clock ,          3 = address_counter ,          2 = address1, 2860525571 =instruction 
+360 = clock ,          4 = address_counter ,          3 = address1, 2860525571 =instruction 
+380 = clock ,          4 = address_counter ,          3 = address1, 2860520452 =instruction 
+420 = clock ,          5 = address_counter ,          4 = address1, 2860520452 =instruction 
+440 = clock ,          5 = address_counter ,          4 = address1, 2860517381 =instruction 
+480 = clock ,          6 = address_counter ,          5 = address1, 2860517381 =instruction 
+500 = clock ,          6 = address_counter ,          5 = address1, 3406037094 =instruction 
+540 = clock ,          7 = address_counter ,          6 = address1, 3406037094 =instruction 
+560 = clock ,          7 = address_counter ,          6 = address1, 4028104838 =instruction 
+600 = clock ,          8 = address_counter ,          7 = address1, 4028104838 =instruction 
+620 = clock ,          8 = address_counter ,          7 = address1, 3406299303 =instruction 
+660 = clock ,          9 = address_counter ,          8 = address1, 3406299303 =instruction 
+680 = clock ,          9 = address_counter ,          8 = address1, 2861433030 =instruction 
+720 = clock ,         10 = address_counter ,          9 = address1, 2861433030 =instruction 
+740 = clock ,         10 = address_counter ,          9 = address1,  130810022 =instruction 
+780 = clock ,         11 = address_counter ,         10 = address1,  130810022 =instruction 
+800 = clock ,         11 = address_counter ,         10 = address1, 4127202496 =instruction 
+840 = clock ,         12 = address_counter ,         11 = address1, 4127202496 =instruction 
+860 = clock ,         12 = address_counter ,         11 = address1,          0 =instruction 
+900 = clock ,         13 = address_counter ,         12 = address1,          0 =instruction 
+960 = clock ,         14 = address_counter ,         13 = address1,          0 =instruction 

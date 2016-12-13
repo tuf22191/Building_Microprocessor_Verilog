@@ -32,7 +32,7 @@ module TB_Data_Memory;
 	reg clk;
 
 	// Outputs
-	wire [31:0] data_read_out;
+	wire [63:0] data_read_out;
 
 	// Instantiate the Unit Under Test (UUT)
 	Data_Memory uut (
