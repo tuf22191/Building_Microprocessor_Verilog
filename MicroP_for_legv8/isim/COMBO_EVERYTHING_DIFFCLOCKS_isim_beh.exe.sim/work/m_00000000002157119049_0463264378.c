@@ -185,7 +185,7 @@ LAB2:    xsi_set_current_line(244, ng1);
 
 LAB4:    xsi_set_current_line(245, ng1);
     t2 = (t0 + 6760);
-    xsi_process_wait(t2, 5500000LL);
+    xsi_process_wait(t2, 11000000LL);
     *((char **)t1) = &&LAB5;
 
 LAB1:    return;

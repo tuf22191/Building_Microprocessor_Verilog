@@ -56,8 +56,8 @@ Compiling module Data_Memory
 Compiling module COMBO_EVERYTHING_DIFFCLOCKS
 Compiling module glbl
 Time Resolution for simulation is 1ps.
-Waiting for 7 sub-compilation(s) to finish...
+Waiting for 8 sub-compilation(s) to finish...
 Compiled 22 Verilog Units
 Built simulation executable C:/Users/tuf22191/Projects/Github_Repos/Building_Microprocessor_Verilog/MicroP_for_legv8/COMBO_EVERYTHING_DIFFCLOCKS_isim_beh.exe
-Fuse Memory Usage: 28536 KB
-Fuse CPU Usage: 640 ms
+Fuse Memory Usage: 28548 KB
+Fuse CPU Usage: 499 ms

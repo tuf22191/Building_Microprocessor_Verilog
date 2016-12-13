@@ -54,7 +54,6 @@ end
 end
 
 always @(posedge clk) begin
-
 reg_out_1 <= MEMORY[read_reg_address_1];
 reg_out_2 <= MEMORY[read_reg_address_2];
 answer_answer2 <= MEMORY[5'b00110]; 

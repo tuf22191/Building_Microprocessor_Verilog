@@ -4,15 +4,15 @@
 // Company: 
 // Engineer:
 //
-// Create Date:   20:00:01 12/12/2016
-// Design Name:   Adder2_32bit_adder
-// Module Name:   C:/Users/tuf22191/Projects/Github_Repos/Building_Microprocessor_Verilog/MicroP_for_legv8/COMBO_EVERYTHING_DIFFCLOCKS.v
+// Create Date:   22:26:58 12/12/2016
+// Design Name:   Sixty_Four_Bit_Adder
+// Module Name:   C:/Users/tuf22191/Projects/Github_Repos/Building_Microprocessor_Verilog/MicroP_for_legv8/COMBO_EVERYTHING_DIFFCLOCKS_2.v
 // Project Name:  MicroP_for_legv8
 // Target Device:  
 // Tool versions:  
 // Description: 
 //
-// Verilog Test Fixture created by ISE for module: Adder2_32bit_adder
+// Verilog Test Fixture created by ISE for module: Sixty_Four_Bit_Adder
 //
 // Dependencies:
 // 
@@ -22,8 +22,8 @@
 // 
 ////////////////////////////////////////////////////////////////////////////////
 
-module COMBO_EVERYTHING_DIFFCLOCKS;
-    wire [63:0] answer_answer;
+module COMBO_EVERYTHING_DIFFCLOCKS_2;
+  wire [63:0] answer_answer;
     wire [63:0] answer_answer2;
 	// Inputs
 	//reg [31:0] address_counter;
@@ -47,10 +47,10 @@ module COMBO_EVERYTHING_DIFFCLOCKS;
    ////////////////////////////////////////INSTRUCTION MEMORY
 
 	// Instantiate the Unit Under Test (UUT)
-	Instruction_Memory_Thirty_Two_Bit uut2 ( 
+	Instruction_Memory_Thirty_Two_Bit uut2 (
 		.instruction(instruction), //done
 		.address(address1), //done
-		.clk(clk2) //done
+		.clk(clk) //done
 	); 
 	///////////////////////////////////////CONTROLLER
 	wire mem_write_dm;
@@ -232,7 +232,7 @@ module COMBO_EVERYTHING_DIFFCLOCKS;
 	
 	always begin
 	clk2 =1;#30;
-	clk2 =0;#30; 
+	clk2 =0;#30;
 	end
 	
 	
@@ -242,7 +242,7 @@ module COMBO_EVERYTHING_DIFFCLOCKS;
 	end
 	
 	always begin
-	#11000;
+	#5500;
 	$finish("finished with simulation");
 	end
 
