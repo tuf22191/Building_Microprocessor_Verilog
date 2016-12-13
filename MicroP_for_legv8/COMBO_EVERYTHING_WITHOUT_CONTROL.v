@@ -28,7 +28,7 @@ module COMBO_EVERYTHING_WITHOUT_CONTROL;
 	//reg [31:0] address_counter;
 	reg reset;
 	reg clk;
-
+   
 	// Outputs
 	wire [31:0] address1; //adder2, pc, instruction memory
 	wire [31:0] instruction; 
@@ -102,9 +102,9 @@ module COMBO_EVERYTHING_WITHOUT_CONTROL;
 	
 	// Instantiate the Unit Under Test (UUT)
 	Adder2_32bit_adder uut6 (
-			.a_in(address1), 
-			.b_in(instruction), 
-			.sum(sum2)
+			.a_in(address1), //done                           //is this correct???
+			.b_in(instruction), //done
+			.sum(sum2) //done
 		);
 	
 	//////////////////////////////////////////////REGISTER FILE
@@ -144,7 +144,7 @@ module COMBO_EVERYTHING_WITHOUT_CONTROL;
 		wire [31:0] data_read_out; // For mux2 and the data memory
 
 	// Instantiate the Unit Under Test (UUT)
-	Mux2 uut (
+	Mux2 uut8 (
 		.data_mem_in(data_read_out), //done
 		.alu_in(alu_result), //done
 		.data_out(data_out_mux2), //wired
@@ -162,7 +162,7 @@ module COMBO_EVERYTHING_WITHOUT_CONTROL;
 	   wire [63:0] sign_extend_out; //used by the sign extend and then mux3
 		
 	// Instantiate the Unit Under Test (UUT)
-	Mux3 uut (
+	Mux3 uut9 (
 		.register(reg_out_2_rf), //done
 		.immediate(sign_extend_out), //done
 		.control(mux3), //wire
@@ -175,9 +175,9 @@ module COMBO_EVERYTHING_WITHOUT_CONTROL;
 
 		// Output
 	// Instantiate the Unit Under Test (UUT)
-	Sixty_Four_Bit_Sign_Extender uut (
-		.in(instruction[16:10]), 
-		.out(sign_extend_out)
+	Sixty_Four_Bit_Sign_Extender uut10 (
+		.in(instruction[16:10]), //done
+		.out(sign_extend_out) //done
 	);
 
 	 /////////////////////////////////////////////ALU WORKING
@@ -193,7 +193,7 @@ module COMBO_EVERYTHING_WITHOUT_CONTROL;
 		//wire [63:0] result_ALU;
    
 	// Instantiate the Unit Under Test (UUT)
-	ALU uut (
+	ALU uut11(
 		.a_in(reg_out_1_rf), //done
 		.b_in(result_alu_bottom), //done
 		.alu_operation(alu_op), //done
@@ -213,7 +213,7 @@ module COMBO_EVERYTHING_WITHOUT_CONTROL;
 	// Outputs
 
 	// Instantiate the Unit Under Test (UUT)
-	Data_Memory uut (
+	Data_Memory uut12 (
 		.read_data_flag(mem_read_dm), //done
 		.write_data_flag(mem_write_dm),//done 
 		.data_to_write(reg_out_2_rf), //done
@@ -224,7 +224,7 @@ module COMBO_EVERYTHING_WITHOUT_CONTROL;
 	
 	////////////////////////////////////////////////Branching AND gate
 	
-	and uut ( mux1, zero, branch); //done
+	and uut13 ( mux1, zero, branch); //done
 	
 	
 	
