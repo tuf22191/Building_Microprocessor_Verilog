@@ -220,9 +220,9 @@ LAB7:    xsi_set_current_line(292, ng0);
 }
 
 
-extern void work_m_00000000001973375072_3387038069_init()
+extern void work_m_00000000000705297800_3387038069_init()
 {
 	static char *pe[] = {(void *)Gate_243_0,(void *)Always_245_1,(void *)Always_251_2,(void *)Always_256_3,(void *)Initial_261_4};
-	xsi_register_didat("work_m_00000000001973375072_3387038069", "isim/COMBO_FSM_CPU_TEST_isim_beh.exe.sim/work/m_00000000001973375072_3387038069.didat");
+	xsi_register_didat("work_m_00000000000705297800_3387038069", "isim/COMBO_FSM_CPU_TEST_isim_beh.exe.sim/work/m_00000000000705297800_3387038069.didat");
 	xsi_register_executes(pe);
 }

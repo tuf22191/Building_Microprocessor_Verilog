@@ -1,14 +1,13 @@
 ISim log file
 Running: C:\Users\tuf22191\Projects\Github_Repos\Building_Microprocessor_Verilog\MicroP_for_legv8\COMBO_FSM_CPU_TEST_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb C:/Users/tuf22191/Projects/Github_Repos/Building_Microprocessor_Verilog/MicroP_for_legv8/COMBO_FSM_CPU_TEST_isim_beh.wdb 
-INFO: There is another simulation running in the same directory. Using database file name isim1.wdb.
 ISim P.49d (signature 0x7708f090)
 WARNING: A WEBPACK license was found.
 WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
 WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
 This is a Lite version of ISim.
 WARNING:  For instance subtractor/sub/, width 1 of formal port c_in is not equal to width 32 of actual constant.
-WARNING: File "C:/Users/tuf22191/Projects/Github_Repos/Building_Microprocessor_Verilog/MicroP_for_legv8/COMBO_FSM_CPU_TEST.v" Line 135.  For instance COMBO_FSM_CPU_TEST/uut12/, width 32 of formal port data_to_write is not equal to width 64 of actual signal reg_out_2_rf.
-WARNING: File "C:/Users/tuf22191/Projects/Github_Repos/Building_Microprocessor_Verilog/MicroP_for_legv8/COMBO_FSM_CPU_TEST.v" Line 27.  For instance COMBO_FSM_CPU_TEST/uut12/, width 32 of formal port answer_answer is not equal to width 64 of actual signal answer_answer.
+WARNING: File "C:/Users/tuf22191/Projects/Github_Repos/Building_Microprocessor_Verilog/MicroP_for_legv8/COMBO_FSM_CPU_TEST.v" Line 135.  For instance COMBO_FSM_CPU_TEST/data_Memory/, width 32 of formal port data_to_write is not equal to width 64 of actual signal reg_out_2_rf.
+WARNING: File "C:/Users/tuf22191/Projects/Github_Repos/Building_Microprocessor_Verilog/MicroP_for_legv8/COMBO_FSM_CPU_TEST.v" Line 27.  For instance COMBO_FSM_CPU_TEST/data_Memory/, width 32 of formal port answer_answer is not equal to width 64 of actual signal answer_answer.
 Time resolution is 1 ps
 # onerror resume
 # wave add /
@@ -365,76 +364,76 @@ next_state =  0, current time:                 2200
 IN fetch!    0 is ropcode, time:                 2220
 next_state =  0, current time:                 2220 
 
-IN fetch!    x is ropcode, time:                 2240
+IN fetch!    0 is ropcode, time:                 2240
 next_state =  0, current time:                 2240 
 
-IN fetch!    x is ropcode, time:                 2260
+IN fetch!    0 is ropcode, time:                 2260
 next_state =  0, current time:                 2260 
 
-IN fetch!    x is ropcode, time:                 2280
+IN fetch!    0 is ropcode, time:                 2280
 next_state =  0, current time:                 2280 
 
-IN fetch!    x is ropcode, time:                 2300
+IN fetch!    0 is ropcode, time:                 2300
 next_state =  0, current time:                 2300 
 
-IN fetch!    x is ropcode, time:                 2320
+IN fetch!    0 is ropcode, time:                 2320
 next_state =  0, current time:                 2320 
 
-IN fetch!    x is ropcode, time:                 2340
+IN fetch!    0 is ropcode, time:                 2340
 next_state =  0, current time:                 2340 
 
-IN fetch!    x is ropcode, time:                 2360
+IN fetch!    0 is ropcode, time:                 2360
 next_state =  0, current time:                 2360 
 
-IN fetch!    x is ropcode, time:                 2380
+IN fetch!    0 is ropcode, time:                 2380
 next_state =  0, current time:                 2380 
 
-IN fetch!    x is ropcode, time:                 2400
+IN fetch!    0 is ropcode, time:                 2400
 next_state =  0, current time:                 2400 
 
-IN fetch!    x is ropcode, time:                 2420
+IN fetch!    0 is ropcode, time:                 2420
 next_state =  0, current time:                 2420 
 
-IN fetch!    x is ropcode, time:                 2440
+IN fetch!    0 is ropcode, time:                 2440
 next_state =  0, current time:                 2440 
 
-IN fetch!    x is ropcode, time:                 2460
+IN fetch!    0 is ropcode, time:                 2460
 next_state =  0, current time:                 2460 
 
-IN fetch!    x is ropcode, time:                 2480
+IN fetch!    0 is ropcode, time:                 2480
 next_state =  0, current time:                 2480 
 
-IN fetch!    x is ropcode, time:                 2500
+IN fetch!    0 is ropcode, time:                 2500
 next_state =  0, current time:                 2500 
 
-IN fetch!    x is ropcode, time:                 2520
+IN fetch!    0 is ropcode, time:                 2520
 next_state =  0, current time:                 2520 
 
-IN fetch!    x is ropcode, time:                 2540
+IN fetch!    0 is ropcode, time:                 2540
 next_state =  0, current time:                 2540 
 
-IN fetch!    x is ropcode, time:                 2560
+IN fetch!    0 is ropcode, time:                 2560
 next_state =  0, current time:                 2560 
 
-IN fetch!    x is ropcode, time:                 2580
+IN fetch!    0 is ropcode, time:                 2580
 next_state =  0, current time:                 2580 
 
-IN fetch!    x is ropcode, time:                 2600
+IN fetch!    0 is ropcode, time:                 2600
 next_state =  0, current time:                 2600 
 
-IN fetch!    x is ropcode, time:                 2620
+IN fetch!    0 is ropcode, time:                 2620
 next_state =  0, current time:                 2620 
 
-IN fetch!    x is ropcode, time:                 2640
+IN fetch!    0 is ropcode, time:                 2640
 next_state =  0, current time:                 2640 
 
-IN fetch!    x is ropcode, time:                 2660
+IN fetch!    0 is ropcode, time:                 2660
 next_state =  0, current time:                 2660 
 
-IN fetch!    x is ropcode, time:                 2680
+IN fetch!    0 is ropcode, time:                 2680
 next_state =  0, current time:                 2680 
 
-IN fetch!    x is ropcode, time:                 2700
+IN fetch!    0 is ropcode, time:                 2700
 next_state =  0, current time:                 2700 
 
 IN fetch!    0 is ropcode, time:                 2720
@@ -949,76 +948,76 @@ next_state =  0, current time:                 6040
 IN fetch!    0 is ropcode, time:                 6060
 next_state =  0, current time:                 6060 
 
-IN fetch!    x is ropcode, time:                 6080
+IN fetch!    0 is ropcode, time:                 6080
 next_state =  0, current time:                 6080 
 
-IN fetch!    x is ropcode, time:                 6100
+IN fetch!    0 is ropcode, time:                 6100
 next_state =  0, current time:                 6100 
 
-IN fetch!    x is ropcode, time:                 6120
+IN fetch!    0 is ropcode, time:                 6120
 next_state =  0, current time:                 6120 
 
-IN fetch!    x is ropcode, time:                 6140
+IN fetch!    0 is ropcode, time:                 6140
 next_state =  0, current time:                 6140 
 
-IN fetch!    x is ropcode, time:                 6160
+IN fetch!    0 is ropcode, time:                 6160
 next_state =  0, current time:                 6160 
 
-IN fetch!    x is ropcode, time:                 6180
+IN fetch!    0 is ropcode, time:                 6180
 next_state =  0, current time:                 6180 
 
-IN fetch!    x is ropcode, time:                 6200
+IN fetch!    0 is ropcode, time:                 6200
 next_state =  0, current time:                 6200 
 
-IN fetch!    x is ropcode, time:                 6220
+IN fetch!    0 is ropcode, time:                 6220
 next_state =  0, current time:                 6220 
 
-IN fetch!    x is ropcode, time:                 6240
+IN fetch!    0 is ropcode, time:                 6240
 next_state =  0, current time:                 6240 
 
-IN fetch!    x is ropcode, time:                 6260
+IN fetch!    0 is ropcode, time:                 6260
 next_state =  0, current time:                 6260 
 
-IN fetch!    x is ropcode, time:                 6280
+IN fetch!    0 is ropcode, time:                 6280
 next_state =  0, current time:                 6280 
 
-IN fetch!    x is ropcode, time:                 6300
+IN fetch!    0 is ropcode, time:                 6300
 next_state =  0, current time:                 6300 
 
-IN fetch!    x is ropcode, time:                 6320
+IN fetch!    0 is ropcode, time:                 6320
 next_state =  0, current time:                 6320 
 
-IN fetch!    x is ropcode, time:                 6340
+IN fetch!    0 is ropcode, time:                 6340
 next_state =  0, current time:                 6340 
 
-IN fetch!    x is ropcode, time:                 6360
+IN fetch!    0 is ropcode, time:                 6360
 next_state =  0, current time:                 6360 
 
-IN fetch!    x is ropcode, time:                 6380
+IN fetch!    0 is ropcode, time:                 6380
 next_state =  0, current time:                 6380 
 
-IN fetch!    x is ropcode, time:                 6400
+IN fetch!    0 is ropcode, time:                 6400
 next_state =  0, current time:                 6400 
 
-IN fetch!    x is ropcode, time:                 6420
+IN fetch!    0 is ropcode, time:                 6420
 next_state =  0, current time:                 6420 
 
-IN fetch!    x is ropcode, time:                 6440
+IN fetch!    0 is ropcode, time:                 6440
 next_state =  0, current time:                 6440 
 
-IN fetch!    x is ropcode, time:                 6460
+IN fetch!    0 is ropcode, time:                 6460
 next_state =  0, current time:                 6460 
 
-IN fetch!    x is ropcode, time:                 6480
+IN fetch!    0 is ropcode, time:                 6480
 next_state =  0, current time:                 6480 
 
-IN fetch!    x is ropcode, time:                 6500
+IN fetch!    0 is ropcode, time:                 6500
 next_state =  0, current time:                 6500 
 
-IN fetch!    x is ropcode, time:                 6520
+IN fetch!    0 is ropcode, time:                 6520
 next_state =  0, current time:                 6520 
 
-IN fetch!    x is ropcode, time:                 6540
+IN fetch!    0 is ropcode, time:                 6540
 next_state =  0, current time:                 6540 
 
 IN fetch!    0 is ropcode, time:                 6560
@@ -1366,3 +1365,2679 @@ IN fetch!  992 is ropcode, time:                 8780
 next_state =  3, current time:                 8780 
 
 Stopped at time : 8800 ns : File "C:/Users/tuf22191/Projects/Github_Repos/Building_Microprocessor_Verilog/MicroP_for_legv8/COMBO_FSM_CPU_TEST.v" Line 258
+# run all
+IN A_INSTRUCTION_A!  992 is ropcode, time:                 8800
+next_state =  4, current time:                 8800 
+
+IN A_INSTRUCTION_B!  992 is ropcode, time:                 8820
+next_state =  0, current time:                 8820 
+
+IN fetch!  812 is ropcode, time:                 8840
+next_state =  3, current time:                 8840 
+
+IN A_INSTRUCTION_A!  812 is ropcode, time:                 8860
+next_state =  4, current time:                 8860 
+
+IN A_INSTRUCTION_B!  812 is ropcode, time:                 8880
+next_state =  0, current time:                 8880 
+
+IN fetch!  812 is ropcode, time:                 8900
+next_state =  3, current time:                 8900 
+
+IN A_INSTRUCTION_A!  812 is ropcode, time:                 8920
+next_state =  4, current time:                 8920 
+
+IN A_INSTRUCTION_B!  812 is ropcode, time:                 8940
+next_state =  0, current time:                 8940 
+
+IN fetch!  552 is ropcode, time:                 8960
+next_state =  3, current time:                 8960 
+
+IN A_INSTRUCTION_A!  552 is ropcode, time:                 8980
+next_state =  4, current time:                 8980 
+
+IN A_INSTRUCTION_B!  552 is ropcode, time:                 9000
+next_state =  0, current time:                 9000 
+
+IN fetch!  552 is ropcode, time:                 9020
+next_state =  3, current time:                 9020 
+
+IN A_INSTRUCTION_A!  552 is ropcode, time:                 9040
+next_state =  4, current time:                 9040 
+
+IN A_INSTRUCTION_B!  552 is ropcode, time:                 9060
+next_state =  0, current time:                 9060 
+
+IN fetch!   31 is ropcode, time:                 9080
+next_state =  3, current time:                 9080 
+
+IN A_INSTRUCTION_A!   31 is ropcode, time:                 9100
+next_state =  4, current time:                 9100 
+
+IN A_INSTRUCTION_B!   31 is ropcode, time:                 9120
+next_state =  0, current time:                 9120 
+
+IN fetch!   31 is ropcode, time:                 9140
+next_state =  3, current time:                 9140 
+
+IN A_INSTRUCTION_A!   31 is ropcode, time:                 9160
+next_state =  4, current time:                 9160 
+
+IN A_INSTRUCTION_B!   31 is ropcode, time:                 9180
+next_state =  0, current time:                 9180 
+
+IN fetch!    0 is ropcode, time:                 9200
+next_state =  0, current time:                 9200 
+
+IN fetch!    0 is ropcode, time:                 9220
+next_state =  0, current time:                 9220 
+
+IN fetch!    0 is ropcode, time:                 9240
+next_state =  0, current time:                 9240 
+
+IN fetch!    0 is ropcode, time:                 9260
+next_state =  0, current time:                 9260 
+
+IN fetch!    0 is ropcode, time:                 9280
+next_state =  0, current time:                 9280 
+
+IN fetch!    0 is ropcode, time:                 9300
+next_state =  0, current time:                 9300 
+
+IN fetch!    0 is ropcode, time:                 9320
+next_state =  0, current time:                 9320 
+
+IN fetch!    0 is ropcode, time:                 9340
+next_state =  0, current time:                 9340 
+
+IN fetch!    0 is ropcode, time:                 9360
+next_state =  0, current time:                 9360 
+
+IN fetch!    0 is ropcode, time:                 9380
+next_state =  0, current time:                 9380 
+
+IN fetch!    0 is ropcode, time:                 9400
+next_state =  0, current time:                 9400 
+
+IN fetch!    0 is ropcode, time:                 9420
+next_state =  0, current time:                 9420 
+
+IN fetch!  984 is ropcode, time:                 9440
+next_state =  8, current time:                 9440 
+
+IN STORING_INSTRUCTION_A!  984 is ropcode, time:                 9460
+next_state =  9, current time:                 9460 
+
+IN STORING_INSTRUCTION_B!  984 is ropcode, time:                 9480
+next_state =  0, current time:                 9480 
+
+IN fetch!  984 is ropcode, time:                 9500
+next_state =  8, current time:                 9500 
+
+IN STORING_INSTRUCTION_A!  984 is ropcode, time:                 9520
+next_state =  9, current time:                 9520 
+
+IN STORING_INSTRUCTION_B!  984 is ropcode, time:                 9540
+next_state =  0, current time:                 9540 
+
+IN fetch!  984 is ropcode, time:                 9560
+next_state =  8, current time:                 9560 
+
+IN STORING_INSTRUCTION_A!  984 is ropcode, time:                 9580
+next_state =  9, current time:                 9580 
+
+IN STORING_INSTRUCTION_B!  984 is ropcode, time:                 9600
+next_state =  0, current time:                 9600 
+
+IN fetch!  984 is ropcode, time:                 9620
+next_state =  8, current time:                 9620 
+
+IN STORING_INSTRUCTION_A!  984 is ropcode, time:                 9640
+next_state =  9, current time:                 9640 
+
+IN STORING_INSTRUCTION_B!  984 is ropcode, time:                 9660
+next_state =  0, current time:                 9660 
+
+IN fetch!    0 is ropcode, time:                 9680
+next_state =  0, current time:                 9680 
+
+IN fetch!    0 is ropcode, time:                 9700
+next_state =  0, current time:                 9700 
+
+IN fetch!    0 is ropcode, time:                 9720
+next_state =  0, current time:                 9720 
+
+IN fetch!    0 is ropcode, time:                 9740
+next_state =  0, current time:                 9740 
+
+IN fetch!    0 is ropcode, time:                 9760
+next_state =  0, current time:                 9760 
+
+IN fetch!    0 is ropcode, time:                 9780
+next_state =  0, current time:                 9780 
+
+IN fetch!    0 is ropcode, time:                 9800
+next_state =  0, current time:                 9800 
+
+IN fetch!    0 is ropcode, time:                 9820
+next_state =  0, current time:                 9820 
+
+IN fetch!    0 is ropcode, time:                 9840
+next_state =  0, current time:                 9840 
+
+IN fetch!    0 is ropcode, time:                 9860
+next_state =  0, current time:                 9860 
+
+IN fetch!    0 is ropcode, time:                 9880
+next_state =  0, current time:                 9880 
+
+IN fetch!    0 is ropcode, time:                 9900
+next_state =  0, current time:                 9900 
+
+IN fetch!    0 is ropcode, time:                 9920
+next_state =  0, current time:                 9920 
+
+IN fetch!    0 is ropcode, time:                 9940
+next_state =  0, current time:                 9940 
+
+IN fetch!    0 is ropcode, time:                 9960
+next_state =  0, current time:                 9960 
+
+IN fetch!    0 is ropcode, time:                 9980
+next_state =  0, current time:                 9980 
+
+IN fetch!    0 is ropcode, time:                10000
+next_state =  0, current time:                10000 
+
+IN fetch!    0 is ropcode, time:                10020
+next_state =  0, current time:                10020 
+
+IN fetch!    0 is ropcode, time:                10040
+next_state =  0, current time:                10040 
+
+IN fetch!    0 is ropcode, time:                10060
+next_state =  0, current time:                10060 
+
+IN fetch!    0 is ropcode, time:                10080
+next_state =  0, current time:                10080 
+
+IN fetch!    0 is ropcode, time:                10100
+next_state =  0, current time:                10100 
+
+IN fetch!    0 is ropcode, time:                10120
+next_state =  0, current time:                10120 
+
+IN fetch!    0 is ropcode, time:                10140
+next_state =  0, current time:                10140 
+
+IN fetch!    0 is ropcode, time:                10160
+next_state =  0, current time:                10160 
+
+IN fetch!    0 is ropcode, time:                10180
+next_state =  0, current time:                10180 
+
+IN fetch!    0 is ropcode, time:                10200
+next_state =  0, current time:                10200 
+
+IN fetch!    0 is ropcode, time:                10220
+next_state =  0, current time:                10220 
+
+IN fetch!    0 is ropcode, time:                10240
+next_state =  0, current time:                10240 
+
+IN fetch!    0 is ropcode, time:                10260
+next_state =  0, current time:                10260 
+
+IN fetch!    0 is ropcode, time:                10280
+next_state =  0, current time:                10280 
+
+IN fetch!    0 is ropcode, time:                10300
+next_state =  0, current time:                10300 
+
+IN fetch!    0 is ropcode, time:                10320
+next_state =  0, current time:                10320 
+
+IN fetch!    0 is ropcode, time:                10340
+next_state =  0, current time:                10340 
+
+IN fetch!    0 is ropcode, time:                10360
+next_state =  0, current time:                10360 
+
+IN fetch!    0 is ropcode, time:                10380
+next_state =  0, current time:                10380 
+
+IN fetch!    0 is ropcode, time:                10400
+next_state =  0, current time:                10400 
+
+IN fetch!    0 is ropcode, time:                10420
+next_state =  0, current time:                10420 
+
+IN fetch!    0 is ropcode, time:                10440
+next_state =  0, current time:                10440 
+
+IN fetch!    0 is ropcode, time:                10460
+next_state =  0, current time:                10460 
+
+IN fetch!    0 is ropcode, time:                10480
+next_state =  0, current time:                10480 
+
+IN fetch!    0 is ropcode, time:                10500
+next_state =  0, current time:                10500 
+
+IN fetch!    0 is ropcode, time:                10520
+next_state =  0, current time:                10520 
+
+IN fetch!    0 is ropcode, time:                10540
+next_state =  0, current time:                10540 
+
+IN fetch!    0 is ropcode, time:                10560
+next_state =  0, current time:                10560 
+
+IN fetch!    0 is ropcode, time:                10580
+next_state =  0, current time:                10580 
+
+IN fetch!    0 is ropcode, time:                10600
+next_state =  0, current time:                10600 
+
+IN fetch!    0 is ropcode, time:                10620
+next_state =  0, current time:                10620 
+
+IN fetch!    0 is ropcode, time:                10640
+next_state =  0, current time:                10640 
+
+IN fetch!    0 is ropcode, time:                10660
+next_state =  0, current time:                10660 
+
+IN fetch!    0 is ropcode, time:                10680
+next_state =  0, current time:                10680 
+
+IN fetch!    0 is ropcode, time:                10700
+next_state =  0, current time:                10700 
+
+IN fetch!    0 is ropcode, time:                10720
+next_state =  0, current time:                10720 
+
+IN fetch!    0 is ropcode, time:                10740
+next_state =  0, current time:                10740 
+
+IN fetch!    0 is ropcode, time:                10760
+next_state =  0, current time:                10760 
+
+IN fetch!    0 is ropcode, time:                10780
+next_state =  0, current time:                10780 
+
+IN fetch!    0 is ropcode, time:                10800
+next_state =  0, current time:                10800 
+
+IN fetch!    0 is ropcode, time:                10820
+next_state =  0, current time:                10820 
+
+IN fetch!    0 is ropcode, time:                10840
+next_state =  0, current time:                10840 
+
+IN fetch!    0 is ropcode, time:                10860
+next_state =  0, current time:                10860 
+
+IN fetch!    0 is ropcode, time:                10880
+next_state =  0, current time:                10880 
+
+IN fetch!    0 is ropcode, time:                10900
+next_state =  0, current time:                10900 
+
+IN fetch!    0 is ropcode, time:                10920
+next_state =  0, current time:                10920 
+
+IN fetch!    0 is ropcode, time:                10940
+next_state =  0, current time:                10940 
+
+IN fetch!    0 is ropcode, time:                10960
+next_state =  0, current time:                10960 
+
+IN fetch!    0 is ropcode, time:                10980
+next_state =  0, current time:                10980 
+
+IN fetch!    0 is ropcode, time:                11000
+next_state =  0, current time:                11000 
+
+IN fetch!    0 is ropcode, time:                11020
+next_state =  0, current time:                11020 
+
+IN fetch!    0 is ropcode, time:                11040
+next_state =  0, current time:                11040 
+
+IN fetch!    0 is ropcode, time:                11060
+next_state =  0, current time:                11060 
+
+IN fetch!    0 is ropcode, time:                11080
+next_state =  0, current time:                11080 
+
+IN fetch!    0 is ropcode, time:                11100
+next_state =  0, current time:                11100 
+
+IN fetch!    0 is ropcode, time:                11120
+next_state =  0, current time:                11120 
+
+IN fetch!    0 is ropcode, time:                11140
+next_state =  0, current time:                11140 
+
+IN fetch!    0 is ropcode, time:                11160
+next_state =  0, current time:                11160 
+
+IN fetch!    0 is ropcode, time:                11180
+next_state =  0, current time:                11180 
+
+IN fetch!    0 is ropcode, time:                11200
+next_state =  0, current time:                11200 
+
+IN fetch!    0 is ropcode, time:                11220
+next_state =  0, current time:                11220 
+
+IN fetch!    0 is ropcode, time:                11240
+next_state =  0, current time:                11240 
+
+IN fetch!    0 is ropcode, time:                11260
+next_state =  0, current time:                11260 
+
+IN fetch!    0 is ropcode, time:                11280
+next_state =  0, current time:                11280 
+
+IN fetch!    0 is ropcode, time:                11300
+next_state =  0, current time:                11300 
+
+IN fetch!    0 is ropcode, time:                11320
+next_state =  0, current time:                11320 
+
+IN fetch!    0 is ropcode, time:                11340
+next_state =  0, current time:                11340 
+
+IN fetch!    0 is ropcode, time:                11360
+next_state =  0, current time:                11360 
+
+IN fetch!    0 is ropcode, time:                11380
+next_state =  0, current time:                11380 
+
+IN fetch!    0 is ropcode, time:                11400
+next_state =  0, current time:                11400 
+
+IN fetch!    0 is ropcode, time:                11420
+next_state =  0, current time:                11420 
+
+IN fetch!    0 is ropcode, time:                11440
+next_state =  0, current time:                11440 
+
+IN fetch!    0 is ropcode, time:                11460
+next_state =  0, current time:                11460 
+
+IN fetch!    0 is ropcode, time:                11480
+next_state =  0, current time:                11480 
+
+IN fetch!    0 is ropcode, time:                11500
+next_state =  0, current time:                11500 
+
+IN fetch!    0 is ropcode, time:                11520
+next_state =  0, current time:                11520 
+
+IN fetch!    0 is ropcode, time:                11540
+next_state =  0, current time:                11540 
+
+IN fetch!    0 is ropcode, time:                11560
+next_state =  0, current time:                11560 
+
+IN fetch!    0 is ropcode, time:                11580
+next_state =  0, current time:                11580 
+
+IN fetch!    0 is ropcode, time:                11600
+next_state =  0, current time:                11600 
+
+IN fetch!    0 is ropcode, time:                11620
+next_state =  0, current time:                11620 
+
+IN fetch!    0 is ropcode, time:                11640
+next_state =  0, current time:                11640 
+
+IN fetch!    0 is ropcode, time:                11660
+next_state =  0, current time:                11660 
+
+IN fetch!    0 is ropcode, time:                11680
+next_state =  0, current time:                11680 
+
+IN fetch!    0 is ropcode, time:                11700
+next_state =  0, current time:                11700 
+
+IN fetch!    0 is ropcode, time:                11720
+next_state =  0, current time:                11720 
+
+IN fetch!    0 is ropcode, time:                11740
+next_state =  0, current time:                11740 
+
+IN fetch!    0 is ropcode, time:                11760
+next_state =  0, current time:                11760 
+
+IN fetch!    0 is ropcode, time:                11780
+next_state =  0, current time:                11780 
+
+IN fetch!    0 is ropcode, time:                11800
+next_state =  0, current time:                11800 
+
+IN fetch!    0 is ropcode, time:                11820
+next_state =  0, current time:                11820 
+
+IN fetch!    0 is ropcode, time:                11840
+next_state =  0, current time:                11840 
+
+IN fetch!    0 is ropcode, time:                11860
+next_state =  0, current time:                11860 
+
+IN fetch!    0 is ropcode, time:                11880
+next_state =  0, current time:                11880 
+
+IN fetch!    0 is ropcode, time:                11900
+next_state =  0, current time:                11900 
+
+IN fetch!    0 is ropcode, time:                11920
+next_state =  0, current time:                11920 
+
+IN fetch!    0 is ropcode, time:                11940
+next_state =  0, current time:                11940 
+
+IN fetch!  682 is ropcode, time:                11960
+we should be in load at time:                11960
+next_state =  6, current time:                11960 
+
+IN L_I_INSTRUCTION_A!  682 is ropcode, time:                11980
+next_state =  7, current time:                11980 
+
+IN L_I_INSTRUCTION_B!  682 is ropcode, time:                12000
+next_state =  0, current time:                12000 
+
+IN fetch!  682 is ropcode, time:                12020
+we should be in load at time:                12020
+next_state =  6, current time:                12020 
+
+IN L_I_INSTRUCTION_A!  682 is ropcode, time:                12040
+next_state =  7, current time:                12040 
+
+IN L_I_INSTRUCTION_B!  682 is ropcode, time:                12060
+next_state =  0, current time:                12060 
+
+IN fetch!  682 is ropcode, time:                12080
+we should be in load at time:                12080
+next_state =  6, current time:                12080 
+
+IN L_I_INSTRUCTION_A!  682 is ropcode, time:                12100
+next_state =  7, current time:                12100 
+
+IN L_I_INSTRUCTION_B!  682 is ropcode, time:                12120
+next_state =  0, current time:                12120 
+
+IN fetch!  682 is ropcode, time:                12140
+we should be in load at time:                12140
+next_state =  6, current time:                12140 
+
+IN L_I_INSTRUCTION_A!  682 is ropcode, time:                12160
+next_state =  7, current time:                12160 
+
+IN L_I_INSTRUCTION_B!  682 is ropcode, time:                12180
+next_state =  0, current time:                12180 
+
+IN fetch!  682 is ropcode, time:                12200
+we should be in load at time:                12200
+next_state =  6, current time:                12200 
+
+IN L_I_INSTRUCTION_A!  682 is ropcode, time:                12220
+next_state =  7, current time:                12220 
+
+IN L_I_INSTRUCTION_B!  682 is ropcode, time:                12240
+next_state =  0, current time:                12240 
+
+IN fetch!  682 is ropcode, time:                12260
+we should be in load at time:                12260
+next_state =  6, current time:                12260 
+
+IN L_I_INSTRUCTION_A!  682 is ropcode, time:                12280
+next_state =  7, current time:                12280 
+
+IN L_I_INSTRUCTION_B!  682 is ropcode, time:                12300
+next_state =  0, current time:                12300 
+
+IN fetch!  682 is ropcode, time:                12320
+we should be in load at time:                12320
+next_state =  6, current time:                12320 
+
+IN L_I_INSTRUCTION_A!  682 is ropcode, time:                12340
+next_state =  7, current time:                12340 
+
+IN L_I_INSTRUCTION_B!  682 is ropcode, time:                12360
+next_state =  0, current time:                12360 
+
+IN fetch!  682 is ropcode, time:                12380
+we should be in load at time:                12380
+next_state =  6, current time:                12380 
+
+IN L_I_INSTRUCTION_A!  682 is ropcode, time:                12400
+next_state =  7, current time:                12400 
+
+IN L_I_INSTRUCTION_B!  682 is ropcode, time:                12420
+next_state =  0, current time:                12420 
+
+IN fetch!  812 is ropcode, time:                12440
+next_state =  3, current time:                12440 
+
+IN A_INSTRUCTION_A!  812 is ropcode, time:                12460
+next_state =  4, current time:                12460 
+
+IN A_INSTRUCTION_B!  812 is ropcode, time:                12480
+next_state =  0, current time:                12480 
+
+IN fetch!  812 is ropcode, time:                12500
+next_state =  3, current time:                12500 
+
+IN A_INSTRUCTION_A!  812 is ropcode, time:                12520
+next_state =  4, current time:                12520 
+
+IN A_INSTRUCTION_B!  812 is ropcode, time:                12540
+next_state =  0, current time:                12540 
+
+IN fetch!  992 is ropcode, time:                12560
+next_state =  3, current time:                12560 
+
+IN A_INSTRUCTION_A!  992 is ropcode, time:                12580
+next_state =  4, current time:                12580 
+
+IN A_INSTRUCTION_B!  992 is ropcode, time:                12600
+next_state =  0, current time:                12600 
+
+IN fetch!  992 is ropcode, time:                12620
+next_state =  3, current time:                12620 
+
+IN A_INSTRUCTION_A!  992 is ropcode, time:                12640
+next_state =  4, current time:                12640 
+
+IN A_INSTRUCTION_B!  992 is ropcode, time:                12660
+next_state =  0, current time:                12660 
+
+IN fetch!  812 is ropcode, time:                12680
+next_state =  3, current time:                12680 
+
+IN A_INSTRUCTION_A!  812 is ropcode, time:                12700
+next_state =  4, current time:                12700 
+
+IN A_INSTRUCTION_B!  812 is ropcode, time:                12720
+next_state =  0, current time:                12720 
+
+IN fetch!  812 is ropcode, time:                12740
+next_state =  3, current time:                12740 
+
+IN A_INSTRUCTION_A!  812 is ropcode, time:                12760
+next_state =  4, current time:                12760 
+
+IN A_INSTRUCTION_B!  812 is ropcode, time:                12780
+next_state =  0, current time:                12780 
+
+IN fetch!  552 is ropcode, time:                12800
+next_state =  3, current time:                12800 
+
+IN A_INSTRUCTION_A!  552 is ropcode, time:                12820
+next_state =  4, current time:                12820 
+
+IN A_INSTRUCTION_B!  552 is ropcode, time:                12840
+next_state =  0, current time:                12840 
+
+IN fetch!  552 is ropcode, time:                12860
+next_state =  3, current time:                12860 
+
+IN A_INSTRUCTION_A!  552 is ropcode, time:                12880
+next_state =  4, current time:                12880 
+
+IN A_INSTRUCTION_B!  552 is ropcode, time:                12900
+next_state =  0, current time:                12900 
+
+IN fetch!   31 is ropcode, time:                12920
+next_state =  3, current time:                12920 
+
+IN A_INSTRUCTION_A!   31 is ropcode, time:                12940
+next_state =  4, current time:                12940 
+
+IN A_INSTRUCTION_B!   31 is ropcode, time:                12960
+next_state =  0, current time:                12960 
+
+IN fetch!   31 is ropcode, time:                12980
+next_state =  3, current time:                12980 
+
+IN A_INSTRUCTION_A!   31 is ropcode, time:                13000
+next_state =  4, current time:                13000 
+
+IN A_INSTRUCTION_B!   31 is ropcode, time:                13020
+next_state =  0, current time:                13020 
+
+IN fetch!    0 is ropcode, time:                13040
+next_state =  0, current time:                13040 
+
+IN fetch!    0 is ropcode, time:                13060
+next_state =  0, current time:                13060 
+
+IN fetch!    0 is ropcode, time:                13080
+next_state =  0, current time:                13080 
+
+IN fetch!    0 is ropcode, time:                13100
+next_state =  0, current time:                13100 
+
+IN fetch!    0 is ropcode, time:                13120
+next_state =  0, current time:                13120 
+
+IN fetch!    0 is ropcode, time:                13140
+next_state =  0, current time:                13140 
+
+IN fetch!    0 is ropcode, time:                13160
+next_state =  0, current time:                13160 
+
+IN fetch!    0 is ropcode, time:                13180
+next_state =  0, current time:                13180 
+
+IN fetch!    0 is ropcode, time:                13200
+next_state =  0, current time:                13200 
+
+IN fetch!    0 is ropcode, time:                13220
+next_state =  0, current time:                13220 
+
+IN fetch!    0 is ropcode, time:                13240
+next_state =  0, current time:                13240 
+
+IN fetch!    0 is ropcode, time:                13260
+next_state =  0, current time:                13260 
+
+IN fetch!  984 is ropcode, time:                13280
+next_state =  8, current time:                13280 
+
+IN STORING_INSTRUCTION_A!  984 is ropcode, time:                13300
+next_state =  9, current time:                13300 
+
+IN STORING_INSTRUCTION_B!  984 is ropcode, time:                13320
+next_state =  0, current time:                13320 
+
+IN fetch!  984 is ropcode, time:                13340
+next_state =  8, current time:                13340 
+
+IN STORING_INSTRUCTION_A!  984 is ropcode, time:                13360
+next_state =  9, current time:                13360 
+
+IN STORING_INSTRUCTION_B!  984 is ropcode, time:                13380
+next_state =  0, current time:                13380 
+
+IN fetch!  984 is ropcode, time:                13400
+next_state =  8, current time:                13400 
+
+IN STORING_INSTRUCTION_A!  984 is ropcode, time:                13420
+next_state =  9, current time:                13420 
+
+IN STORING_INSTRUCTION_B!  984 is ropcode, time:                13440
+next_state =  0, current time:                13440 
+
+IN fetch!  984 is ropcode, time:                13460
+next_state =  8, current time:                13460 
+
+IN STORING_INSTRUCTION_A!  984 is ropcode, time:                13480
+next_state =  9, current time:                13480 
+
+IN STORING_INSTRUCTION_B!  984 is ropcode, time:                13500
+next_state =  0, current time:                13500 
+
+IN fetch!    0 is ropcode, time:                13520
+next_state =  0, current time:                13520 
+
+IN fetch!    0 is ropcode, time:                13540
+next_state =  0, current time:                13540 
+
+IN fetch!    0 is ropcode, time:                13560
+next_state =  0, current time:                13560 
+
+IN fetch!    0 is ropcode, time:                13580
+next_state =  0, current time:                13580 
+
+IN fetch!    0 is ropcode, time:                13600
+next_state =  0, current time:                13600 
+
+IN fetch!    0 is ropcode, time:                13620
+next_state =  0, current time:                13620 
+
+IN fetch!    0 is ropcode, time:                13640
+next_state =  0, current time:                13640 
+
+IN fetch!    0 is ropcode, time:                13660
+next_state =  0, current time:                13660 
+
+IN fetch!    0 is ropcode, time:                13680
+next_state =  0, current time:                13680 
+
+IN fetch!    0 is ropcode, time:                13700
+next_state =  0, current time:                13700 
+
+IN fetch!    0 is ropcode, time:                13720
+next_state =  0, current time:                13720 
+
+IN fetch!    0 is ropcode, time:                13740
+next_state =  0, current time:                13740 
+
+IN fetch!    0 is ropcode, time:                13760
+next_state =  0, current time:                13760 
+
+IN fetch!    0 is ropcode, time:                13780
+next_state =  0, current time:                13780 
+
+IN fetch!    0 is ropcode, time:                13800
+next_state =  0, current time:                13800 
+
+IN fetch!    0 is ropcode, time:                13820
+next_state =  0, current time:                13820 
+
+IN fetch!    0 is ropcode, time:                13840
+next_state =  0, current time:                13840 
+
+IN fetch!    0 is ropcode, time:                13860
+next_state =  0, current time:                13860 
+
+IN fetch!    0 is ropcode, time:                13880
+next_state =  0, current time:                13880 
+
+IN fetch!    0 is ropcode, time:                13900
+next_state =  0, current time:                13900 
+
+IN fetch!    0 is ropcode, time:                13920
+next_state =  0, current time:                13920 
+
+IN fetch!    0 is ropcode, time:                13940
+next_state =  0, current time:                13940 
+
+IN fetch!    0 is ropcode, time:                13960
+next_state =  0, current time:                13960 
+
+IN fetch!    0 is ropcode, time:                13980
+next_state =  0, current time:                13980 
+
+IN fetch!    0 is ropcode, time:                14000
+next_state =  0, current time:                14000 
+
+IN fetch!    0 is ropcode, time:                14020
+next_state =  0, current time:                14020 
+
+IN fetch!    0 is ropcode, time:                14040
+next_state =  0, current time:                14040 
+
+IN fetch!    0 is ropcode, time:                14060
+next_state =  0, current time:                14060 
+
+IN fetch!    0 is ropcode, time:                14080
+next_state =  0, current time:                14080 
+
+IN fetch!    0 is ropcode, time:                14100
+next_state =  0, current time:                14100 
+
+IN fetch!    0 is ropcode, time:                14120
+next_state =  0, current time:                14120 
+
+IN fetch!    0 is ropcode, time:                14140
+next_state =  0, current time:                14140 
+
+IN fetch!    0 is ropcode, time:                14160
+next_state =  0, current time:                14160 
+
+IN fetch!    0 is ropcode, time:                14180
+next_state =  0, current time:                14180 
+
+IN fetch!    0 is ropcode, time:                14200
+next_state =  0, current time:                14200 
+
+IN fetch!    0 is ropcode, time:                14220
+next_state =  0, current time:                14220 
+
+IN fetch!    0 is ropcode, time:                14240
+next_state =  0, current time:                14240 
+
+IN fetch!    0 is ropcode, time:                14260
+next_state =  0, current time:                14260 
+
+IN fetch!    0 is ropcode, time:                14280
+next_state =  0, current time:                14280 
+
+IN fetch!    0 is ropcode, time:                14300
+next_state =  0, current time:                14300 
+
+IN fetch!    0 is ropcode, time:                14320
+next_state =  0, current time:                14320 
+
+IN fetch!    0 is ropcode, time:                14340
+next_state =  0, current time:                14340 
+
+IN fetch!    0 is ropcode, time:                14360
+next_state =  0, current time:                14360 
+
+IN fetch!    0 is ropcode, time:                14380
+next_state =  0, current time:                14380 
+
+IN fetch!    0 is ropcode, time:                14400
+next_state =  0, current time:                14400 
+
+IN fetch!    0 is ropcode, time:                14420
+next_state =  0, current time:                14420 
+
+IN fetch!    0 is ropcode, time:                14440
+next_state =  0, current time:                14440 
+
+IN fetch!    0 is ropcode, time:                14460
+next_state =  0, current time:                14460 
+
+IN fetch!    0 is ropcode, time:                14480
+next_state =  0, current time:                14480 
+
+IN fetch!    0 is ropcode, time:                14500
+next_state =  0, current time:                14500 
+
+IN fetch!    0 is ropcode, time:                14520
+next_state =  0, current time:                14520 
+
+IN fetch!    0 is ropcode, time:                14540
+next_state =  0, current time:                14540 
+
+IN fetch!    0 is ropcode, time:                14560
+next_state =  0, current time:                14560 
+
+IN fetch!    0 is ropcode, time:                14580
+next_state =  0, current time:                14580 
+
+IN fetch!    0 is ropcode, time:                14600
+next_state =  0, current time:                14600 
+
+IN fetch!    0 is ropcode, time:                14620
+next_state =  0, current time:                14620 
+
+IN fetch!    0 is ropcode, time:                14640
+next_state =  0, current time:                14640 
+
+IN fetch!    0 is ropcode, time:                14660
+next_state =  0, current time:                14660 
+
+IN fetch!    0 is ropcode, time:                14680
+next_state =  0, current time:                14680 
+
+IN fetch!    0 is ropcode, time:                14700
+next_state =  0, current time:                14700 
+
+IN fetch!    0 is ropcode, time:                14720
+next_state =  0, current time:                14720 
+
+IN fetch!    0 is ropcode, time:                14740
+next_state =  0, current time:                14740 
+
+IN fetch!    0 is ropcode, time:                14760
+next_state =  0, current time:                14760 
+
+IN fetch!    0 is ropcode, time:                14780
+next_state =  0, current time:                14780 
+
+IN fetch!    0 is ropcode, time:                14800
+next_state =  0, current time:                14800 
+
+IN fetch!    0 is ropcode, time:                14820
+next_state =  0, current time:                14820 
+
+IN fetch!    0 is ropcode, time:                14840
+next_state =  0, current time:                14840 
+
+IN fetch!    0 is ropcode, time:                14860
+next_state =  0, current time:                14860 
+
+IN fetch!    0 is ropcode, time:                14880
+next_state =  0, current time:                14880 
+
+IN fetch!    0 is ropcode, time:                14900
+next_state =  0, current time:                14900 
+
+IN fetch!    0 is ropcode, time:                14920
+next_state =  0, current time:                14920 
+
+IN fetch!    0 is ropcode, time:                14940
+next_state =  0, current time:                14940 
+
+IN fetch!    0 is ropcode, time:                14960
+next_state =  0, current time:                14960 
+
+IN fetch!    0 is ropcode, time:                14980
+next_state =  0, current time:                14980 
+
+IN fetch!    0 is ropcode, time:                15000
+next_state =  0, current time:                15000 
+
+IN fetch!    0 is ropcode, time:                15020
+next_state =  0, current time:                15020 
+
+IN fetch!    0 is ropcode, time:                15040
+next_state =  0, current time:                15040 
+
+IN fetch!    0 is ropcode, time:                15060
+next_state =  0, current time:                15060 
+
+IN fetch!    0 is ropcode, time:                15080
+next_state =  0, current time:                15080 
+
+IN fetch!    0 is ropcode, time:                15100
+next_state =  0, current time:                15100 
+
+IN fetch!    0 is ropcode, time:                15120
+next_state =  0, current time:                15120 
+
+IN fetch!    0 is ropcode, time:                15140
+next_state =  0, current time:                15140 
+
+IN fetch!    0 is ropcode, time:                15160
+next_state =  0, current time:                15160 
+
+IN fetch!    0 is ropcode, time:                15180
+next_state =  0, current time:                15180 
+
+IN fetch!    0 is ropcode, time:                15200
+next_state =  0, current time:                15200 
+
+IN fetch!    0 is ropcode, time:                15220
+next_state =  0, current time:                15220 
+
+IN fetch!    0 is ropcode, time:                15240
+next_state =  0, current time:                15240 
+
+IN fetch!    0 is ropcode, time:                15260
+next_state =  0, current time:                15260 
+
+IN fetch!    0 is ropcode, time:                15280
+next_state =  0, current time:                15280 
+
+IN fetch!    0 is ropcode, time:                15300
+next_state =  0, current time:                15300 
+
+IN fetch!    0 is ropcode, time:                15320
+next_state =  0, current time:                15320 
+
+IN fetch!    0 is ropcode, time:                15340
+next_state =  0, current time:                15340 
+
+IN fetch!    0 is ropcode, time:                15360
+next_state =  0, current time:                15360 
+
+IN fetch!    0 is ropcode, time:                15380
+next_state =  0, current time:                15380 
+
+IN fetch!    0 is ropcode, time:                15400
+next_state =  0, current time:                15400 
+
+IN fetch!    0 is ropcode, time:                15420
+next_state =  0, current time:                15420 
+
+IN fetch!    0 is ropcode, time:                15440
+next_state =  0, current time:                15440 
+
+IN fetch!    0 is ropcode, time:                15460
+next_state =  0, current time:                15460 
+
+IN fetch!    0 is ropcode, time:                15480
+next_state =  0, current time:                15480 
+
+IN fetch!    0 is ropcode, time:                15500
+next_state =  0, current time:                15500 
+
+IN fetch!    0 is ropcode, time:                15520
+next_state =  0, current time:                15520 
+
+IN fetch!    0 is ropcode, time:                15540
+next_state =  0, current time:                15540 
+
+IN fetch!    0 is ropcode, time:                15560
+next_state =  0, current time:                15560 
+
+IN fetch!    0 is ropcode, time:                15580
+next_state =  0, current time:                15580 
+
+IN fetch!    0 is ropcode, time:                15600
+next_state =  0, current time:                15600 
+
+IN fetch!    0 is ropcode, time:                15620
+next_state =  0, current time:                15620 
+
+IN fetch!    0 is ropcode, time:                15640
+next_state =  0, current time:                15640 
+
+IN fetch!    0 is ropcode, time:                15660
+next_state =  0, current time:                15660 
+
+IN fetch!    0 is ropcode, time:                15680
+next_state =  0, current time:                15680 
+
+IN fetch!    0 is ropcode, time:                15700
+next_state =  0, current time:                15700 
+
+IN fetch!    0 is ropcode, time:                15720
+next_state =  0, current time:                15720 
+
+IN fetch!    0 is ropcode, time:                15740
+next_state =  0, current time:                15740 
+
+IN fetch!    0 is ropcode, time:                15760
+next_state =  0, current time:                15760 
+
+IN fetch!    0 is ropcode, time:                15780
+next_state =  0, current time:                15780 
+
+IN fetch!  682 is ropcode, time:                15800
+we should be in load at time:                15800
+next_state =  6, current time:                15800 
+
+IN L_I_INSTRUCTION_A!  682 is ropcode, time:                15820
+next_state =  7, current time:                15820 
+
+IN L_I_INSTRUCTION_B!  682 is ropcode, time:                15840
+next_state =  0, current time:                15840 
+
+IN fetch!  682 is ropcode, time:                15860
+we should be in load at time:                15860
+next_state =  6, current time:                15860 
+
+IN L_I_INSTRUCTION_A!  682 is ropcode, time:                15880
+next_state =  7, current time:                15880 
+
+IN L_I_INSTRUCTION_B!  682 is ropcode, time:                15900
+next_state =  0, current time:                15900 
+
+IN fetch!  682 is ropcode, time:                15920
+we should be in load at time:                15920
+next_state =  6, current time:                15920 
+
+IN L_I_INSTRUCTION_A!  682 is ropcode, time:                15940
+next_state =  7, current time:                15940 
+
+IN L_I_INSTRUCTION_B!  682 is ropcode, time:                15960
+next_state =  0, current time:                15960 
+
+IN fetch!  682 is ropcode, time:                15980
+we should be in load at time:                15980
+next_state =  6, current time:                15980 
+
+IN L_I_INSTRUCTION_A!  682 is ropcode, time:                16000
+next_state =  7, current time:                16000 
+
+IN L_I_INSTRUCTION_B!  682 is ropcode, time:                16020
+next_state =  0, current time:                16020 
+
+IN fetch!  682 is ropcode, time:                16040
+we should be in load at time:                16040
+next_state =  6, current time:                16040 
+
+IN L_I_INSTRUCTION_A!  682 is ropcode, time:                16060
+next_state =  7, current time:                16060 
+
+IN L_I_INSTRUCTION_B!  682 is ropcode, time:                16080
+next_state =  0, current time:                16080 
+
+IN fetch!  682 is ropcode, time:                16100
+we should be in load at time:                16100
+next_state =  6, current time:                16100 
+
+IN L_I_INSTRUCTION_A!  682 is ropcode, time:                16120
+next_state =  7, current time:                16120 
+
+IN L_I_INSTRUCTION_B!  682 is ropcode, time:                16140
+next_state =  0, current time:                16140 
+
+IN fetch!  682 is ropcode, time:                16160
+we should be in load at time:                16160
+next_state =  6, current time:                16160 
+
+IN L_I_INSTRUCTION_A!  682 is ropcode, time:                16180
+next_state =  7, current time:                16180 
+
+IN L_I_INSTRUCTION_B!  682 is ropcode, time:                16200
+next_state =  0, current time:                16200 
+
+IN fetch!  682 is ropcode, time:                16220
+we should be in load at time:                16220
+next_state =  6, current time:                16220 
+
+IN L_I_INSTRUCTION_A!  682 is ropcode, time:                16240
+next_state =  7, current time:                16240 
+
+IN L_I_INSTRUCTION_B!  682 is ropcode, time:                16260
+next_state =  0, current time:                16260 
+
+IN fetch!  812 is ropcode, time:                16280
+next_state =  3, current time:                16280 
+
+IN A_INSTRUCTION_A!  812 is ropcode, time:                16300
+next_state =  4, current time:                16300 
+
+IN A_INSTRUCTION_B!  812 is ropcode, time:                16320
+next_state =  0, current time:                16320 
+
+IN fetch!  812 is ropcode, time:                16340
+next_state =  3, current time:                16340 
+
+IN A_INSTRUCTION_A!  812 is ropcode, time:                16360
+next_state =  4, current time:                16360 
+
+IN A_INSTRUCTION_B!  812 is ropcode, time:                16380
+next_state =  0, current time:                16380 
+
+IN fetch!  992 is ropcode, time:                16400
+next_state =  3, current time:                16400 
+
+IN A_INSTRUCTION_A!  992 is ropcode, time:                16420
+next_state =  4, current time:                16420 
+
+IN A_INSTRUCTION_B!  992 is ropcode, time:                16440
+next_state =  0, current time:                16440 
+
+IN fetch!  992 is ropcode, time:                16460
+next_state =  3, current time:                16460 
+
+IN A_INSTRUCTION_A!  992 is ropcode, time:                16480
+next_state =  4, current time:                16480 
+
+IN A_INSTRUCTION_B!  992 is ropcode, time:                16500
+next_state =  0, current time:                16500 
+
+IN fetch!  812 is ropcode, time:                16520
+next_state =  3, current time:                16520 
+
+IN A_INSTRUCTION_A!  812 is ropcode, time:                16540
+next_state =  4, current time:                16540 
+
+IN A_INSTRUCTION_B!  812 is ropcode, time:                16560
+next_state =  0, current time:                16560 
+
+IN fetch!  812 is ropcode, time:                16580
+next_state =  3, current time:                16580 
+
+IN A_INSTRUCTION_A!  812 is ropcode, time:                16600
+next_state =  4, current time:                16600 
+
+IN A_INSTRUCTION_B!  812 is ropcode, time:                16620
+next_state =  0, current time:                16620 
+
+IN fetch!  552 is ropcode, time:                16640
+next_state =  3, current time:                16640 
+
+IN A_INSTRUCTION_A!  552 is ropcode, time:                16660
+next_state =  4, current time:                16660 
+
+IN A_INSTRUCTION_B!  552 is ropcode, time:                16680
+next_state =  0, current time:                16680 
+
+IN fetch!  552 is ropcode, time:                16700
+next_state =  3, current time:                16700 
+
+IN A_INSTRUCTION_A!  552 is ropcode, time:                16720
+next_state =  4, current time:                16720 
+
+IN A_INSTRUCTION_B!  552 is ropcode, time:                16740
+next_state =  0, current time:                16740 
+
+IN fetch!   31 is ropcode, time:                16760
+next_state =  3, current time:                16760 
+
+IN A_INSTRUCTION_A!   31 is ropcode, time:                16780
+next_state =  4, current time:                16780 
+
+IN A_INSTRUCTION_B!   31 is ropcode, time:                16800
+next_state =  0, current time:                16800 
+
+IN fetch!   31 is ropcode, time:                16820
+next_state =  3, current time:                16820 
+
+IN A_INSTRUCTION_A!   31 is ropcode, time:                16840
+next_state =  4, current time:                16840 
+
+IN A_INSTRUCTION_B!   31 is ropcode, time:                16860
+next_state =  0, current time:                16860 
+
+IN fetch!    0 is ropcode, time:                16880
+next_state =  0, current time:                16880 
+
+IN fetch!    0 is ropcode, time:                16900
+next_state =  0, current time:                16900 
+
+IN fetch!    0 is ropcode, time:                16920
+next_state =  0, current time:                16920 
+
+IN fetch!    0 is ropcode, time:                16940
+next_state =  0, current time:                16940 
+
+IN fetch!    0 is ropcode, time:                16960
+next_state =  0, current time:                16960 
+
+IN fetch!    0 is ropcode, time:                16980
+next_state =  0, current time:                16980 
+
+IN fetch!    0 is ropcode, time:                17000
+next_state =  0, current time:                17000 
+
+IN fetch!    0 is ropcode, time:                17020
+next_state =  0, current time:                17020 
+
+IN fetch!    0 is ropcode, time:                17040
+next_state =  0, current time:                17040 
+
+IN fetch!    0 is ropcode, time:                17060
+next_state =  0, current time:                17060 
+
+IN fetch!    0 is ropcode, time:                17080
+next_state =  0, current time:                17080 
+
+IN fetch!    0 is ropcode, time:                17100
+next_state =  0, current time:                17100 
+
+IN fetch!  984 is ropcode, time:                17120
+next_state =  8, current time:                17120 
+
+IN STORING_INSTRUCTION_A!  984 is ropcode, time:                17140
+next_state =  9, current time:                17140 
+
+IN STORING_INSTRUCTION_B!  984 is ropcode, time:                17160
+next_state =  0, current time:                17160 
+
+IN fetch!  984 is ropcode, time:                17180
+next_state =  8, current time:                17180 
+
+IN STORING_INSTRUCTION_A!  984 is ropcode, time:                17200
+next_state =  9, current time:                17200 
+
+IN STORING_INSTRUCTION_B!  984 is ropcode, time:                17220
+next_state =  0, current time:                17220 
+
+IN fetch!  984 is ropcode, time:                17240
+next_state =  8, current time:                17240 
+
+IN STORING_INSTRUCTION_A!  984 is ropcode, time:                17260
+next_state =  9, current time:                17260 
+
+IN STORING_INSTRUCTION_B!  984 is ropcode, time:                17280
+next_state =  0, current time:                17280 
+
+IN fetch!  984 is ropcode, time:                17300
+next_state =  8, current time:                17300 
+
+IN STORING_INSTRUCTION_A!  984 is ropcode, time:                17320
+next_state =  9, current time:                17320 
+
+IN STORING_INSTRUCTION_B!  984 is ropcode, time:                17340
+next_state =  0, current time:                17340 
+
+IN fetch!    0 is ropcode, time:                17360
+next_state =  0, current time:                17360 
+
+IN fetch!    0 is ropcode, time:                17380
+next_state =  0, current time:                17380 
+
+IN fetch!    0 is ropcode, time:                17400
+next_state =  0, current time:                17400 
+
+IN fetch!    0 is ropcode, time:                17420
+next_state =  0, current time:                17420 
+
+IN fetch!    0 is ropcode, time:                17440
+next_state =  0, current time:                17440 
+
+IN fetch!    0 is ropcode, time:                17460
+next_state =  0, current time:                17460 
+
+IN fetch!    0 is ropcode, time:                17480
+next_state =  0, current time:                17480 
+
+IN fetch!    0 is ropcode, time:                17500
+next_state =  0, current time:                17500 
+
+IN fetch!    0 is ropcode, time:                17520
+next_state =  0, current time:                17520 
+
+IN fetch!    0 is ropcode, time:                17540
+next_state =  0, current time:                17540 
+
+IN fetch!    0 is ropcode, time:                17560
+next_state =  0, current time:                17560 
+
+IN fetch!    0 is ropcode, time:                17580
+next_state =  0, current time:                17580 
+
+Stopped at time : 17600 ns : File "C:/Users/tuf22191/Projects/Github_Repos/Building_Microprocessor_Verilog/MicroP_for_legv8/COMBO_FSM_CPU_TEST.v" Line 258
+# run all
+IN fetch!    0 is ropcode, time:                17600
+next_state =  0, current time:                17600 
+
+IN fetch!    0 is ropcode, time:                17620
+next_state =  0, current time:                17620 
+
+IN fetch!    0 is ropcode, time:                17640
+next_state =  0, current time:                17640 
+
+IN fetch!    0 is ropcode, time:                17660
+next_state =  0, current time:                17660 
+
+IN fetch!    0 is ropcode, time:                17680
+next_state =  0, current time:                17680 
+
+IN fetch!    0 is ropcode, time:                17700
+next_state =  0, current time:                17700 
+
+IN fetch!    0 is ropcode, time:                17720
+next_state =  0, current time:                17720 
+
+IN fetch!    0 is ropcode, time:                17740
+next_state =  0, current time:                17740 
+
+IN fetch!    0 is ropcode, time:                17760
+next_state =  0, current time:                17760 
+
+IN fetch!    0 is ropcode, time:                17780
+next_state =  0, current time:                17780 
+
+IN fetch!    0 is ropcode, time:                17800
+next_state =  0, current time:                17800 
+
+IN fetch!    0 is ropcode, time:                17820
+next_state =  0, current time:                17820 
+
+IN fetch!    0 is ropcode, time:                17840
+next_state =  0, current time:                17840 
+
+IN fetch!    0 is ropcode, time:                17860
+next_state =  0, current time:                17860 
+
+IN fetch!    0 is ropcode, time:                17880
+next_state =  0, current time:                17880 
+
+IN fetch!    0 is ropcode, time:                17900
+next_state =  0, current time:                17900 
+
+IN fetch!    0 is ropcode, time:                17920
+next_state =  0, current time:                17920 
+
+IN fetch!    0 is ropcode, time:                17940
+next_state =  0, current time:                17940 
+
+IN fetch!    0 is ropcode, time:                17960
+next_state =  0, current time:                17960 
+
+IN fetch!    0 is ropcode, time:                17980
+next_state =  0, current time:                17980 
+
+IN fetch!    0 is ropcode, time:                18000
+next_state =  0, current time:                18000 
+
+IN fetch!    0 is ropcode, time:                18020
+next_state =  0, current time:                18020 
+
+IN fetch!    0 is ropcode, time:                18040
+next_state =  0, current time:                18040 
+
+IN fetch!    0 is ropcode, time:                18060
+next_state =  0, current time:                18060 
+
+IN fetch!    0 is ropcode, time:                18080
+next_state =  0, current time:                18080 
+
+IN fetch!    0 is ropcode, time:                18100
+next_state =  0, current time:                18100 
+
+IN fetch!    0 is ropcode, time:                18120
+next_state =  0, current time:                18120 
+
+IN fetch!    0 is ropcode, time:                18140
+next_state =  0, current time:                18140 
+
+IN fetch!    0 is ropcode, time:                18160
+next_state =  0, current time:                18160 
+
+IN fetch!    0 is ropcode, time:                18180
+next_state =  0, current time:                18180 
+
+IN fetch!    0 is ropcode, time:                18200
+next_state =  0, current time:                18200 
+
+IN fetch!    0 is ropcode, time:                18220
+next_state =  0, current time:                18220 
+
+IN fetch!    0 is ropcode, time:                18240
+next_state =  0, current time:                18240 
+
+IN fetch!    0 is ropcode, time:                18260
+next_state =  0, current time:                18260 
+
+IN fetch!    0 is ropcode, time:                18280
+next_state =  0, current time:                18280 
+
+IN fetch!    0 is ropcode, time:                18300
+next_state =  0, current time:                18300 
+
+IN fetch!    0 is ropcode, time:                18320
+next_state =  0, current time:                18320 
+
+IN fetch!    0 is ropcode, time:                18340
+next_state =  0, current time:                18340 
+
+IN fetch!    0 is ropcode, time:                18360
+next_state =  0, current time:                18360 
+
+IN fetch!    0 is ropcode, time:                18380
+next_state =  0, current time:                18380 
+
+IN fetch!    0 is ropcode, time:                18400
+next_state =  0, current time:                18400 
+
+IN fetch!    0 is ropcode, time:                18420
+next_state =  0, current time:                18420 
+
+IN fetch!    0 is ropcode, time:                18440
+next_state =  0, current time:                18440 
+
+IN fetch!    0 is ropcode, time:                18460
+next_state =  0, current time:                18460 
+
+IN fetch!    0 is ropcode, time:                18480
+next_state =  0, current time:                18480 
+
+IN fetch!    0 is ropcode, time:                18500
+next_state =  0, current time:                18500 
+
+IN fetch!    0 is ropcode, time:                18520
+next_state =  0, current time:                18520 
+
+IN fetch!    0 is ropcode, time:                18540
+next_state =  0, current time:                18540 
+
+IN fetch!    0 is ropcode, time:                18560
+next_state =  0, current time:                18560 
+
+IN fetch!    0 is ropcode, time:                18580
+next_state =  0, current time:                18580 
+
+IN fetch!    0 is ropcode, time:                18600
+next_state =  0, current time:                18600 
+
+IN fetch!    0 is ropcode, time:                18620
+next_state =  0, current time:                18620 
+
+IN fetch!    0 is ropcode, time:                18640
+next_state =  0, current time:                18640 
+
+IN fetch!    0 is ropcode, time:                18660
+next_state =  0, current time:                18660 
+
+IN fetch!    0 is ropcode, time:                18680
+next_state =  0, current time:                18680 
+
+IN fetch!    0 is ropcode, time:                18700
+next_state =  0, current time:                18700 
+
+IN fetch!    0 is ropcode, time:                18720
+next_state =  0, current time:                18720 
+
+IN fetch!    0 is ropcode, time:                18740
+next_state =  0, current time:                18740 
+
+IN fetch!    0 is ropcode, time:                18760
+next_state =  0, current time:                18760 
+
+IN fetch!    0 is ropcode, time:                18780
+next_state =  0, current time:                18780 
+
+IN fetch!    0 is ropcode, time:                18800
+next_state =  0, current time:                18800 
+
+IN fetch!    0 is ropcode, time:                18820
+next_state =  0, current time:                18820 
+
+IN fetch!    0 is ropcode, time:                18840
+next_state =  0, current time:                18840 
+
+IN fetch!    0 is ropcode, time:                18860
+next_state =  0, current time:                18860 
+
+IN fetch!    0 is ropcode, time:                18880
+next_state =  0, current time:                18880 
+
+IN fetch!    0 is ropcode, time:                18900
+next_state =  0, current time:                18900 
+
+IN fetch!    0 is ropcode, time:                18920
+next_state =  0, current time:                18920 
+
+IN fetch!    0 is ropcode, time:                18940
+next_state =  0, current time:                18940 
+
+IN fetch!    0 is ropcode, time:                18960
+next_state =  0, current time:                18960 
+
+IN fetch!    0 is ropcode, time:                18980
+next_state =  0, current time:                18980 
+
+IN fetch!    0 is ropcode, time:                19000
+next_state =  0, current time:                19000 
+
+IN fetch!    0 is ropcode, time:                19020
+next_state =  0, current time:                19020 
+
+IN fetch!    0 is ropcode, time:                19040
+next_state =  0, current time:                19040 
+
+IN fetch!    0 is ropcode, time:                19060
+next_state =  0, current time:                19060 
+
+IN fetch!    0 is ropcode, time:                19080
+next_state =  0, current time:                19080 
+
+IN fetch!    0 is ropcode, time:                19100
+next_state =  0, current time:                19100 
+
+IN fetch!    0 is ropcode, time:                19120
+next_state =  0, current time:                19120 
+
+IN fetch!    0 is ropcode, time:                19140
+next_state =  0, current time:                19140 
+
+IN fetch!    0 is ropcode, time:                19160
+next_state =  0, current time:                19160 
+
+IN fetch!    0 is ropcode, time:                19180
+next_state =  0, current time:                19180 
+
+IN fetch!    0 is ropcode, time:                19200
+next_state =  0, current time:                19200 
+
+IN fetch!    0 is ropcode, time:                19220
+next_state =  0, current time:                19220 
+
+IN fetch!    0 is ropcode, time:                19240
+next_state =  0, current time:                19240 
+
+IN fetch!    0 is ropcode, time:                19260
+next_state =  0, current time:                19260 
+
+IN fetch!    0 is ropcode, time:                19280
+next_state =  0, current time:                19280 
+
+IN fetch!    0 is ropcode, time:                19300
+next_state =  0, current time:                19300 
+
+IN fetch!    0 is ropcode, time:                19320
+next_state =  0, current time:                19320 
+
+IN fetch!    0 is ropcode, time:                19340
+next_state =  0, current time:                19340 
+
+IN fetch!    0 is ropcode, time:                19360
+next_state =  0, current time:                19360 
+
+IN fetch!    0 is ropcode, time:                19380
+next_state =  0, current time:                19380 
+
+IN fetch!    0 is ropcode, time:                19400
+next_state =  0, current time:                19400 
+
+IN fetch!    0 is ropcode, time:                19420
+next_state =  0, current time:                19420 
+
+IN fetch!    0 is ropcode, time:                19440
+next_state =  0, current time:                19440 
+
+IN fetch!    0 is ropcode, time:                19460
+next_state =  0, current time:                19460 
+
+IN fetch!    0 is ropcode, time:                19480
+next_state =  0, current time:                19480 
+
+IN fetch!    0 is ropcode, time:                19500
+next_state =  0, current time:                19500 
+
+IN fetch!    0 is ropcode, time:                19520
+next_state =  0, current time:                19520 
+
+IN fetch!    0 is ropcode, time:                19540
+next_state =  0, current time:                19540 
+
+IN fetch!    0 is ropcode, time:                19560
+next_state =  0, current time:                19560 
+
+IN fetch!    0 is ropcode, time:                19580
+next_state =  0, current time:                19580 
+
+IN fetch!    0 is ropcode, time:                19600
+next_state =  0, current time:                19600 
+
+IN fetch!    0 is ropcode, time:                19620
+next_state =  0, current time:                19620 
+
+IN fetch!  682 is ropcode, time:                19640
+we should be in load at time:                19640
+next_state =  6, current time:                19640 
+
+IN L_I_INSTRUCTION_A!  682 is ropcode, time:                19660
+next_state =  7, current time:                19660 
+
+IN L_I_INSTRUCTION_B!  682 is ropcode, time:                19680
+next_state =  0, current time:                19680 
+
+IN fetch!  682 is ropcode, time:                19700
+we should be in load at time:                19700
+next_state =  6, current time:                19700 
+
+IN L_I_INSTRUCTION_A!  682 is ropcode, time:                19720
+next_state =  7, current time:                19720 
+
+IN L_I_INSTRUCTION_B!  682 is ropcode, time:                19740
+next_state =  0, current time:                19740 
+
+IN fetch!  682 is ropcode, time:                19760
+we should be in load at time:                19760
+next_state =  6, current time:                19760 
+
+IN L_I_INSTRUCTION_A!  682 is ropcode, time:                19780
+next_state =  7, current time:                19780 
+
+IN L_I_INSTRUCTION_B!  682 is ropcode, time:                19800
+next_state =  0, current time:                19800 
+
+IN fetch!  682 is ropcode, time:                19820
+we should be in load at time:                19820
+next_state =  6, current time:                19820 
+
+IN L_I_INSTRUCTION_A!  682 is ropcode, time:                19840
+next_state =  7, current time:                19840 
+
+IN L_I_INSTRUCTION_B!  682 is ropcode, time:                19860
+next_state =  0, current time:                19860 
+
+IN fetch!  682 is ropcode, time:                19880
+we should be in load at time:                19880
+next_state =  6, current time:                19880 
+
+IN L_I_INSTRUCTION_A!  682 is ropcode, time:                19900
+next_state =  7, current time:                19900 
+
+IN L_I_INSTRUCTION_B!  682 is ropcode, time:                19920
+next_state =  0, current time:                19920 
+
+IN fetch!  682 is ropcode, time:                19940
+we should be in load at time:                19940
+next_state =  6, current time:                19940 
+
+IN L_I_INSTRUCTION_A!  682 is ropcode, time:                19960
+next_state =  7, current time:                19960 
+
+IN L_I_INSTRUCTION_B!  682 is ropcode, time:                19980
+next_state =  0, current time:                19980 
+
+IN fetch!  682 is ropcode, time:                20000
+we should be in load at time:                20000
+next_state =  6, current time:                20000 
+
+IN L_I_INSTRUCTION_A!  682 is ropcode, time:                20020
+next_state =  7, current time:                20020 
+
+IN L_I_INSTRUCTION_B!  682 is ropcode, time:                20040
+next_state =  0, current time:                20040 
+
+IN fetch!  682 is ropcode, time:                20060
+we should be in load at time:                20060
+next_state =  6, current time:                20060 
+
+IN L_I_INSTRUCTION_A!  682 is ropcode, time:                20080
+next_state =  7, current time:                20080 
+
+IN L_I_INSTRUCTION_B!  682 is ropcode, time:                20100
+next_state =  0, current time:                20100 
+
+IN fetch!  812 is ropcode, time:                20120
+next_state =  3, current time:                20120 
+
+IN A_INSTRUCTION_A!  812 is ropcode, time:                20140
+next_state =  4, current time:                20140 
+
+IN A_INSTRUCTION_B!  812 is ropcode, time:                20160
+next_state =  0, current time:                20160 
+
+IN fetch!  812 is ropcode, time:                20180
+next_state =  3, current time:                20180 
+
+IN A_INSTRUCTION_A!  812 is ropcode, time:                20200
+next_state =  4, current time:                20200 
+
+IN A_INSTRUCTION_B!  812 is ropcode, time:                20220
+next_state =  0, current time:                20220 
+
+IN fetch!  992 is ropcode, time:                20240
+next_state =  3, current time:                20240 
+
+IN A_INSTRUCTION_A!  992 is ropcode, time:                20260
+next_state =  4, current time:                20260 
+
+IN A_INSTRUCTION_B!  992 is ropcode, time:                20280
+next_state =  0, current time:                20280 
+
+IN fetch!  992 is ropcode, time:                20300
+next_state =  3, current time:                20300 
+
+IN A_INSTRUCTION_A!  992 is ropcode, time:                20320
+next_state =  4, current time:                20320 
+
+IN A_INSTRUCTION_B!  992 is ropcode, time:                20340
+next_state =  0, current time:                20340 
+
+IN fetch!  812 is ropcode, time:                20360
+next_state =  3, current time:                20360 
+
+IN A_INSTRUCTION_A!  812 is ropcode, time:                20380
+next_state =  4, current time:                20380 
+
+IN A_INSTRUCTION_B!  812 is ropcode, time:                20400
+next_state =  0, current time:                20400 
+
+IN fetch!  812 is ropcode, time:                20420
+next_state =  3, current time:                20420 
+
+IN A_INSTRUCTION_A!  812 is ropcode, time:                20440
+next_state =  4, current time:                20440 
+
+IN A_INSTRUCTION_B!  812 is ropcode, time:                20460
+next_state =  0, current time:                20460 
+
+IN fetch!  552 is ropcode, time:                20480
+next_state =  3, current time:                20480 
+
+IN A_INSTRUCTION_A!  552 is ropcode, time:                20500
+next_state =  4, current time:                20500 
+
+IN A_INSTRUCTION_B!  552 is ropcode, time:                20520
+next_state =  0, current time:                20520 
+
+IN fetch!  552 is ropcode, time:                20540
+next_state =  3, current time:                20540 
+
+IN A_INSTRUCTION_A!  552 is ropcode, time:                20560
+next_state =  4, current time:                20560 
+
+IN A_INSTRUCTION_B!  552 is ropcode, time:                20580
+next_state =  0, current time:                20580 
+
+IN fetch!   31 is ropcode, time:                20600
+next_state =  3, current time:                20600 
+
+IN A_INSTRUCTION_A!   31 is ropcode, time:                20620
+next_state =  4, current time:                20620 
+
+IN A_INSTRUCTION_B!   31 is ropcode, time:                20640
+next_state =  0, current time:                20640 
+
+IN fetch!   31 is ropcode, time:                20660
+next_state =  3, current time:                20660 
+
+IN A_INSTRUCTION_A!   31 is ropcode, time:                20680
+next_state =  4, current time:                20680 
+
+IN A_INSTRUCTION_B!   31 is ropcode, time:                20700
+next_state =  0, current time:                20700 
+
+IN fetch!    0 is ropcode, time:                20720
+next_state =  0, current time:                20720 
+
+IN fetch!    0 is ropcode, time:                20740
+next_state =  0, current time:                20740 
+
+IN fetch!    0 is ropcode, time:                20760
+next_state =  0, current time:                20760 
+
+IN fetch!    0 is ropcode, time:                20780
+next_state =  0, current time:                20780 
+
+IN fetch!    0 is ropcode, time:                20800
+next_state =  0, current time:                20800 
+
+IN fetch!    0 is ropcode, time:                20820
+next_state =  0, current time:                20820 
+
+IN fetch!    0 is ropcode, time:                20840
+next_state =  0, current time:                20840 
+
+IN fetch!    0 is ropcode, time:                20860
+next_state =  0, current time:                20860 
+
+IN fetch!    0 is ropcode, time:                20880
+next_state =  0, current time:                20880 
+
+IN fetch!    0 is ropcode, time:                20900
+next_state =  0, current time:                20900 
+
+IN fetch!    0 is ropcode, time:                20920
+next_state =  0, current time:                20920 
+
+IN fetch!    0 is ropcode, time:                20940
+next_state =  0, current time:                20940 
+
+IN fetch!  984 is ropcode, time:                20960
+next_state =  8, current time:                20960 
+
+IN STORING_INSTRUCTION_A!  984 is ropcode, time:                20980
+next_state =  9, current time:                20980 
+
+IN STORING_INSTRUCTION_B!  984 is ropcode, time:                21000
+next_state =  0, current time:                21000 
+
+IN fetch!  984 is ropcode, time:                21020
+next_state =  8, current time:                21020 
+
+IN STORING_INSTRUCTION_A!  984 is ropcode, time:                21040
+next_state =  9, current time:                21040 
+
+IN STORING_INSTRUCTION_B!  984 is ropcode, time:                21060
+next_state =  0, current time:                21060 
+
+IN fetch!  984 is ropcode, time:                21080
+next_state =  8, current time:                21080 
+
+IN STORING_INSTRUCTION_A!  984 is ropcode, time:                21100
+next_state =  9, current time:                21100 
+
+IN STORING_INSTRUCTION_B!  984 is ropcode, time:                21120
+next_state =  0, current time:                21120 
+
+IN fetch!  984 is ropcode, time:                21140
+next_state =  8, current time:                21140 
+
+IN STORING_INSTRUCTION_A!  984 is ropcode, time:                21160
+next_state =  9, current time:                21160 
+
+IN STORING_INSTRUCTION_B!  984 is ropcode, time:                21180
+next_state =  0, current time:                21180 
+
+IN fetch!    0 is ropcode, time:                21200
+next_state =  0, current time:                21200 
+
+IN fetch!    0 is ropcode, time:                21220
+next_state =  0, current time:                21220 
+
+IN fetch!    0 is ropcode, time:                21240
+next_state =  0, current time:                21240 
+
+IN fetch!    0 is ropcode, time:                21260
+next_state =  0, current time:                21260 
+
+IN fetch!    0 is ropcode, time:                21280
+next_state =  0, current time:                21280 
+
+IN fetch!    0 is ropcode, time:                21300
+next_state =  0, current time:                21300 
+
+IN fetch!    0 is ropcode, time:                21320
+next_state =  0, current time:                21320 
+
+IN fetch!    0 is ropcode, time:                21340
+next_state =  0, current time:                21340 
+
+IN fetch!    0 is ropcode, time:                21360
+next_state =  0, current time:                21360 
+
+IN fetch!    0 is ropcode, time:                21380
+next_state =  0, current time:                21380 
+
+IN fetch!    0 is ropcode, time:                21400
+next_state =  0, current time:                21400 
+
+IN fetch!    0 is ropcode, time:                21420
+next_state =  0, current time:                21420 
+
+IN fetch!    0 is ropcode, time:                21440
+next_state =  0, current time:                21440 
+
+IN fetch!    0 is ropcode, time:                21460
+next_state =  0, current time:                21460 
+
+IN fetch!    0 is ropcode, time:                21480
+next_state =  0, current time:                21480 
+
+IN fetch!    0 is ropcode, time:                21500
+next_state =  0, current time:                21500 
+
+IN fetch!    0 is ropcode, time:                21520
+next_state =  0, current time:                21520 
+
+IN fetch!    0 is ropcode, time:                21540
+next_state =  0, current time:                21540 
+
+IN fetch!    0 is ropcode, time:                21560
+next_state =  0, current time:                21560 
+
+IN fetch!    0 is ropcode, time:                21580
+next_state =  0, current time:                21580 
+
+IN fetch!    0 is ropcode, time:                21600
+next_state =  0, current time:                21600 
+
+IN fetch!    0 is ropcode, time:                21620
+next_state =  0, current time:                21620 
+
+IN fetch!    0 is ropcode, time:                21640
+next_state =  0, current time:                21640 
+
+IN fetch!    0 is ropcode, time:                21660
+next_state =  0, current time:                21660 
+
+IN fetch!    0 is ropcode, time:                21680
+next_state =  0, current time:                21680 
+
+IN fetch!    0 is ropcode, time:                21700
+next_state =  0, current time:                21700 
+
+IN fetch!    0 is ropcode, time:                21720
+next_state =  0, current time:                21720 
+
+IN fetch!    0 is ropcode, time:                21740
+next_state =  0, current time:                21740 
+
+IN fetch!    0 is ropcode, time:                21760
+next_state =  0, current time:                21760 
+
+IN fetch!    0 is ropcode, time:                21780
+next_state =  0, current time:                21780 
+
+IN fetch!    0 is ropcode, time:                21800
+next_state =  0, current time:                21800 
+
+IN fetch!    0 is ropcode, time:                21820
+next_state =  0, current time:                21820 
+
+IN fetch!    0 is ropcode, time:                21840
+next_state =  0, current time:                21840 
+
+IN fetch!    0 is ropcode, time:                21860
+next_state =  0, current time:                21860 
+
+IN fetch!    0 is ropcode, time:                21880
+next_state =  0, current time:                21880 
+
+IN fetch!    0 is ropcode, time:                21900
+next_state =  0, current time:                21900 
+
+IN fetch!    0 is ropcode, time:                21920
+next_state =  0, current time:                21920 
+
+IN fetch!    0 is ropcode, time:                21940
+next_state =  0, current time:                21940 
+
+IN fetch!    0 is ropcode, time:                21960
+next_state =  0, current time:                21960 
+
+IN fetch!    0 is ropcode, time:                21980
+next_state =  0, current time:                21980 
+
+IN fetch!    0 is ropcode, time:                22000
+next_state =  0, current time:                22000 
+
+IN fetch!    0 is ropcode, time:                22020
+next_state =  0, current time:                22020 
+
+IN fetch!    0 is ropcode, time:                22040
+next_state =  0, current time:                22040 
+
+IN fetch!    0 is ropcode, time:                22060
+next_state =  0, current time:                22060 
+
+IN fetch!    0 is ropcode, time:                22080
+next_state =  0, current time:                22080 
+
+IN fetch!    0 is ropcode, time:                22100
+next_state =  0, current time:                22100 
+
+IN fetch!    0 is ropcode, time:                22120
+next_state =  0, current time:                22120 
+
+IN fetch!    0 is ropcode, time:                22140
+next_state =  0, current time:                22140 
+
+IN fetch!    0 is ropcode, time:                22160
+next_state =  0, current time:                22160 
+
+IN fetch!    0 is ropcode, time:                22180
+next_state =  0, current time:                22180 
+
+IN fetch!    0 is ropcode, time:                22200
+next_state =  0, current time:                22200 
+
+IN fetch!    0 is ropcode, time:                22220
+next_state =  0, current time:                22220 
+
+IN fetch!    0 is ropcode, time:                22240
+next_state =  0, current time:                22240 
+
+IN fetch!    0 is ropcode, time:                22260
+next_state =  0, current time:                22260 
+
+IN fetch!    0 is ropcode, time:                22280
+next_state =  0, current time:                22280 
+
+IN fetch!    0 is ropcode, time:                22300
+next_state =  0, current time:                22300 
+
+IN fetch!    0 is ropcode, time:                22320
+next_state =  0, current time:                22320 
+
+IN fetch!    0 is ropcode, time:                22340
+next_state =  0, current time:                22340 
+
+IN fetch!    0 is ropcode, time:                22360
+next_state =  0, current time:                22360 
+
+IN fetch!    0 is ropcode, time:                22380
+next_state =  0, current time:                22380 
+
+IN fetch!    0 is ropcode, time:                22400
+next_state =  0, current time:                22400 
+
+IN fetch!    0 is ropcode, time:                22420
+next_state =  0, current time:                22420 
+
+IN fetch!    0 is ropcode, time:                22440
+next_state =  0, current time:                22440 
+
+IN fetch!    0 is ropcode, time:                22460
+next_state =  0, current time:                22460 
+
+IN fetch!    0 is ropcode, time:                22480
+next_state =  0, current time:                22480 
+
+IN fetch!    0 is ropcode, time:                22500
+next_state =  0, current time:                22500 
+
+IN fetch!    0 is ropcode, time:                22520
+next_state =  0, current time:                22520 
+
+IN fetch!    0 is ropcode, time:                22540
+next_state =  0, current time:                22540 
+
+IN fetch!    0 is ropcode, time:                22560
+next_state =  0, current time:                22560 
+
+IN fetch!    0 is ropcode, time:                22580
+next_state =  0, current time:                22580 
+
+IN fetch!    0 is ropcode, time:                22600
+next_state =  0, current time:                22600 
+
+IN fetch!    0 is ropcode, time:                22620
+next_state =  0, current time:                22620 
+
+IN fetch!    0 is ropcode, time:                22640
+next_state =  0, current time:                22640 
+
+IN fetch!    0 is ropcode, time:                22660
+next_state =  0, current time:                22660 
+
+IN fetch!    0 is ropcode, time:                22680
+next_state =  0, current time:                22680 
+
+IN fetch!    0 is ropcode, time:                22700
+next_state =  0, current time:                22700 
+
+IN fetch!    0 is ropcode, time:                22720
+next_state =  0, current time:                22720 
+
+IN fetch!    0 is ropcode, time:                22740
+next_state =  0, current time:                22740 
+
+IN fetch!    0 is ropcode, time:                22760
+next_state =  0, current time:                22760 
+
+IN fetch!    0 is ropcode, time:                22780
+next_state =  0, current time:                22780 
+
+IN fetch!    0 is ropcode, time:                22800
+next_state =  0, current time:                22800 
+
+IN fetch!    0 is ropcode, time:                22820
+next_state =  0, current time:                22820 
+
+IN fetch!    0 is ropcode, time:                22840
+next_state =  0, current time:                22840 
+
+IN fetch!    0 is ropcode, time:                22860
+next_state =  0, current time:                22860 
+
+IN fetch!    0 is ropcode, time:                22880
+next_state =  0, current time:                22880 
+
+IN fetch!    0 is ropcode, time:                22900
+next_state =  0, current time:                22900 
+
+IN fetch!    0 is ropcode, time:                22920
+next_state =  0, current time:                22920 
+
+IN fetch!    0 is ropcode, time:                22940
+next_state =  0, current time:                22940 
+
+IN fetch!    0 is ropcode, time:                22960
+next_state =  0, current time:                22960 
+
+IN fetch!    0 is ropcode, time:                22980
+next_state =  0, current time:                22980 
+
+IN fetch!    0 is ropcode, time:                23000
+next_state =  0, current time:                23000 
+
+IN fetch!    0 is ropcode, time:                23020
+next_state =  0, current time:                23020 
+
+IN fetch!    0 is ropcode, time:                23040
+next_state =  0, current time:                23040 
+
+IN fetch!    0 is ropcode, time:                23060
+next_state =  0, current time:                23060 
+
+IN fetch!    0 is ropcode, time:                23080
+next_state =  0, current time:                23080 
+
+IN fetch!    0 is ropcode, time:                23100
+next_state =  0, current time:                23100 
+
+IN fetch!    0 is ropcode, time:                23120
+next_state =  0, current time:                23120 
+
+IN fetch!    0 is ropcode, time:                23140
+next_state =  0, current time:                23140 
+
+IN fetch!    0 is ropcode, time:                23160
+next_state =  0, current time:                23160 
+
+IN fetch!    0 is ropcode, time:                23180
+next_state =  0, current time:                23180 
+
+IN fetch!    0 is ropcode, time:                23200
+next_state =  0, current time:                23200 
+
+IN fetch!    0 is ropcode, time:                23220
+next_state =  0, current time:                23220 
+
+IN fetch!    0 is ropcode, time:                23240
+next_state =  0, current time:                23240 
+
+IN fetch!    0 is ropcode, time:                23260
+next_state =  0, current time:                23260 
+
+IN fetch!    0 is ropcode, time:                23280
+next_state =  0, current time:                23280 
+
+IN fetch!    0 is ropcode, time:                23300
+next_state =  0, current time:                23300 
+
+IN fetch!    0 is ropcode, time:                23320
+next_state =  0, current time:                23320 
+
+IN fetch!    0 is ropcode, time:                23340
+next_state =  0, current time:                23340 
+
+IN fetch!    0 is ropcode, time:                23360
+next_state =  0, current time:                23360 
+
+IN fetch!    0 is ropcode, time:                23380
+next_state =  0, current time:                23380 
+
+IN fetch!    0 is ropcode, time:                23400
+next_state =  0, current time:                23400 
+
+IN fetch!    0 is ropcode, time:                23420
+next_state =  0, current time:                23420 
+
+IN fetch!    0 is ropcode, time:                23440
+next_state =  0, current time:                23440 
+
+IN fetch!    0 is ropcode, time:                23460
+next_state =  0, current time:                23460 
+
+IN fetch!  682 is ropcode, time:                23480
+we should be in load at time:                23480
+next_state =  6, current time:                23480 
+
+IN L_I_INSTRUCTION_A!  682 is ropcode, time:                23500
+next_state =  7, current time:                23500 
+
+IN L_I_INSTRUCTION_B!  682 is ropcode, time:                23520
+next_state =  0, current time:                23520 
+
+IN fetch!  682 is ropcode, time:                23540
+we should be in load at time:                23540
+next_state =  6, current time:                23540 
+
+IN L_I_INSTRUCTION_A!  682 is ropcode, time:                23560
+next_state =  7, current time:                23560 
+
+IN L_I_INSTRUCTION_B!  682 is ropcode, time:                23580
+next_state =  0, current time:                23580 
+
+IN fetch!  682 is ropcode, time:                23600
+we should be in load at time:                23600
+next_state =  6, current time:                23600 
+
+IN L_I_INSTRUCTION_A!  682 is ropcode, time:                23620
+next_state =  7, current time:                23620 
+
+IN L_I_INSTRUCTION_B!  682 is ropcode, time:                23640
+next_state =  0, current time:                23640 
+
+IN fetch!  682 is ropcode, time:                23660
+we should be in load at time:                23660
+next_state =  6, current time:                23660 
+
+IN L_I_INSTRUCTION_A!  682 is ropcode, time:                23680
+next_state =  7, current time:                23680 
+
+IN L_I_INSTRUCTION_B!  682 is ropcode, time:                23700
+next_state =  0, current time:                23700 
+
+IN fetch!  682 is ropcode, time:                23720
+we should be in load at time:                23720
+next_state =  6, current time:                23720 
+
+IN L_I_INSTRUCTION_A!  682 is ropcode, time:                23740
+next_state =  7, current time:                23740 
+
+IN L_I_INSTRUCTION_B!  682 is ropcode, time:                23760
+next_state =  0, current time:                23760 
+
+IN fetch!  682 is ropcode, time:                23780
+we should be in load at time:                23780
+next_state =  6, current time:                23780 
+
+IN L_I_INSTRUCTION_A!  682 is ropcode, time:                23800
+next_state =  7, current time:                23800 
+
+IN L_I_INSTRUCTION_B!  682 is ropcode, time:                23820
+next_state =  0, current time:                23820 
+
+IN fetch!  682 is ropcode, time:                23840
+we should be in load at time:                23840
+next_state =  6, current time:                23840 
+
+IN L_I_INSTRUCTION_A!  682 is ropcode, time:                23860
+next_state =  7, current time:                23860 
+
+IN L_I_INSTRUCTION_B!  682 is ropcode, time:                23880
+next_state =  0, current time:                23880 
+
+IN fetch!  682 is ropcode, time:                23900
+we should be in load at time:                23900
+next_state =  6, current time:                23900 
+
+IN L_I_INSTRUCTION_A!  682 is ropcode, time:                23920
+next_state =  7, current time:                23920 
+
+IN L_I_INSTRUCTION_B!  682 is ropcode, time:                23940
+next_state =  0, current time:                23940 
+
+IN fetch!  812 is ropcode, time:                23960
+next_state =  3, current time:                23960 
+
+IN A_INSTRUCTION_A!  812 is ropcode, time:                23980
+next_state =  4, current time:                23980 
+
+IN A_INSTRUCTION_B!  812 is ropcode, time:                24000
+next_state =  0, current time:                24000 
+
+IN fetch!  812 is ropcode, time:                24020
+next_state =  3, current time:                24020 
+
+IN A_INSTRUCTION_A!  812 is ropcode, time:                24040
+next_state =  4, current time:                24040 
+
+IN A_INSTRUCTION_B!  812 is ropcode, time:                24060
+next_state =  0, current time:                24060 
+
+IN fetch!  992 is ropcode, time:                24080
+next_state =  3, current time:                24080 
+
+IN A_INSTRUCTION_A!  992 is ropcode, time:                24100
+next_state =  4, current time:                24100 
+
+IN A_INSTRUCTION_B!  992 is ropcode, time:                24120
+next_state =  0, current time:                24120 
+
+IN fetch!  992 is ropcode, time:                24140
+next_state =  3, current time:                24140 
+
+IN A_INSTRUCTION_A!  992 is ropcode, time:                24160
+next_state =  4, current time:                24160 
+
+IN A_INSTRUCTION_B!  992 is ropcode, time:                24180
+next_state =  0, current time:                24180 
+
+IN fetch!  812 is ropcode, time:                24200
+next_state =  3, current time:                24200 
+
+IN A_INSTRUCTION_A!  812 is ropcode, time:                24220
+next_state =  4, current time:                24220 
+
+IN A_INSTRUCTION_B!  812 is ropcode, time:                24240
+next_state =  0, current time:                24240 
+
+IN fetch!  812 is ropcode, time:                24260
+next_state =  3, current time:                24260 
+
+IN A_INSTRUCTION_A!  812 is ropcode, time:                24280
+next_state =  4, current time:                24280 
+
+IN A_INSTRUCTION_B!  812 is ropcode, time:                24300
+next_state =  0, current time:                24300 
+
+IN fetch!  552 is ropcode, time:                24320
+next_state =  3, current time:                24320 
+
+IN A_INSTRUCTION_A!  552 is ropcode, time:                24340
+next_state =  4, current time:                24340 
+
+IN A_INSTRUCTION_B!  552 is ropcode, time:                24360
+next_state =  0, current time:                24360 
+
+IN fetch!  552 is ropcode, time:                24380
+next_state =  3, current time:                24380 
+
+IN A_INSTRUCTION_A!  552 is ropcode, time:                24400
+next_state =  4, current time:                24400 
+
+IN A_INSTRUCTION_B!  552 is ropcode, time:                24420
+next_state =  0, current time:                24420 
+
+IN fetch!   31 is ropcode, time:                24440
+next_state =  3, current time:                24440 
+
+IN A_INSTRUCTION_A!   31 is ropcode, time:                24460
+next_state =  4, current time:                24460 
+
+IN A_INSTRUCTION_B!   31 is ropcode, time:                24480
+next_state =  0, current time:                24480 
+
+IN fetch!   31 is ropcode, time:                24500
+next_state =  3, current time:                24500 
+
+IN A_INSTRUCTION_A!   31 is ropcode, time:                24520
+next_state =  4, current time:                24520 
+
+IN A_INSTRUCTION_B!   31 is ropcode, time:                24540
+next_state =  0, current time:                24540 
+
+IN fetch!    0 is ropcode, time:                24560
+next_state =  0, current time:                24560 
+
+IN fetch!    0 is ropcode, time:                24580
+next_state =  0, current time:                24580 
+
+IN fetch!    0 is ropcode, time:                24600
+next_state =  0, current time:                24600 
+
+IN fetch!    0 is ropcode, time:                24620
+next_state =  0, current time:                24620 
+
+IN fetch!    0 is ropcode, time:                24640
+next_state =  0, current time:                24640 
+
+IN fetch!    0 is ropcode, time:                24660
+next_state =  0, current time:                24660 
+
+IN fetch!    0 is ropcode, time:                24680
+next_state =  0, current time:                24680 
+
+IN fetch!    0 is ropcode, time:                24700
+next_state =  0, current time:                24700 
+
+IN fetch!    0 is ropcode, time:                24720
+next_state =  0, current time:                24720 
+
+IN fetch!    0 is ropcode, time:                24740
+next_state =  0, current time:                24740 
+
+IN fetch!    0 is ropcode, time:                24760
+next_state =  0, current time:                24760 
+
+IN fetch!    0 is ropcode, time:                24780
+next_state =  0, current time:                24780 
+
+IN fetch!  984 is ropcode, time:                24800
+next_state =  8, current time:                24800 
+
+IN STORING_INSTRUCTION_A!  984 is ropcode, time:                24820
+next_state =  9, current time:                24820 
+
+IN STORING_INSTRUCTION_B!  984 is ropcode, time:                24840
+next_state =  0, current time:                24840 
+
+IN fetch!  984 is ropcode, time:                24860
+next_state =  8, current time:                24860 
+
+IN STORING_INSTRUCTION_A!  984 is ropcode, time:                24880
+next_state =  9, current time:                24880 
+
+IN STORING_INSTRUCTION_B!  984 is ropcode, time:                24900
+next_state =  0, current time:                24900 
+
+IN fetch!  984 is ropcode, time:                24920
+next_state =  8, current time:                24920 
+
+IN STORING_INSTRUCTION_A!  984 is ropcode, time:                24940
+next_state =  9, current time:                24940 
+
+IN STORING_INSTRUCTION_B!  984 is ropcode, time:                24960
+next_state =  0, current time:                24960 
+
+IN fetch!  984 is ropcode, time:                24980
+next_state =  8, current time:                24980 
+
+IN STORING_INSTRUCTION_A!  984 is ropcode, time:                25000
+next_state =  9, current time:                25000 
+
+IN STORING_INSTRUCTION_B!  984 is ropcode, time:                25020
+next_state =  0, current time:                25020 
+
+IN fetch!    0 is ropcode, time:                25040
+next_state =  0, current time:                25040 
+
+IN fetch!    0 is ropcode, time:                25060
+next_state =  0, current time:                25060 
+
+IN fetch!    0 is ropcode, time:                25080
+next_state =  0, current time:                25080 
+
+IN fetch!    0 is ropcode, time:                25100
+next_state =  0, current time:                25100 
+
+IN fetch!    0 is ropcode, time:                25120
+next_state =  0, current time:                25120 
+
+IN fetch!    0 is ropcode, time:                25140
+next_state =  0, current time:                25140 
+
+IN fetch!    0 is ropcode, time:                25160
+next_state =  0, current time:                25160 
+
+IN fetch!    0 is ropcode, time:                25180
+next_state =  0, current time:                25180 
+
+IN fetch!    0 is ropcode, time:                25200
+next_state =  0, current time:                25200 
+
+IN fetch!    0 is ropcode, time:                25220
+next_state =  0, current time:                25220 
+
+IN fetch!    0 is ropcode, time:                25240
+next_state =  0, current time:                25240 
+
+IN fetch!    0 is ropcode, time:                25260
+next_state =  0, current time:                25260 
+
+IN fetch!    0 is ropcode, time:                25280
+next_state =  0, current time:                25280 
+
+IN fetch!    0 is ropcode, time:                25300
+next_state =  0, current time:                25300 
+
+IN fetch!    0 is ropcode, time:                25320
+next_state =  0, current time:                25320 
+
+IN fetch!    0 is ropcode, time:                25340
+next_state =  0, current time:                25340 
+
+IN fetch!    0 is ropcode, time:                25360
+next_state =  0, current time:                25360 
+
+IN fetch!    0 is ropcode, time:                25380
+next_state =  0, current time:                25380 
+
+IN fetch!    0 is ropcode, time:                25400
+next_state =  0, current time:                25400 
+
+IN fetch!    0 is ropcode, time:                25420
+next_state =  0, current time:                25420 
+
+IN fetch!    0 is ropcode, time:                25440
+next_state =  0, current time:                25440 
+
+IN fetch!    0 is ropcode, time:                25460
+next_state =  0, current time:                25460 
+
+IN fetch!    0 is ropcode, time:                25480
+next_state =  0, current time:                25480 
+
+IN fetch!    0 is ropcode, time:                25500
+next_state =  0, current time:                25500 
+
+IN fetch!    0 is ropcode, time:                25520
+next_state =  0, current time:                25520 
+
+IN fetch!    0 is ropcode, time:                25540
+next_state =  0, current time:                25540 
+
+IN fetch!    0 is ropcode, time:                25560
+next_state =  0, current time:                25560 
+
+IN fetch!    0 is ropcode, time:                25580
+next_state =  0, current time:                25580 
+
+IN fetch!    0 is ropcode, time:                25600
+next_state =  0, current time:                25600 
+
+IN fetch!    0 is ropcode, time:                25620
+next_state =  0, current time:                25620 
+
+IN fetch!    0 is ropcode, time:                25640
+next_state =  0, current time:                25640 
+
+IN fetch!    0 is ropcode, time:                25660
+next_state =  0, current time:                25660 
+
+IN fetch!    0 is ropcode, time:                25680
+next_state =  0, current time:                25680 
+
+IN fetch!    0 is ropcode, time:                25700
+next_state =  0, current time:                25700 
+
+IN fetch!    0 is ropcode, time:                25720
+next_state =  0, current time:                25720 
+
+IN fetch!    0 is ropcode, time:                25740
+next_state =  0, current time:                25740 
+
+IN fetch!    0 is ropcode, time:                25760
+next_state =  0, current time:                25760 
+
+IN fetch!    0 is ropcode, time:                25780
+next_state =  0, current time:                25780 
+
+IN fetch!    0 is ropcode, time:                25800
+next_state =  0, current time:                25800 
+
+IN fetch!    0 is ropcode, time:                25820
+next_state =  0, current time:                25820 
+
+IN fetch!    0 is ropcode, time:                25840
+next_state =  0, current time:                25840 
+
+IN fetch!    0 is ropcode, time:                25860
+next_state =  0, current time:                25860 
+
+IN fetch!    0 is ropcode, time:                25880
+next_state =  0, current time:                25880 
+
+IN fetch!    0 is ropcode, time:                25900
+next_state =  0, current time:                25900 
+
+IN fetch!    0 is ropcode, time:                25920
+next_state =  0, current time:                25920 
+
+IN fetch!    0 is ropcode, time:                25940
+next_state =  0, current time:                25940 
+
+IN fetch!    0 is ropcode, time:                25960
+next_state =  0, current time:                25960 
+
+IN fetch!    0 is ropcode, time:                25980
+next_state =  0, current time:                25980 
+
+IN fetch!    0 is ropcode, time:                26000
+next_state =  0, current time:                26000 
+
+IN fetch!    0 is ropcode, time:                26020
+next_state =  0, current time:                26020 
+
+IN fetch!    0 is ropcode, time:                26040
+next_state =  0, current time:                26040 
+
+IN fetch!    0 is ropcode, time:                26060
+next_state =  0, current time:                26060 
+
+IN fetch!    0 is ropcode, time:                26080
+next_state =  0, current time:                26080 
+
+IN fetch!    0 is ropcode, time:                26100
+next_state =  0, current time:                26100 
+
+IN fetch!    0 is ropcode, time:                26120
+next_state =  0, current time:                26120 
+
+IN fetch!    0 is ropcode, time:                26140
+next_state =  0, current time:                26140 
+
+IN fetch!    0 is ropcode, time:                26160
+next_state =  0, current time:                26160 
+
+IN fetch!    0 is ropcode, time:                26180
+next_state =  0, current time:                26180 
+
+IN fetch!    0 is ropcode, time:                26200
+next_state =  0, current time:                26200 
+
+IN fetch!    0 is ropcode, time:                26220
+next_state =  0, current time:                26220 
+
+IN fetch!    0 is ropcode, time:                26240
+next_state =  0, current time:                26240 
+
+IN fetch!    0 is ropcode, time:                26260
+next_state =  0, current time:                26260 
+
+IN fetch!    0 is ropcode, time:                26280
+next_state =  0, current time:                26280 
+
+IN fetch!    0 is ropcode, time:                26300
+next_state =  0, current time:                26300 
+
+IN fetch!    0 is ropcode, time:                26320
+next_state =  0, current time:                26320 
+
+IN fetch!    0 is ropcode, time:                26340
+next_state =  0, current time:                26340 
+
+IN fetch!    0 is ropcode, time:                26360
+next_state =  0, current time:                26360 
+
+IN fetch!    0 is ropcode, time:                26380
+next_state =  0, current time:                26380 
+
+Stopped at time : 26400 ns : File "C:/Users/tuf22191/Projects/Github_Repos/Building_Microprocessor_Verilog/MicroP_for_legv8/COMBO_FSM_CPU_TEST.v" Line 258

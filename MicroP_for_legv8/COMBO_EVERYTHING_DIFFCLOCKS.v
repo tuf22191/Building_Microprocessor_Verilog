@@ -47,7 +47,7 @@ module COMBO_EVERYTHING_DIFFCLOCKS;
    ////////////////////////////////////////INSTRUCTION MEMORY
 
 	// Instantiate the Unit Under Test (UUT)
-	Instruction_Memory_Thirty_Two_Bit uut2 ( 
+	Instruction_Memory_Thirty_Two_Bit Instruction_Memory ( 
 		.instruction(instruction), //done
 		.address(address1), //done
 		.clk(clk2) //done
@@ -125,7 +125,7 @@ module COMBO_EVERYTHING_DIFFCLOCKS;
 
 
 	// Instantiate the Unit Under Test (UUT)
-	Sixty_Four_Bit_Register_File uut7 (
+	Sixty_Four_Bit_Register_File General_Purpose_Registers (
 		.read_reg_address_1(instruction[21:17]), //h. up
 		.read_reg_address_2(instruction[9:5]),//h. up 
 		.data(data_out_mux2), 
@@ -216,7 +216,7 @@ module COMBO_EVERYTHING_DIFFCLOCKS;
 	// Outputs
 
 	// Instantiate the Unit Under Test (UUT)
-	Data_Memory uut12 (
+	Data_Memory data_Memory (
 		.read_data_flag(mem_read_dm), //done 
 		.write_data_flag(mem_write_dm),//done 
 		.data_to_write(reg_out_2_rf), //done
@@ -242,7 +242,7 @@ module COMBO_EVERYTHING_DIFFCLOCKS;
 	end
 	
 	always begin
-	#11000;
+	#8800;
 	$finish("finished with simulation");
 	end
 

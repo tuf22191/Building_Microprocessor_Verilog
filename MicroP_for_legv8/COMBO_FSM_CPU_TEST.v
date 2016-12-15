@@ -48,7 +48,7 @@ module COMBO_FSM_CPU_TEST;
    ////////////////////////////////////////INSTRUCTION MEMORY
  
 	// Instantiate the Unit Under Test (UUT)
-	Instruction_Memory_Thirty_Two_Bit uut2 (  
+	Instruction_Memory_Thirty_Two_Bit Instruction_Memory (  
 		.instruction(instruction), //done
 		.address(address1), //done
 		.clk(clk2) //done
@@ -137,7 +137,7 @@ module COMBO_FSM_CPU_TEST;
 
 
 	// Instantiate the Unit Under Test (UUT)
-	Sixty_Four_Bit_Register_File uut7 (
+	Sixty_Four_Bit_Register_File General_Purpose_Registers (
 		.read_reg_address_1(read_reg_1), //h. up
 		.read_reg_address_2(read_reg_2),//h. up 
 		.data(data_out_mux2), 
@@ -228,7 +228,7 @@ module COMBO_FSM_CPU_TEST;
 	// Outputs
 
 	// Instantiate the Unit Under Test (UUT)
-	Data_Memory uut12 (
+	Data_Memory data_Memory (
 		.read_data_flag(mem_read_dm), //done 
 		.write_data_flag(mem_write_dm),//done 
 		.data_to_write(reg_out_2_rf), //done
