@@ -24,11 +24,11 @@
   <files xmlns="http://www.xilinx.com/XMLSchema">
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name=".lso"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="COMBO_EVERYTHING_DIFFCLOCKS_2_isim_beh.exe"/>
-    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="COMBO_EVERYTHING_DIFFCLOCKS_beh.prj"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="COMBO_EVERYTHING_DIFFCLOCKS_isim_beh.exe"/>
-    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="COMBO_EVERYTHING_DIFFCLOCKS_isim_beh.wdb"/>
     <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="COMBO_EVERYTHING_DIFFCLOCKS_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="COMBO_EVERYTHING_WITHOUT_CONTROL_beh.prj"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="COMBO_EVERYTHING_WITHOUT_CONTROL_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="COMBO_EVERYTHING_WITHOUT_CONTROL_isim_beh.wdb"/>
     <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="COMBO_FSM_CPU_TEST_beh.prj"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="COMBO_FSM_CPU_TEST_isim_beh.exe"/>
     <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="COMBO_FSM_CPU_TEST_isim_beh.wdb"/>
@@ -40,6 +40,7 @@
     <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="COMBO_PC_Instruction_isim_beh.wdb"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="Controller_isim_beh.exe"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="FSM_Controller_isim_beh.exe"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="Instruction_Memory_Thirty_Two_Bit_isim_beh.exe"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="One_Bit_Full_Adder_Test_isim_beh.exe"/>
     <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Sixteen_Bit_Adder.prj"/>
     <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="Sixteen_Bit_Adder.stx"/>
@@ -53,6 +54,7 @@
     <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="TB_32bit_Multiplier_stx_beh.prj"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="TB_64Bi_Subtractor_isim_beh.exe"/>
     <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="TB_64Bi_Subtractor_stx_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="TB_64_Bit_ADDER_isim_beh.exe"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="TB_64bit_RegisterFile_isim_beh.exe"/>
     <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="TB_ALU_beh.prj"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="TB_ALU_isim_beh.exe"/>
@@ -126,14 +128,13 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1481651629" xil_pn:in_ck="1676913751672655558" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1481651629">
+    <transform xil_pn:end_ts="1481771046" xil_pn:in_ck="5785968672554520635" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1481771046">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <outfile xil_pn:name="ALU.v"/>
       <outfile xil_pn:name="Adder1_32bit_adder.v"/>
       <outfile xil_pn:name="Adder2_32bit_adder.v"/>
       <outfile xil_pn:name="COMBO_EVERYTHING_DIFFCLOCKS.v"/>
-      <outfile xil_pn:name="COMBO_EVERYTHING_WITHOUT_CONTROL.v"/>
       <outfile xil_pn:name="COMBO_FSM_CPU_TEST.v"/>
       <outfile xil_pn:name="COMBO_PC_IR_Contr_ADDER1_Mux1.v"/>
       <outfile xil_pn:name="COMBO_PC_Instruction.v"/>
@@ -157,6 +158,7 @@
       <outfile xil_pn:name="TB_32Bit_Divider.v"/>
       <outfile xil_pn:name="TB_32bit_Multiplier.v"/>
       <outfile xil_pn:name="TB_64Bi_Subtractor.v"/>
+      <outfile xil_pn:name="TB_64_Bit_ADDER.v"/>
       <outfile xil_pn:name="TB_64bit_RegisterFile.v"/>
       <outfile xil_pn:name="TB_ALU.v"/>
       <outfile xil_pn:name="TB_Adder1_32bits.v"/>
@@ -176,11 +178,11 @@
       <outfile xil_pn:name="half_adder.v"/>
       <outfile xil_pn:name="one_bit_full_adder.v"/>
     </transform>
-    <transform xil_pn:end_ts="1481647393" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="8496295144800840466" xil_pn:start_ts="1481647393">
+    <transform xil_pn:end_ts="1481771010" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="8496295144800840466" xil_pn:start_ts="1481771010">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1481647393" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="-3765761599279676460" xil_pn:start_ts="1481647393">
+    <transform xil_pn:end_ts="1481771010" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="-3765761599279676460" xil_pn:start_ts="1481771010">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
@@ -188,14 +190,13 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1481651630" xil_pn:in_ck="1676913751672655558" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1481651629">
+    <transform xil_pn:end_ts="1481771046" xil_pn:in_ck="5785968672554520635" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1481771046">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <outfile xil_pn:name="ALU.v"/>
       <outfile xil_pn:name="Adder1_32bit_adder.v"/>
       <outfile xil_pn:name="Adder2_32bit_adder.v"/>
       <outfile xil_pn:name="COMBO_EVERYTHING_DIFFCLOCKS.v"/>
-      <outfile xil_pn:name="COMBO_EVERYTHING_WITHOUT_CONTROL.v"/>
       <outfile xil_pn:name="COMBO_FSM_CPU_TEST.v"/>
       <outfile xil_pn:name="COMBO_PC_IR_Contr_ADDER1_Mux1.v"/>
       <outfile xil_pn:name="COMBO_PC_Instruction.v"/>
@@ -219,6 +220,7 @@
       <outfile xil_pn:name="TB_32Bit_Divider.v"/>
       <outfile xil_pn:name="TB_32bit_Multiplier.v"/>
       <outfile xil_pn:name="TB_64Bi_Subtractor.v"/>
+      <outfile xil_pn:name="TB_64_Bit_ADDER.v"/>
       <outfile xil_pn:name="TB_64bit_RegisterFile.v"/>
       <outfile xil_pn:name="TB_ALU.v"/>
       <outfile xil_pn:name="TB_Adder1_32bits.v"/>
@@ -238,11 +240,9 @@
       <outfile xil_pn:name="half_adder.v"/>
       <outfile xil_pn:name="one_bit_full_adder.v"/>
     </transform>
-    <transform xil_pn:end_ts="1481651634" xil_pn:in_ck="1676913751672655558" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="7973934059898037381" xil_pn:start_ts="1481651630">
+    <transform xil_pn:end_ts="1481771050" xil_pn:in_ck="5785968672554520635" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="7973934059898037381" xil_pn:start_ts="1481771046">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForOutputs"/>
-      <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="COMBO_FSM_CPU_TEST_beh.prj"/>
       <outfile xil_pn:name="COMBO_FSM_CPU_TEST_isim_beh.exe"/>
       <outfile xil_pn:name="fuse.log"/>
@@ -250,11 +250,9 @@
       <outfile xil_pn:name="isim.log"/>
       <outfile xil_pn:name="xilinxsim.ini"/>
     </transform>
-    <transform xil_pn:end_ts="1481651634" xil_pn:in_ck="6766158545793325290" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="-3170970241968357848" xil_pn:start_ts="1481651634">
+    <transform xil_pn:end_ts="1481771050" xil_pn:in_ck="752683856815322296" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="-3170970241968357848" xil_pn:start_ts="1481771050">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForOutputs"/>
-      <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="COMBO_FSM_CPU_TEST_isim_beh.wdb"/>
       <outfile xil_pn:name="isim.cmd"/>
       <outfile xil_pn:name="isim.log"/>

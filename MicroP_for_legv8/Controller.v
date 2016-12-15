@@ -91,7 +91,7 @@ always @(opcode) begin
 	 end	 
 	
 	 10'b1111011000: begin  //Storing Instruction from Data Memory!!
-		alu_op = 3'b101;// Add a zero to address
+		alu_op = 3'b010;// Add a zero to address
 		mem_read_dm = 0; // 986=load , 984= store
 		mem_write_dm = 1;   //use bottom register for location of rf that has the data for data memory
 		branch = 0;           // b/c data memory gets second register automatically

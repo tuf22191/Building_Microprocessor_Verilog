@@ -75,6 +75,7 @@ module TB_32bit_Multiplier;
 			 
 			 if({32'b00000000000000000000000000000000,prod}!= product) begin
 				$display("Multiplication is wrong is wrong");
+				$display("a is %d, b is %d, product is %d, real product is %d",a,b,product,prod);
 		    end
 			  
 		end
@@ -90,6 +91,8 @@ module TB_32bit_Multiplier;
 			 
 			 if({32'b11111111111111111111111111111111,prod}!= product) begin
 				$display("Multiplication is wrong is wrong negative");
+			   $display("a is %d, b is %d, product is %d, real product is %d",a,b,product,prod);
+
 		    end
 			  
 		end

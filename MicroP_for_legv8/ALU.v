@@ -31,7 +31,7 @@ module ALU(
 	 wire [63:0] divide_output;
 	 wire [63:0] multiply_output;
 	 reg carry_in  =1;
-	 reg carry_out;
+	 wire carry_out;
 	 
 	 initial begin
 			result = 64'b0000000000000000000000000000000000000000000000000000000000000000; //initialize before, because we get the x's
@@ -39,7 +39,7 @@ module ALU(
 	 
 	 //instantiate with the wiring 
 	  Sixty_Four_Bit_Subtractor subtractor (.a_in(a_in), .b_in(b_in), .carry_in(carry_in), .carry_out(carry_out), .difference(sub_output));
-	  Sixty_Four_Bit_Adder adder (.sum(add_output), .c_out(carry_out), .a(a_in), .b(b_in),.c_in(0));
+	  Sixty_Four_Bit_Adder adder (.sum(add_output), .c_out(carry_out), .a(a_in), .b(b_in),.c_in(1'b0));
 	  Thirty_Two_Bit_Multiplier multiplier (		.a(a_in), 		.b(b_in), 		.product(multiply_output));
 	  Thirty_Two_Bit_Divider divider (	.dividend(a_in), 		.divisor(b_in), 		.quotient(divide_output)	);
 	  
@@ -52,7 +52,7 @@ module ALU(
 	   case(alu_operation) 
 		
 		  3'b010: result = a_in+b_in;//add_output;
-		  3'b001: result = a_in-b_in;//sub_output;
+		  3'b001: result = a_in-b_in;//sub_output;//sub_output;
 		  3'b100: result = a_in*b_in;
 	  	  3'b011: result = a_in/b_in;
 		  3'b101: result = a_in;//effectively adding 0 to first register

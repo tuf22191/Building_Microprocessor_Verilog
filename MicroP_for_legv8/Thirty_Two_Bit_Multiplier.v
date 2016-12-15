@@ -37,11 +37,11 @@ module Thirty_Two_Bit_Multiplier(
   
     
    
-    assign product = a[31:0]*b[31:0];
+    //assign product = a[31:0]*b[31:0];
   
   
   //The other way to do it! Just showing you that I know how to do it. Although the below had a bug. 
-   /*assign product = {64{a[0]}} & b[63:0] +  
+   assign product = {64{a[0]}} & b[63:0] +  
               ({64{a[1]}} & b[63:0])<<1 +
               ({64{a[2]}} & b[63:0])<<2 +
               ({64{a[3]}} & b[63:0])<<3 +
@@ -73,5 +73,5 @@ module Thirty_Two_Bit_Multiplier(
               ({64{a[29]}} & b[63:0])<<29 +
               ({64{a[30]}} & b[63:0])<<30 +
               ({64{a[31]}} & b[63:0])<<31 +
-              ({64{a[32]}} & b[63:0])<<32;*/
+              ({64{a[32]}} & b[63:0])<<32;
 endmodule

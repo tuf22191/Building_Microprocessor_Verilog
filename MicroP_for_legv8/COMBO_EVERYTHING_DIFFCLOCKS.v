@@ -15,7 +15,7 @@
 // Verilog Test Fixture created by ISE for module: Adder2_32bit_adder
 //
 // Dependencies:
-// 
+//  
 // Revision:
 // Revision 0.01 - File Created
 // Additional Comments:
@@ -104,7 +104,7 @@ module COMBO_EVERYTHING_DIFFCLOCKS;
 	
 	// Instantiate the Unit Under Test (UUT)
 	Adder2_32bit_adder uut6 (
-			.a_in(address1), //done                           //is this correct???
+			.a_in(address1), //done                           
 			.b_in(instruction), //done
 			.sum(sum2) //done
 		);

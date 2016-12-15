@@ -28,7 +28,7 @@
 		output reg [2:0] alu_op  
     ); 
 	 //how many states
-	 reg [3:0] state = 0, next_state;
+	 reg [4:0] state = 0, next_state;
 	 reg [1:0] counter;
 	 reg [9:0]ropcode;
 	 
@@ -74,9 +74,10 @@
     parameter STORE_INSTRUCTION = 5;
     parameter LOAD_IMMEDIATE_INSTRUCTION_A=6;
     parameter LOAD_IMMEDIATE_INSTRUCTION_B =7;
- 
- 
- 
+    parameter STORING_INSTRUCTION_TO_DM_A = 8;
+	 parameter STORING_INSTRUCTION_TO_DM_B =9;
+    parameter LOADING_INSTRUCTION_FROM_DM_A = 10;
+    parameter LOADING_INSTRUCTION_FROM_DM_B = 11;
  
    // always@(state, posedge clk)begin 
 	 always@(state, posedge clk)begin	
@@ -144,14 +145,27 @@
 				 end 
 			   
 				 10'b1111011000: begin  //Storing Instruction to Data Memory!!
-					alu_op = 3'b101;// Add a zero to address
+					alu_op = 3'b010;// Add a zero to address
 					mem_read_dm = 0; // 986=load , 984= store
 					mem_write_dm = 1;   //use bottom register for location of rf that has the data for data memory
 					branch = 0;           // b/c data memory gets second register automatically
 					//reg_write_rf = 0;    //use top reg for address
 					mux2 = 1; //doesn't matter
-					mux3 = 0; //doesn't matter
+					mux3 = 0; //this does 
+					next_state = STORING_INSTRUCTION_TO_DM_A;
 	           end	
+				  
+				  
+				 10'b1111011010: begin  //Loading Instruction from Data Memory!!
+						alu_op = 3'b111;// 3'b111 for ALU is default. So, result =0
+						mem_read_dm = 1; // 986=load , 984= store
+						mem_write_dm = 0;
+						branch = 0;
+						reg_write_rf = 0;
+						mux2 = 1;
+						mux3 = 0;
+				end	 
+	
 
 				default: begin 
 						alu_op = 0;
@@ -187,22 +201,61 @@
 				reg_write_rf = 0; //now stop reading the result
 				next_state = FETCH;
 				$display("next_state = %d, current time: %d \n", next_state, $time);
-			end //end ARITHMETIC_INSTRUCTION
+			end //end 
 		
 		    LOAD_IMMEDIATE_INSTRUCTION_A: begin
 			   $display("IN L_I_INSTRUCTION_A! %d is ropcode, time: %d", ropcode, $time);
 				reg_write_rf = 1; //now stop reading the result
 				next_state = LOAD_IMMEDIATE_INSTRUCTION_B;
 				$display("next_state = %d, current time: %d \n", next_state, $time);
-			end //end ARITHMETIC_INSTRUCTION
+			end //end 
 		
 		   LOAD_IMMEDIATE_INSTRUCTION_B: begin			
 			   $display("IN L_I_INSTRUCTION_B! %d is ropcode, time: %d", ropcode, $time);
 				reg_write_rf = 0; //now stop reading the result
 				next_state = FETCH;
 				$display("next_state = %d, current time: %d \n", next_state, $time);
-			end //end ARITHMETIC_INSTRUCTION
+			end //end
 		   
+			STORING_INSTRUCTION_TO_DM_A: begin
+			   $display("IN STORING_INSTRUCTION_A! %d is ropcode, time: %d", ropcode, $time);
+				reg_write_rf = 0; //now stop reading the result
+				mem_write_dm = 1;
+				next_state = STORING_INSTRUCTION_TO_DM_B;
+				$display("next_state = %d, current time: %d \n", next_state, $time);
+			end //end 
+		
+		   STORING_INSTRUCTION_TO_DM_B: begin			
+			   $display("IN STORING_INSTRUCTION_B! %d is ropcode, time: %d", ropcode, $time);
+				reg_write_rf = 0; //now stop reading the result
+				mem_write_dm = 0;
+				next_state = FETCH;
+				$display("next_state = %d, current time: %d \n", next_state, $time);
+			end //end
+			
+			LOADING_INSTRUCTION_FROM_DM_A: begin
+			   $display("IN  LOADING_INSTRUCTION_A! %d is ropcode, time: %d", ropcode, $time);
+				reg_write_rf = 1; //now stop reading the result
+				mem_write_dm = 0;
+				mem_read_dm =1; 
+				next_state = LOADING_INSTRUCTION_FROM_DM_B;
+				mux2 = 1;
+				mux3 = 0;				
+				$display("next_state = %d, current time: %d \n", next_state, $time);
+			end //end 
+		
+		   LOADING_INSTRUCTION_FROM_DM_B : begin			
+			   $display("IN LOADING_INSTRUCTION_B! %d is ropcode, time: %d", ropcode, $time);
+				reg_write_rf = 0; //now stop reading the result
+				mem_write_dm = 0;
+				mem_read_dm =0; 
+				mux2 = 1;
+				mux3 = 0;
+				next_state = FETCH;
+				$display("next_state = %d, current time: %d \n", next_state, $time);
+			end //end
+			
+			
 			default: begin 
 						$display("why are we in default state?");
 			end//default

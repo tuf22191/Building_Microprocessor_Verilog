@@ -113,11 +113,17 @@ module Instruction_Memory_Thirty_Two_Bit(
  		THE_MEMORY[9]={10'b0000011111,5'b01011,7'b0000000 ,5'b00101,5'b01100};// division of ((12-10)*5 + (5-2))/2 or 13/2 or 6 is stored in t12  (t12 should have 6)
 		THE_MEMORY[10]={10'b0000000000,5'b00000,7'b0000000 ,5'b00000,5'b11111}; //wait before store		
 		THE_MEMORY[11]={10'b0000000000,5'b00000,7'b0000000 ,5'b00000,5'b11111}; //wait before store
-		THE_MEMORY[12]={10'b1111011000,5'b00000,7'b0000111 ,5'b01100,5'b00000};
-		THE_MEMORY[13]={10'b0000000000,5'b00000,7'b0000000 ,5'b00000,5'b11111}; //wait after store
-		THE_MEMORY[14]={10'b0000000000,5'b00000,7'b0000000 ,5'b00000,5'b11111}; //wait after store
-
-		for(i=15;i<64;i=i+1)begin   //CHANGE THIS!!!!!!!!!!!!!!!!!!!!!!!!!
+		THE_MEMORY[12]={10'b1111011000,5'b00000,7'b0000111 ,5'b01100,5'b00000}; //store instruction
+		THE_MEMORY[13]={10'b1111011000,5'b00000,7'b0000111 ,5'b01100,5'b00000}; //store instruction 
+		THE_MEMORY[14]={10'b0000000000,5'b00000,7'b0000000 ,5'b00000,5'b11111}; //wait before LOAD		
+		THE_MEMORY[15]={10'b0000000000,5'b00000,7'b0000000 ,5'b00000,5'b11111}; //wait before LOAD
+		//THE_MEMORY[16]={10'b1111011010,5'b00000,7'b0000111 ,5'b00000,5'b10100}; //JUST FOR FUN, LOAD THE 6 result from DATA MEMORY to t20 or 0x14
+     // THE_MEMORY[17]={10'b1111011010,5'b00000,7'b0000111 ,5'b00000,5'b10100}; //
+ 		//THE_MEMORY[18]={10'b0000000000,5'b00000,7'b0000000 ,5'b00000,5'b11111}; //wait after LOAD		
+		//THE_MEMORY[19]={10'b0000000000,5'b00000,7'b0000000 ,5'b00000,5'b11111}; //wait after LOAD
+		 
+		 
+		for(i=20;i<64;i=i+1)begin   //CHANGE THIS!!!!!!!!!!!!!!!!!!!!!!!!!
 		THE_MEMORY[i] = 0;
 		end
 		
